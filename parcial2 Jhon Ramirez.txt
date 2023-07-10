@@ -1,0 +1,214 @@
+/*Jhon Ramirez 1000118906*/
+/*parcial 2*/
+/*importacion de los datos*/
+proc import datafile="/home/u62463561/parcial2/appearances.xlsx" dbms=xlsx out=appearances replace;
+    getnames=yes;
+run;
+
+proc import datafile="/home/u62463561/parcial2/games.xlsx" dbms=xlsx out=games replace;
+    getnames=yes;
+run;
+
+proc import out=leagues dbms=csv datafile="/home/u62463561/parcial2/leagues.csv" replace;
+  getnames=yes;
+  delimiter=',';
+run;
+
+proc import out=players dbms=csv datafile="/home/u62463561/parcial2/players.csv" replace;
+  getnames=yes;
+  delimiter=',';
+run;
+
+proc import out=teams dbms=csv datafile="/home/u62463561/parcial2/teams.csv" replace;
+  getnames=yes;
+  delimiter=',';
+run;
+
+data Local;
+  set games;
+  gameID=gameID;leagueID=leagueID;season=season;date=date; teamID = homeTeamID;
+  GolesAF =homeGoals; GolesEC =awayGoals;
+  keep gameID leagueID season date teamID teamID GolesAF GolesEC;  
+run;
+
+data visi;
+  set games;
+  gameID=gameID;leagueID=leagueID;season=season;date=date; teamID = awayTeamID;
+  GolesAF =awayGoals; GolesEC =homeGoals;
+  keep gameID leagueID season date teamID teamID GolesAF GolesEC;  
+run;
+
+data games2;
+  set Local visi;
+  if GolesAF > GolesEC then PG=1;else PG=0;
+  if GolesAF = GolesEC then PE=1;else PE=0;
+  if R > 0 then RC = 0;else RC = 1; 
+run;
+
+proc sql;
+create table games3 as 
+select games2.*, name as team
+from games2 inner join teams on (games2.teamID=teams.teamID);
+run;
+/*1*/
+/*A*/
+proc sql;
+select   team, sum(3*PG+PE) as Puntos, 
+               sum(GolesAF)-sum(GolesEC) as GolDif
+from     games3
+where    season='2016' and leagueID='2'
+group by team 
+order by Puntos desc, GolDif desc;
+run;
+
+/*B*/
+proc sql;
+select   team, sum(3*PG+PE) as Puntos, 
+               sum(GolesAF)-sum(GolesEC) as GolDif
+from     games3
+where    season='2016' and leagueID='3'
+group by team 
+order by Puntos desc, GolDif desc;
+run;
+
+/*c*/
+
+proc sql;
+select   team, sum(3*PG+PE) as Puntos, 
+               sum(GolesAF)-sum(GolesEC) as GolDif
+from     games3
+where    season='2016' and leagueID='4'
+group by team 
+order by Puntos desc, GolDif desc;
+run;
+
+/*D*/
+
+proc sql;
+select   team, sum(3*PG+PE) as Puntos, 
+               sum(GolesAF)-sum(GolesEC) as GolDif
+from     games3
+where    season='2016' and leagueID='5'
+group by team 
+order by Puntos desc, GolDif desc;
+run;
+
+/*e*/
+proc sql;
+select   team, sum(3*PG+PE) as Puntos, 
+               sum(GolesAF)-sum(GolesEC) as GolDif
+from     games3
+where    season='2016' and leagueID='1'
+group by team 
+order by Puntos desc, GolDif desc;
+run;
+
+/*2*/
+/*A*/
+proc sql;
+create table jugador1 as 
+select appearances.*, season
+from appearances inner join games3 on (appearances.gameID=games3.gameID);
+run;
+
+
+proc sql;
+select   name as jugador, sum(goals) as goles, 
+               sum(goals)/count(jugador1.playerID) as promg, count(jugador1.playerID) as jugados
+from     jugador1 inner join players on (jugador1.playerID=players.playerID)
+where    season='2017' and leagueID='2'
+group by name
+order by goles desc;
+run;
+
+proc sql;
+select   name as jugador, sum(goals) as goles, 
+               sum(goals)/count(jugador1.playerID) as promg, count(jugador1.playerID) as jugados
+from     jugador1 inner join players on (jugador1.playerID=players.playerID)
+where    season='2017' and leagueID='3'
+group by name
+order by goles desc;
+run;
+
+proc sql;
+select   name as jugador, sum(goals) as goles, 
+               sum(goals)/count(jugador1.playerID) as promg, count(jugador1.playerID) as jugados
+from     jugador1 inner join players on (jugador1.playerID=players.playerID)
+where    season='2017' and leagueID='4'
+group by name
+order by goles desc;
+run;
+
+proc sql;
+select   name as jugador, sum(goals) as goles, 
+               sum(goals)/count(jugador1.playerID) as promg, count(jugador1.playerID) as jugados
+from     jugador1 inner join players on (jugador1.playerID=players.playerID)
+where    season='2017' and leagueID='5'
+group by name
+order by goles desc;
+run;
+
+proc sql;
+select   name as jugador, sum(goals) as goles, 
+               sum(goals)/count(jugador1.playerID) as promg, count(jugador1.playerID) as jugados
+from     jugador1 inner join players on (jugador1.playerID=players.playerID)
+where    season='2017' and leagueID='1'
+group by name
+order by goles desc;
+run;
+
+
+/*3*/
+/*a*/
+proc sql;
+create table partidos as 
+select games.*, homeGoals+awayGoals as totalgoals
+from games;
+run;
+
+proc sql;
+create table partidos as 
+select partidos.*, name as local
+from partidos inner join teams on (partidos.homeTeamID=teams.teamID);
+run;
+
+proc sql;
+create table partidos as 
+select partidos.*, name as visitante
+from partidos inner join teams on (partidos.awayTeamID=teams.teamID);
+run;
+
+proc sql;
+select   local,visitante,totalgoals,date 
+from     partidos
+where    season='2020' and leagueID='2'
+order by totalgoals desc;
+run;
+
+proc sql;
+select   local,visitante,totalgoals,date 
+from     partidos
+where    season='2020' and leagueID='3'
+order by totalgoals desc;
+run;
+
+proc sql;
+select   local,visitante,totalgoals,date 
+from     partidos
+where    season='2020' and leagueID='4'
+order by totalgoals desc;
+run;
+
+proc sql;
+select   local,visitante,totalgoals,date 
+from     partidos
+where    season='2020' and leagueID='5'
+order by totalgoals desc;
+run;
+
+proc sql;
+select   local,visitante,totalgoals,date 
+from     partidos
+where    season='2020' and leagueID='1'
+order by totalgoals desc;
+run;
