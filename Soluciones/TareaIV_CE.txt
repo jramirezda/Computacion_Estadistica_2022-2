@@ -1,0 +1,94 @@
+﻿library(ggplot2)
+install.packages(c("glmtoolbox","ssym","sf"))
+
+################################################################################################
+######################################## Species richness ######################################
+################################################################################################
+data(richness,package="glmtoolbox")
+
+ggplot(richness, aes(x=Biomass,y=Species,color=pH,shape=pH)) +
+geom_smooth(method="lm",formula=y ~ x,se=FALSE,size=1,linetype="solid") +
+geom_point(size=2.75) +
+scale_y_continuous(breaks=seq(from=0,to=45,by=5)) +
+scale_x_continuous(breaks=seq(from=0,to=10,by=1)) +
+labs(title="Species richness",x="Biomass",y="Number of plant species",
+     color="Soil pH\n level",shape="Soil pH\n level") + 
+scale_color_manual(values=c("red","black","blue")) +
+scale_shape_manual(values=c(15,16,17)) + mitema
+
+################################################################################################
+##################################### Fraction of cell volume ##################################
+################################################################################################
+data(Ovocytes,package="ssym")
+
+ggplot(Ovocytes, aes(x=time,y=fraction,color=type,shape=type)) +
+geom_smooth(method="gam",formula=y ~ s(x,bs="cr",sp=40),se=FALSE,size=1,linetype="solid") +
+geom_point(size=2.75) +
+scale_x_continuous(breaks=seq(from=0,to=20,by=2.5)) +
+scale_y_continuous(breaks=seq(from=0.2,to=1.0,by=0.1)) +
+labs(title="Hyper-osmotic test on goat ovocytes",
+     x="Time since exposition to propanediol",
+     y="Fraction of initial cell volume",
+	 color="Stage of \nthe ovocytes",
+	 shape="Stage of \nthe ovocytes") +
+scale_color_manual(values=c("red","black")) +
+scale_shape_manual(values=c(15,16)) + mitema
+
+################################################################################################
+########################### Treatment for severe postnatal depression ##########################
+################################################################################################
+data(depression,package="glmtoolbox")
+
+ggplot(depression,aes(x=factor(visit),y=dep,fill=group)) + 
+geom_boxplot() + 
+scale_y_continuous(breaks=seq(from=0,to=30,by=5)) +
+labs(title="Treatment for severe postnatal depression",
+     x="Months since the treatment began",
+     y="Postnatal Depression Scale",
+	 fill="Type of patches") + 
+scale_fill_manual(values=c("salmon2","green2")) + mitema
+
+################################################################################################
+######################### Agents to stimulate cellular differentiation #########################
+################################################################################################
+data(cellular,package="glmtoolbox")
+
+ggplot(cellular,aes(factor(tnf))) + 
+geom_bar(aes(fill=factor(ifn),weight=0.5*cells),position=position_dodge(),color="black") +
+scale_y_continuous(breaks=seq(from=0,to=100,by=20)) +
+labs(title="Agents to stimulate cellular differentiation",
+     x="Dose of TNF, in U/ml",
+     y="% of differentiated cells",
+	 fill="Dose of IFN,\n in U/ml") + 
+scale_fill_brewer(palette="Reds") + mitema
+
+################################################################################################
+####################### Elecciones presidenciales en los Estados Unidos ########################
+################################################################################################
+library(readxl)
+library(dplyr)
+
+mundoshp <- sf::st_read("admin00.shp",quiet=TRUE)
+usashp <- mundoshp %>%
+          filter(CNTRY_NAME=="United States" & ADMIN_NAME!="Alaska" & ADMIN_NAME!="Hawaii")
+
+counties <- read_excel("counties.xlsx")
+elections <- read_excel("elections.xlsx")
+usa <- elections %>%
+       inner_join(counties,by=c("codecounty"="codecounty")) %>%
+	   mutate(codestate2=paste0("US",codestate)) %>%
+	   group_by(year,codestate2) %>%
+       summarise(y=100*sum(democrat)/sum(democrat+republic+other))
+usa2 <- usashp %>%
+	    inner_join(usa,by=c("FIPS_ADMIN"="codestate2"))	%>%
+		filter(year > 2000)
+
+ggplot(usa2) +
+geom_sf(aes(fill=y),col="darkgray",linetype="solid")	+
+geom_sf_text(aes(label=ADMIN_NAME),col="black",fontface="bold",size=1.75,
+             check_overlap=TRUE,fun.geometry=function(x) sf::st_centroid(x)) +
+labs(x="Longitud",y="Latitud",title="Elecciones Presidenciales USA",
+     fill="% de votos\npor el partido\ndemócrata") +
+	 scale_fill_gradient(low="white",high="red",n.breaks=5)	+
+facet_wrap(vars(year),ncol=2,nrow=2,strip.position="top",dir="h",scales="fixed") + mitema
+ 

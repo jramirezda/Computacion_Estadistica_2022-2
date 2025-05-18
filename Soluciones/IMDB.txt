@@ -1,0 +1,394 @@
+﻿setwd("C:\\Nano\\Docencia\\2021-II")
+library(readr)
+library(dplyr)
+library(sqldf)
+library(stringr)
+
+titlebasics <- read_delim(file="titlebasics.tsv",delim="\t")
+str(titlebasics)
+namebasics <- read_delim(file="namebasics.tsv",delim="\t")
+str(namebasics)
+titleratings <- read_delim(file="titleratings.tsv",delim="\t")
+str(titleratings)
+titleprincipals <- read_delim(file="titleprincipals.tsv",delim="\t")
+str(titleprincipals)
+
+#######################################################################################################################
+################################################### Pregunta 1 ########################################################
+#######################################################################################################################
+
+#######################################################################################################################
+Cuantas películas realizadas en la década de los 80 tienen títulos que inician y/o terminan con la palabra "Aliens"?
+#######################################################################################################################
+
+###################### Solución 1 ######################
+Aliens <- titlebasics %>%
+          filter(str_detect(primaryTitle,"^Aliens|Aliens$") & startYear >= 1980 & startYear <= 1989) %>% as.data.frame()
+Aliens		  
+###################### Solución 2 ######################
+aliens <- sqldf("select *
+                 from titlebasics
+				 where (primaryTitle like 'Aliens%' or primaryTitle like '%Aliens')
+				       and startYear >= 1980 and startYear <= 1989")
+aliens		  
+
+#######################################################################################################################
+Cual de ellas tiene la mayor duración?
+#######################################################################################################################
+
+###################### Solución 1 ######################
+Aliens <- Aliens %>%
+          arrange(desc(runtimeMinutes)) %>%
+		  filter(row_number()==1) %>% as.data.frame()
+Aliens
+
+###################### Solución 2 ######################
+aliens <- sqldf("select *
+                 from aliens
+				 order by runtimeMinutes desc
+				 limit 1")
+aliens				 
+
+#######################################################################################################################
+Quien dirigió esta película?
+#######################################################################################################################
+
+###################### Solución 1 ######################
+Director <- titleprincipals %>%
+            filter(tconst==Aliens$tconst & category=="director")
+Director <- namebasics %>%
+            filter(nconst==Director$nconst) %>%	as.data.frame()
+Director
+
+###################### Solución 2 ######################
+director <- sqldf("select nconst
+		           from titleprincipals
+				   where category='director' and tconst in (select tconst
+				                                            from aliens)")
+director <- sqldf("select *
+                   from namebasics
+				   where nconst in (select nconst
+				                    from director)")
+director									
+
+#######################################################################################################################
+Cual es la película mejor calificada de este/esta director(a)?
+#######################################################################################################################
+
+###################### Solución 1 ######################
+MejorPelicula <- titleratings %>%
+                 inner_join(titleprincipals,by=c("tconst"="tconst")) %>%
+				 filter(category=="director" & nconst==Director$nconst)	%>%
+				 arrange(desc(averageRating)) %>%
+				 filter(row_number()==1)
+MejorPelicula <- titlebasics %>%
+				 filter(tconst %in% MejorPelicula$tconst) %>% as.data.frame()
+MejorPelicula				 
+
+###################### Solución 2 ######################
+mejorpelicula <- sqldf("select titleratings.*
+                        from titleratings inner join titleprincipals on (titleratings.tconst=titleprincipals.tconst)
+						where category='director' and nconst in (select nconst
+						                                         from director)
+						order by averageRating desc
+						limit 1")
+mejorpelicula <- sqldf("select *
+                        from titlebasics
+	                    where tconst in (select tconst
+	                                     from mejorpelicula)")
+mejorpelicula						
+
+#######################################################################################################################
+################################################### Pregunta 2 ########################################################
+#######################################################################################################################
+
+#######################################################################################################################
+Cuantas películas han sido dirigidas por "Werner Herzog"?
+#######################################################################################################################
+
+###################### Solución 1 ######################
+WernerHerzog <- namebasics %>%
+                filter(str_detect(primaryName,".*Werner.*Herzog.*"))
+
+WernerHerzog <- titlebasics %>%
+                inner_join(titleprincipals,by=c("tconst"="tconst")) %>%
+                filter(nconst==WernerHerzog$nconst & category=="director") %>%
+				select(everything(titlebasics)) %>%	as.data.frame()
+WernerHerzog
+
+###################### Solución 2 ######################
+wernerherzog <- sqldf("select *
+                       from namebasics
+					   where primaryName like '%Werner%Herzog%'")
+					   
+wernerherzog <- sqldf("select titlebasics.*
+                       from titlebasics inner join titleprincipals on (titlebasics.tconst=titleprincipals.tconst)
+					   where category='director' and nconst in (select nconst
+					                                            from wernerherzog)") 
+wernerherzog
+
+#######################################################################################################################
+Cual de ellas tiene	la mayor calificación?
+#######################################################################################################################
+
+###################### Solución 1 ######################
+MejorPelicula <- WernerHerzog %>%
+                 inner_join(titleratings,by=c("tconst"="tconst")) %>%
+				 arrange(desc(averageRating)) %>%
+				 filter(row_number()==1) %>% as.data.frame()
+MejorPelicula
+
+###################### Solución 2 ######################
+mejorpelicula <- sqldf("select wernerherzog.*, averageRating
+                        from wernerherzog inner join titleratings on (wernerherzog.tconst=titleratings.tconst)
+						order by averageRating desc
+						limit 1")
+mejorpelicula						
+
+#######################################################################################################################
+En cuales de ellas participa "Klaus Kinski" como actor?				 
+#######################################################################################################################
+
+###################### Solución 1 ######################
+KlausKinski <- namebasics %>%
+               filter(str_detect(primaryName,".*Klaus.*Kinski.*"))
+KlausKinski <- WernerHerzog %>%
+               inner_join(titleprincipals,by=c("tconst"="tconst")) %>%
+			   filter(category=="actor" & nconst==KlausKinski$nconst) %>%
+			   select(everything(WernerHerzog)) %>%	as.data.frame()
+KlausKinski			   
+
+###################### Solución 2 ######################
+klauskinski <- sqldf("select *
+                      from namebasics
+					  where primaryName like '%Klaus%Kinski%'")
+klauskinski <- sqldf("select wernerherzog.*
+                      from wernerherzog inner join titleprincipals on (wernerherzog.tconst=titleprincipals.tconst)
+					  where category='actor' and nconst in (select nconst
+					                                        from klauskinski)")
+klauskinski
+
+#######################################################################################################################
+Cuales actores,	además de "Klaus Kinski", participaron en la película titulada "Nosferatu the Vampyre"?
+#######################################################################################################################
+
+###################### Solución 1 ######################
+Nosferatu <- titlebasics %>%
+             filter(str_detect(primaryTitle,".*Nosferatu.*the.*Vampyre.*"))
+									
+Nosferatu <- titleprincipals %>%
+             filter(tconst==Nosferatu$tconst & category %in% c("actor","actress")) %>%
+			 inner_join(namebasics,by=c("nconst"="nconst")) %>% as.data.frame()
+Nosferatu
+
+###################### Solución 2 ######################
+nosferatu <- sqldf("select *
+                    from titlebasics
+ 			        where primaryTitle like '%Nosferatu%the%Vampyre%'")
+nosferatu <- sqldf("select titleprincipals.*, primaryName
+                    from titleprincipals inner join namebasics on (titleprincipals.nconst=namebasics.nconst)
+ 			        where category in ('actor','actress') and tconst in (select tconst
+					                                                     from nosferatu)")
+nosferatu
+					
+#######################################################################################################################
+################################################### Pregunta 3 ########################################################
+#######################################################################################################################
+
+#######################################################################################################################
+Cuantas películas han sido dirigidas por "Martin Scorsese"?
+#######################################################################################################################
+
+###################### Solución 1 ######################
+MartinScorsese <- namebasics %>%
+                  filter(str_detect(primaryName,".*Martin.*Scorsese.*"))
+
+MartinScorsese <- titlebasics %>%
+                  inner_join(titleprincipals,by=c("tconst"="tconst")) %>%
+                  filter(nconst==MartinScorsese$nconst & category=="director") %>%
+				  select(everything(titlebasics)) %>% as.data.frame()
+MartinScorsese
+
+###################### Solución 2 ######################
+martinscorsese <- sqldf("select *
+                         from namebasics
+					     where primaryName like '%Martin%Scorsese%'")
+					   
+martinscorsese <- sqldf("select titlebasics.*
+                         from titlebasics inner join titleprincipals on (titlebasics.tconst=titleprincipals.tconst)
+					     where category='director' and nconst in (select nconst
+					                                              from martinscorsese)") 
+martinscorsese
+
+#######################################################################################################################
+Cual de ellas tiene	la mayor duración?
+#######################################################################################################################
+
+###################### Solución 1 ######################
+LargaPelicula <- MartinScorsese %>%
+                 arrange(desc(runtimeMinutes)) %>%
+                 filter(row_number()==1) %>% as.data.frame()
+LargaPelicula				 
+
+###################### Solución 2 ######################
+largapelicula <- sqldf("select *
+                       from martinscorsese
+					   order by runtimeMinutes desc
+					   limit 1")
+largapelicula				 
+
+#######################################################################################################################
+En cuales de ellas participan "Joe Pesci" y "Robert De Niro" como actores?
+#######################################################################################################################
+
+###################### Solución 1 ######################
+PesciDeNiro <- namebasics %>%
+               filter(str_detect(primaryName,".*Joe.*Pesci.*|.*Robert.*De.*Niro.*"))									 
+PesciDeNiro <- MartinScorsese %>%
+               inner_join(titleprincipals,by=c("tconst"="tconst")) %>%
+			   filter(category=="actor" & nconst %in% PesciDeNiro$nconst) %>%
+			   select(everything(MartinScorsese)) %>%
+			   group_by(tconst,primaryTitle,startYear) %>%
+			   summarise(cuantos=n()) %>%
+			   filter(cuantos==2) %>% select(-c("cuantos")) %>%	as.data.frame()
+PesciDeNiro			   
+
+###################### Solución 2 ######################
+pescideniro <- sqldf("select *
+                      from namebasics
+				      where primaryName like '%Joe%Pesci%' or primaryName like '%Robert%De%Niro%'")
+pescideniro <- sqldf("select martinscorsese.tconst, primaryTitle, startYear
+                      from martinscorsese inner join titleprincipals on (martinscorsese.tconst=titleprincipals.tconst)
+					  where category='actor' and nconst in (select nconst
+					                                        from pescideniro)
+					  group by martinscorsese.tconst, primaryTitle, startYear
+					  having count(*) = 2")
+pescideniro
+
+#######################################################################################################################
+Cuales actores,	además de "Joe Pesci" y "Robert De Niro", participaron en la película titulada "Raging Bull"?
+#######################################################################################################################
+
+###################### Solución 1 ######################
+RagingBull <- titlebasics %>%
+              filter(str_detect(primaryTitle,".*Raging.*Bull.*"))
+									
+RagingBull <- titleprincipals %>%
+              filter(tconst==RagingBull$tconst & category %in% c("actor","actress")) %>%
+			  inner_join(namebasics,by=c("nconst"="nconst")) %>% as.data.frame()
+RagingBull
+
+###################### Solución 2 ######################
+ragingbull <- sqldf("select *
+                     from titlebasics
+ 			         where primaryTitle like '%Raging Bull%'")
+ragingbull <- sqldf("select titleprincipals.*, primaryName
+                    from titleprincipals inner join namebasics on (titleprincipals.nconst=namebasics.nconst)
+ 			        where category in ('actor','actress') and tconst in (select tconst
+					                                                     from ragingbull)")
+ragingbull
+
+#######################################################################################################################
+################################################### Pregunta 4 ########################################################
+#######################################################################################################################
+
+#######################################################################################################################
+Cual de las películas realizadas en la década de los 70 tiene la mayor calificación?
+#######################################################################################################################
+
+###################### Solución 1 ######################
+Salida <- titlebasics %>%
+          inner_join(titleratings,by=c("tconst"="tconst"))
+
+Mejor70s <- Salida %>%
+            filter(startYear >= 1970 & startYear <= 1979) %>%
+            arrange(desc(averageRating)) %>%
+		    filter(row_number()==1) %>% as.data.frame()
+Mejor70s
+
+###################### Solución 2 ######################
+salida <- sqldf("select titlebasics.*, averageRating
+                 from titlebasics inner join titleratings on (titlebasics.tconst=titleratings.tconst)")
+
+mejor70s <- sqldf("select *
+				   from salida
+				   where startYear >= 1970 and startYear <= 1979
+                   order by averageRating desc
+		           limit 1")
+mejor70s
+
+#######################################################################################################################
+Quien dirigió esta película? 
+#######################################################################################################################
+
+###################### Solución 1 ######################
+Directors <- titleprincipals %>%
+             filter(tconst==Mejor70s$tconst & category=="director") 					   
+Directors <- namebasics %>%
+             filter(nconst %in% Directors$nconst) %>% as.data.frame()
+Directors
+
+###################### Solución 2 ######################
+directors <- sqldf("select *
+                    from titleprincipals
+					where category='director' and tconst in (select tconst
+					                                           from mejor70s)") 					   
+directors <- sqldf("select *
+                    from namebasics
+					where nconst in (select nconst
+					                 from directors)")
+directors
+
+#######################################################################################################################
+Cual de las películas realizadas en la década de los 90 tiene la mayor calificación?
+#######################################################################################################################
+
+###################### Solución 1 ######################
+Mejor90s <- Salida %>%
+            filter(startYear >= 1990 & startYear <= 1999) %>%
+            arrange(desc(averageRating)) %>%
+		    filter(row_number()==1) %>% as.data.frame()
+Mejor90s
+
+###################### Solución 2 ######################
+mejor90s <- sqldf("select *
+				   from salida
+				   where startYear >= 1990 and startYear <= 1999
+                   order by averageRating desc
+		           limit 1")
+mejor90s
+
+#######################################################################################################################
+Quienes actuaron en esta película?
+#######################################################################################################################
+
+###################### Solución 1 ######################
+Actors <- titleprincipals %>%
+          filter(tconst==Mejor90s$tconst & category %in% c("actor","actress")) 					   
+Actors <- namebasics %>%
+          filter(nconst %in% Actors$nconst) %>% as.data.frame()
+Actors
+
+###################### Solución 2 ######################
+actors <- sqldf("select *
+                 from titleprincipals
+			     where category in ('actor','actress') and tconst in (select tconst
+					                                                  from mejor90s)") 					   
+actors <- sqldf("select *
+                 from namebasics
+				 where nconst in (select nconst
+				                  from actors)")
+actors
+
+#######################################################################################################################
+################################################### Pregunta 5 ########################################################
+#######################################################################################################################
+
+source("C:\\Nano\\Docencia\\Curso\\mismacros.txt")
+
+salida <- within(salida,{Decada <- ifelse(startYear >= 1970 & startYear <= 1979,"70s","")
+                         Decada <- ifelse(startYear >= 1980 & startYear <= 1989,"80s",Decada)
+						 Decada <- ifelse(startYear >= 1990 & startYear <= 1999,"90s",Decada)
+						 Mayor8 <- ifelse(averageRating > 8,"SI","NO")})
+
+mytable( ~ Decada*Mayor8, data=salida)

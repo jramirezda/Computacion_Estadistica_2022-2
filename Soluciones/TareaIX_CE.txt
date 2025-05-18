@@ -1,0 +1,34 @@
+﻿import os
+import pandas as pd
+import numpy as np
+
+os.chdir("C:\\Computacion Estadistica\\")
+os.getcwd()
+
+from mismacrospython import onewayfreq, twowayfreq
+
+exportaciones=pd.read_excel("exportaciones.xlsx")
+exportaciones.info()
+exportaciones.head(10)
+
+pd.options.display.float_format = '{:,.2f}'.format
+############################## Preguntas 1 y 2 ##############################
+onewayfreq(rows="Mes",weight="Volumen",data=exportaciones,subset="Producto=='Café' & Ano==2018")
+
+############################## Pregunta 3 ##############################
+onewayfreq(rows="Mes",weight="Valor",data=exportaciones,subset="Producto=='Café' & Ano==2018")
+
+############################## Pregunta 4 ##############################
+onewayfreq(rows="Mes",weight="Valor",data=exportaciones,subset="Producto=='Café' & Ano==2018")
+
+############################## Pregunta 5 ##############################
+onewayfreq(rows="Mes",weight="Volumen",data=exportaciones,subset="Producto=='Flores' & Ano==2019 & Dep==5")
+
+############################## Pregunta 6 ##############################
+onewayfreq(rows="Departamento",weight="Volumen",data=exportaciones,subset="Producto=='Flores' & Ano==2019 & Mes in (1,2,3)")
+
+############################## Pregunta 7 ##############################
+onewayfreq(rows="Mes",weight="Valor",data=exportaciones,subset="Producto=='Flores' & Dep==5")
+
+############################## Pregunta 8 ##############################
+onewayfreq(rows="Departamento",weight="Valor",data=exportaciones,subset="Producto=='Flores' & Ano==2019 & Mes in (7,8,9)")

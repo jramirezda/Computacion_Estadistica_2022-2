@@ -1,0 +1,372 @@
+﻿import os
+import pandas as pd
+import numpy as np
+import duckdb
+
+os.chdir("C:\\Nano\\Computacion Estadistica\\")
+os.getcwd()
+con = duckdb.connect(database=':memory:')
+
+anime80s = pd.read_table("anime80s.csv",delimiter="\t",header=0)
+anime90s = pd.read_table("anime90s.csv",delimiter="\t",header=0)
+anime00s = pd.read_table("anime00s.csv",delimiter="\t",header=0)
+anime10s = pd.read_table("anime10s.csv",delimiter="\t",header=0)
+anime = pd.concat([anime80s,anime90s,anime00s,anime10s])
+
+ratings = pd.read_table("animeratings.csv",delimiter="\t",header=0)
+anime.info()
+ratings.info()
+
+ratings2 = (ratings
+            .groupby(["anime_id"])
+            .agg(rating=("rating","mean"),
+                 cuantos=("rating","count")).reset_index()
+           )
+ratings2.info()
+
+anime2 = (anime
+          .merge(ratings2,left_on="MAL_ID",right_on="anime_id",how="left")
+          .query("Type=='TV' & cuantos >= 10000 & ~Genres.isnull().values")
+         )
+anime2.info()
+
+#####################################################
+#####################################################
+#################### Pregunta 1 #####################
+#####################################################
+#####################################################
+
+##########################
+########### (A) ##########
+##########################
+(anime2
+ .query("Premiered >= 1980 & Premiered <= 2000 & Genres.str.contains('Action').values")
+ .sort_values(by=["rating"],ascending=False).reset_index(drop=True)
+ .head(3)     
+)
+
+con.execute("""select *
+               from  anime2
+			   where Premiered >= 1980 and Premiered <= 2000 and Genres similar to '.*Action.*'
+               order by rating desc
+			   limit 3""").df()
+
+###Cowboy Bebop
+###Berserk
+###Hunter x Hunter
+
+##########################
+########### (B) ##########
+##########################
+(anime2
+ .query("Premiered >= 1980 & Premiered <= 2000 & Genres.str.contains('Action').values")
+ .sort_values(by=["rating"],ascending=False).reset_index(drop=True)
+ .tail(3)     
+ )
+
+con.execute("""select *
+               from  anime2
+			   where Premiered >= 1980 and Premiered <= 2000 and Genres similar to '.*Action.*'
+               order by rating
+			   limit 3""").df()
+
+###Dragon Ball GT
+###Yu☆Gi☆Oh!
+###Digimon Adventure 02
+
+##########################
+########### (C) ##########
+##########################
+(anime2
+ .query("Premiered >= 1980 & Premiered <= 2000 & Genres.str.contains('Action').values")
+ .sort_values(by=["Episodes"],ascending=True).reset_index(drop=True)
+ .head(3)     
+)
+
+con.execute("""select *
+               from  anime2
+			   where Premiered >= 1980 and Premiered <= 2000 and Genres similar to '.*Action.*'
+               order by Episodes
+			   limit 3""").df()
+ 
+###Initial D Second Stage
+###Vandread
+
+#####################################################
+#####################################################
+#################### Pregunta 2 #####################
+#####################################################
+#####################################################
+
+##########################
+########### (A) ##########
+##########################
+(anime2
+ .query("Premiered >= 1990 & Premiered <= 2005 & Genres.str.contains('Action').values")
+ .sort_values(by=["rating"],ascending=False).reset_index(drop=True)
+ .head(3)     
+ )
+
+con.execute("""select *
+               from  anime2
+			   where Premiered >= 1990 and Premiered <= 2005 and Genres similar to '.*Action.*'
+               order by rating desc
+			   limit 3""").df()
+ 
+###Cowboy Bebop
+###Ghost in the Shell:Stand Alone Complex 2nd GIG
+###Samurai Champloo
+
+##########################
+########### (B) ##########
+##########################
+(anime2
+ .query("Premiered >= 1990 & Premiered <= 2005 & Genres.str.contains('Action').values")
+ .sort_values(by=["rating"],ascending=False).reset_index(drop=True)
+ .tail(3)     
+)
+
+con.execute("""select *
+               from  anime2
+			   where Premiered >= 1990 and Premiered <= 2005 and Genres similar to '.*Action.*'
+               order by rating
+			   limit 3""").df() 
+
+###Pokemon:Advanced	
+###Beyblade
+###Dragon Ball GT
+
+##########################
+########### (C) ##########
+##########################
+(anime2
+ .query("Premiered >= 1990 & Premiered <= 2005 & Genres.str.contains('Action').values")
+ .sort_values(by=["rating"],ascending=False).reset_index(drop=True)
+ .head(50)
+ .groupby(["Studios"])
+ .agg(cuantos=("Studios","count")).reset_index()
+ .sort_values(by=["cuantos"],ascending=False).reset_index(drop=True)
+ .head(2)
+ )
+
+con.execute("""select   Studios, count(*) as cuantos
+               from     anime2
+			   where    MAL_ID in (select MAL_ID
+			                       from anime2
+								   where Premiered >= 1990 and Premiered <= 2005 and Genres similar to '.*Action.*'
+								   order by rating desc
+								   limit 50)
+			   group by Studios
+			   order by cuantos desc
+			   limit 2  """).df() 
+
+###Sunrise
+
+##########################
+########### (D) ##########
+##########################
+(anime2
+ .query("Premiered >= 1990 & Premiered <= 2005 & Genres.str.contains('Action').values")
+ .sort_values(by=["rating"],ascending=False).reset_index(drop=True)
+ .head(10)
+ .sort_values(by=["Episodes"],ascending=True).reset_index(drop=True)
+ .head(2)
+ )
+
+con.execute("""select   *
+               from     anime2
+			   where    MAL_ID in (select MAL_ID
+			                       from anime2
+								   where Premiered >= 1990 and Premiered <= 2005 and Genres similar to '.*Action.*'
+								   order by rating desc
+								   limit 10)
+			   order by Episodes
+			   limit 2  """).df() 
+
+###Kino's Journey
+
+#####################################################
+#####################################################
+#################### Pregunta 3 #####################
+#####################################################
+#####################################################
+
+##########################
+########### (A) ##########
+##########################
+(anime2
+ .query("Premiered >= 2000 & Premiered <= 2015 & Genres.str.contains('Action').values")
+ .sort_values(by=["rating"],ascending=False).reset_index(drop=True)
+ .head(3)     
+ )
+
+con.execute("""select *
+               from  anime2
+			   where Premiered >= 2000 and Premiered <= 2015 and Genres similar to '.*Action.*'
+               order by rating desc
+			   limit 3""").df()
+
+###Gintama Season 4
+###Fullmetal Alchemist:Brotherhood
+###Hunter x Hunterx
+
+##########################
+########### (B) ##########
+##########################
+(anime2
+ .query("Premiered >= 2000 & Premiered <= 2015 & Genres.str.contains('Action').values")
+ .sort_values(by=["rating"],ascending=False).reset_index(drop=True)
+ .tail(3)     
+)
+
+con.execute("""select *
+               from  anime2
+			   where Premiered >= 2000 and Premiered <= 2015 and Genres similar to '.*Action.*'
+               order by rating
+			   limit 3""").df()
+ 
+###Maken-Ki! Two
+###Isuca
+###Magical Warfare
+
+##########################
+########### (C) ##########
+##########################
+(anime2
+ .query("Premiered >= 2000 & Premiered <= 2015 & Genres.str.contains('Action').values")
+ .sort_values(by=["rating"],ascending=False).reset_index(drop=True)
+ .head(50)
+ .groupby(["Studios"])
+ .agg(cuantos=("Studios","count")).reset_index()
+ .sort_values(by=["cuantos"],ascending=False).reset_index(drop=True)
+ .head(2)
+ )
+
+con.execute("""select   Studios, count(*) as cuantos
+               from     anime2
+			   where    MAL_ID in (select MAL_ID
+			                       from anime2
+								   where Premiered >= 2000 and Premiered <= 2015 and Genres similar to '.*Action.*'
+								   order by rating desc
+								   limit 50)
+			   group by Studios
+			   order by cuantos desc
+			   limit 2  """).df() 
+ 
+###Sunrise
+
+##########################
+########### (D) ##########
+##########################
+(anime2
+ .query("Premiered >= 2000 & Premiered <= 2015 & Genres.str.contains('Action').values")
+ .sort_values(by=["rating"],ascending=False).reset_index(drop=True)
+ .head(10)
+ .sort_values(by=["Episodes"],ascending=True).reset_index(drop=True)
+ .head(2)
+)
+
+con.execute("""select   *
+               from     anime2
+			   where    MAL_ID in (select MAL_ID
+			                       from anime2
+								   where Premiered >= 2000 and Premiered <= 2015 and Genres similar to '.*Action.*'
+								   order by rating desc
+								   limit 10)
+			   order by Episodes
+			   limit 2  """).df() 
+ 
+###Fate/Zero Season 2
+
+#####################################################
+#####################################################
+#################### Pregunta 4 #####################
+#####################################################
+#####################################################
+
+##########################
+########### (A) ##########
+##########################
+(anime2
+ .query("Premiered >= 1980 & Premiered <= 2020 & Genres.str.contains('Action').values")
+ .sort_values(by=["rating"],ascending=False).reset_index(drop=True)
+ .head(3)     
+)
+
+con.execute("""select *
+               from  anime2
+			   where Premiered >= 1980 and Premiered <= 2020 and Genres similar to '.*Action.*'
+               order by rating desc
+			   limit 3""").df()
+
+###Gintama Season 4
+###Fullmetal Alchemist:Brotherhood
+###Hunter x Hunterx
+
+##########################
+########### (B) ##########
+##########################
+(anime2
+ .query("Premiered >= 1980 & Premiered <= 2020 & Genres.str.contains('Action').values")
+ .sort_values(by=["rating"],ascending=False).reset_index(drop=True)
+ .tail(3)     
+ )
+
+con.execute("""select *
+               from  anime2
+			   where Premiered >= 1980 and Premiered <= 2020 and Genres similar to '.*Action.*'
+               order by rating
+			   limit 3""").df()
+ 
+###Taboo Tattoo
+###Isekai Cheat Magician
+###Big Order (TV)
+
+##########################
+########### (C) ##########
+##########################
+(anime2
+ .query("Premiered >= 1980 & Premiered <= 2020 & Genres.str.contains('Action').values")
+ .sort_values(by=["rating"],ascending=False).reset_index(drop=True)
+ .head(50)
+ .groupby(["Studios"])
+ .agg(cuantos=("Studios","count")).reset_index()
+ .sort_values(by=["cuantos"],ascending=False).reset_index(drop=True)
+ .head(2)
+)
+
+con.execute("""select   Studios, count(*) as cuantos
+               from     anime2
+			   where    MAL_ID in (select MAL_ID
+			                       from anime2
+								   where Premiered >= 1980 and Premiered <= 2020 and Genres similar to '.*Action.*'
+								   order by rating desc
+								   limit 50)
+			   group by Studios
+			   order by cuantos desc
+			   limit 2  """).df() 
+
+###Sunrise
+
+##########################
+########### (D) ##########
+##########################
+(anime2
+ .query("Premiered >= 1980 & Premiered <= 2020 & Genres.str.contains('Action').values")
+ .sort_values(by=["rating"],ascending=False).reset_index(drop=True)
+ .head(10)
+ .sort_values(by=["Episodes"],ascending=True).reset_index(drop=True)
+ .head(2)
+)
+
+con.execute("""select   *
+               from     anime2
+			   where    MAL_ID in (select MAL_ID
+			                       from anime2
+								   where Premiered >= 1980 and Premiered <= 2020 and Genres similar to '.*Action.*'
+								   order by rating desc
+								   limit 10)
+			   order by Episodes
+			   limit 2  """).df() 
+ 
+###Attack on Titan Season 3 Part 2

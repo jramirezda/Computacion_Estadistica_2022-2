@@ -1,0 +1,250 @@
+﻿library(readxl)
+library(readr)
+library(stringr)
+library(sqldf)
+library(dplyr)
+library(ggplot2)
+source("mismacros.txt")
+
+ofrecidos <- read_excel("ofrecidos.xlsx")
+str(ofrecidos)
+cursos <- read_delim("cursos.txt",delim=";")
+str(cursos)
+docentes <- read_delim("docentes.csv",delim=",")
+str(docentes)
+
+
+ofrecidos2 <- sqldf("select ofrecidos.*, nombrecurso
+                     from ofrecidos left join cursos on (ofrecidos.codigocurso=cursos.codigocurso)")
+ofrecidos3 <- sqldf("select ofrecidos2.*, nombredocente
+                     from ofrecidos2 left join docentes on (ofrecidos2.iddocente=docentes.iddocente)")
+
+########################################################					 
+########################################################
+###################### Pregunta 1 ######################
+########################################################
+########################################################
+					 
+##############
+#  opción 1  #
+##############
+sqldf("select Semestre, count(*) as ngrupos
+	   from ofrecidos3
+	   where NombreCurso='Bioestadística Fundamental'
+	   group by Semestre
+	   order by ngrupos desc")
+
+##############
+#  opción 2  #
+##############
+ofrecidos3 %>%
+filter(NombreCurso=="Bioestadística Fundamental") %>%
+group_by(Semestre) %>%
+summarise(ngrupos=n()) %>%
+arrange(desc(ngrupos)) %>% as.data.frame()
+
+##############
+#  opción 3  #
+##############
+mytable(~ Semestre, data=ofrecidos3, ord="freq", cum=FALSE,
+        subset=c(NombreCurso=="Bioestadística Fundamental"))
+
+########################################################					 
+########################################################
+###################### Pregunta 2 ######################
+########################################################
+########################################################
+					 
+##############
+#  opción 1  #
+##############
+sqldf("select Semestre, sum(CuposN) as ncupos
+	   from ofrecidos3
+	   where NombreCurso='Probabilidad y Estadística Fundamental'
+	   group by Semestre
+	   order by ncupos desc")
+
+##############
+#  opción 2  #
+##############
+ofrecidos3 %>%
+filter(NombreCurso=="Probabilidad y Estadística Fundamental") %>%
+group_by(Semestre) %>%
+summarise(ncupos=sum(CuposN)) %>%
+arrange(desc(ncupos)) %>% as.data.frame()
+
+##############
+#  opción 3  #
+##############
+mytable(CuposN ~ Semestre, data=ofrecidos3, ord="freq", cum=FALSE,
+        subset=c(NombreCurso=="Probabilidad y Estadística Fundamental"))
+
+########################################################					 
+########################################################
+###################### Pregunta 3 ######################
+########################################################
+########################################################
+					 
+##############
+#  opción 1  #
+##############
+sqldf("select Semestre, stdev(cuposN)/avg(CuposN) as cvcupos
+	   from ofrecidos3
+	   where NombreCurso='Estadística Social Fundamental'
+	   group by Semestre
+	   order by cvcupos")
+
+##############
+#  opción 2  #
+##############
+ofrecidos3 %>%
+filter(NombreCurso=="Estadística Social Fundamental") %>%
+group_by(Semestre) %>%
+summarise(cvcupos=sd(CuposN)/mean(CuposN)) %>%
+arrange(cvcupos) %>% as.data.frame()
+
+
+########################################################					 
+########################################################
+###################### Pregunta 4 ######################
+########################################################
+########################################################
+
+##############
+#  opción 1  #
+##############
+sqldf("select CodigoCurso, NombreCurso
+       from ofrecidos3
+       where Programa = 'Pregrado'
+       group by CodigoCurso, NombreCurso
+       having count(distinct Semestre) = 1")
+
+##############
+#  opción 2  #
+##############
+ofrecidos3 %>%
+filter(Programa=="Pregrado") %>%
+group_by(CodigoCurso,NombreCurso) %>%
+summarise(cursosdif=n_distinct(Semestre)) %>%
+filter(cursosdif==1) %>% select(-cursosdif) %>% as.data.frame()
+
+
+########################################################					 
+########################################################
+###################### Pregunta 5 ######################
+########################################################
+########################################################
+
+##############
+#  opción 1  #
+##############
+sqldf("select CodigoCurso, NombreCurso
+       from ofrecidos3
+       where Programa = 'Pregrado'
+       group by CodigoCurso, NombreCurso
+       having count(distinct Semestre) = 6")
+
+##############
+#  opción 2  #
+##############
+ofrecidos3 %>%
+filter(Programa=="Pregrado") %>%
+group_by(CodigoCurso,NombreCurso) %>%
+summarise(cursosdif=n_distinct(Semestre)) %>%
+filter(cursosdif==6) %>% select(-cursosdif) %>% as.data.frame()
+
+########################################################					 
+########################################################
+###################### Pregunta 6 ######################
+########################################################
+########################################################
+
+##############
+#  opción 1  #
+##############
+sqldf("select IdDocente, NombreDocente
+       from ofrecidos3
+       where IdDocente is not NULL
+       group by IdDocente, NombreDocente
+       having count(distinct Programa) = 1")
+
+##############
+#  opción 2  #
+##############
+ofrecidos3 %>%
+filter(!is.na(IdDocente)) %>%
+group_by(IdDocente,NombreDocente) %>%
+summarise(progsdif=n_distinct(Programa)) %>%
+filter(progsdif==1) %>% select(-progsdif) %>% as.data.frame()
+
+########################################################					 
+########################################################
+###################### Pregunta 7 ######################
+########################################################
+########################################################
+
+##############
+#  opción 1  #
+##############
+sqldf("select IdDocente, NombreDocente
+       from ofrecidos3
+       where IdDocente is not NULL
+       group by IdDocente, NombreDocente
+       having count(distinct Programa) = 4")
+
+##############
+#  opción 2  #
+##############
+ofrecidos3 %>%
+filter(!is.na(IdDocente)) %>%
+group_by(IdDocente,NombreDocente) %>%
+summarise(progsdif=n_distinct(Programa)) %>%
+filter(progsdif==4) %>% select(-progsdif) %>% as.data.frame()
+
+########################################################					 
+########################################################
+###################### Pregunta 8 ######################
+########################################################
+########################################################
+
+##############
+#  opción 1  #
+##############
+sqldf("select IdDocente, NombreDocente, count(distinct CodigoCurso) as cursosdif
+       from ofrecidos3
+       where Programa in ('Pregrado','Especialización','Maestría','Doctorado')
+       group by IdDocente, NombreDocente
+       order by cursosdif")
+
+##############
+#  opción 2  #
+##############
+ofrecidos3 %>%
+filter(Programa %in% c("Pregrado","Especialización","Maestría","Doctorado")) %>%
+group_by(IdDocente,NombreDocente) %>%
+summarise(cursosdif=n_distinct(CodigoCurso)) %>% 
+arrange(cursosdif) %>% as.data.frame()
+	   
+########################################################					 
+########################################################
+###################### Pregunta 9 ######################
+########################################################
+########################################################
+
+mytable( ~ Agrupacion*Semestre, data=ofrecidos3, ord="levels",
+       percent=FALSE, rowperc=FALSE, subset=c(Programa=="Pregrado"))
+
+mytable(CuposN ~ Agrupacion*Semestre, data=ofrecidos3, ord="levels",
+       percent=FALSE, rowperc=FALSE, subset=c(Programa=="Pregrado"))
+
+########################################################					 
+########################################################
+###################### Pregunta 10 #####################
+########################################################
+########################################################
+
+ofrecidos3 <- within(ofrecidos3,Lunes <- ifelse(str_sub(Dia,1,2)=="LU","Si","No"))
+
+mytable(CuposN ~ Lunes*Semestre, data=ofrecidos3, ord="levels",
+       percent=FALSE, rowperc=FALSE,
+	   subset=c(Programa %in% c("Especialización","Maestría","Doctorado")))

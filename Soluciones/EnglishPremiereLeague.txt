@@ -1,0 +1,192 @@
+﻿setwd("C:/Nano/Docencia/2021-II")
+library(readxl)
+library(sqldf)
+library(dplyr)
+
+s1415 <- read_excel("season-1415.xlsx",sheet="season-1415")
+s1516 <- read_excel("season-1516.xlsx",sheet="season-1516")
+s1617 <- read_excel("season-1617.xlsx",sheet="season-1617")
+s1718 <- read_excel("season-1718.xlsx",sheet="season-1718")
+s1819 <- read_excel("season-1819.xlsx",sheet="season-1819")
+
+todos <- rbind(s1415,s1516,s1617,s1718,s1819)
+str(todos)
+
+partA <- data.frame(Season=todos$Season,date=as.character(todos$Date),Team=todos$HomeTeam,GolesAF=todos$FTHG,
+                    GolesEC=todos$FTAG,Tiros=todos$HS,TirosP=todos$HST,R=todos$HR)
+partB <- data.frame(Season=todos$Season,date=as.character(todos$Date),Team=todos$AwayTeam,GolesAF=todos$FTAG,
+                    GolesEC=todos$FTHG,Tiros=todos$AS,TirosP=todos$AST,R=todos$AR)
+todos2 <- rbind(partA,partB)
+todos2 <- within(todos2,{PG <- ifelse(GolesAF > GolesEC,1,0)
+                         PE <- ifelse(GolesAF == GolesEC,1,0)
+						 RC <- ifelse(R > 0,0,1)
+                         })
+str(todos2)
+
+###########################################################################################
+####################################### Pregunta 1  #######################################
+###########################################################################################
+
+###################### Solución 1 ######################
+sqldf("select Team, sum(3*PG+PE) as Puntos, 
+                    sum(GolesAF)-sum(GolesEC) as GolDif,
+                    100*avg(PG) as PPG, 
+                    100*avg(1-PG-PE) as PPP,
+                    100*sum(TirosP)/sum(Tiros) as PTP,
+                    100*avg(RC) as RC
+       from todos2
+       where Season='16-17'
+       group by Team 
+       order by Puntos desc, GolDif desc
+	   limit 2")				
+
+###################### Solución 2 ######################	   
+todos2 %>% filter(Season=="16-17") %>%
+           group_by(Team) %>%
+		   summarise(Puntos=sum(3*PG+PE),GolDif=sum(GolesAF)-sum(GolesEC),
+		             PPG=100*mean(PG),PPP=100*mean(1-PG-PE),
+					 PTP=100*sum(TirosP)/sum(Tiros),RC=100*mean(RC)) %>%
+		   arrange(desc(Puntos,Goldif)) %>%
+		   filter(row_number()<=2) %>%
+		   as.data.frame()
+					 
+########### Chelsea	93	52	78.94737	13.15789	35.17241	100
+
+###########################################################################################
+####################################### Pregunta 2  #######################################
+###########################################################################################
+
+###################### Solución 1 ######################
+sqldf("select Team, sum(3*PG+PE) as Puntos, 
+                    sum(GolesAF)-sum(GolesEC) as GolDif,
+                    100*avg(PG) as PPG, 
+                    100*avg(1-PG-PE) as PPP,
+                    100*sum(TirosP)/sum(Tiros) as PTP,
+                    100*avg(RC) as RC
+       from todos2
+       where Season='17-18'
+       group by Team 
+       order by Puntos desc, GolDif desc
+	   limit 4")				
+
+###################### Solución 2 ######################	   
+todos2 %>% filter(Season=="17-18") %>%
+           group_by(Team) %>%
+		   summarise(Puntos=sum(3*PG+PE),GolDif=sum(GolesAF)-sum(GolesEC),
+		             PPG=100*mean(PG),PPP=100*mean(1-PG-PE),
+					 PTP=100*sum(TirosP)/sum(Tiros),RC=100*mean(RC)) %>%
+		   arrange(desc(Puntos,Goldif)) %>%
+		   filter(row_number()<=4) %>%
+		   as.data.frame()
+
+
+########### Tottenham	77	38	60.52632	18.42105	34.88746	94.73684
+
+###########################################################################################
+####################################### Pregunta 3  #######################################
+###########################################################################################
+
+###################### Solución 1 ######################
+sqldf("select Team, sum(3*PG+PE) as Puntos, 
+                    sum(GolesAF)-sum(GolesEC) as GolDif,
+                    100*avg(PG) as PPG, 
+                    100*avg(1-PG-PE) as PPP,
+                    100*sum(TirosP)/sum(Tiros) as PTP,
+                    100*avg(RC) as RC
+       from todos2
+       where Season='18-19' and date < '2019-01-01'
+       group by Team 
+       order by Puntos desc, GolDif desc
+	   limit 4")				
+
+###################### Solución 2 ######################	   
+todos2 %>% filter(Season=="18-19" & date < '2019-01-01') %>%
+           group_by(Team) %>%
+		   summarise(Puntos=sum(3*PG+PE),GolDif=sum(GolesAF)-sum(GolesEC),
+		             PPG=100*mean(PG),PPP=100*mean(1-PG-PE),
+					 PTP=100*sum(TirosP)/sum(Tiros),RC=100*mean(RC)) %>%
+		   arrange(desc(Puntos,Goldif)) %>%
+		   filter(row_number()<=4) %>%
+		   as.data.frame()
+	   
+########### Liverpool	54	40	85	0	41.0828	95
+
+###########################################################################################
+####################################### Pregunta 4  #######################################
+###########################################################################################
+
+###################### Solución 1 ######################
+clasificacion <- sqldf("select Season, Team, sum(3*PG+PE) as Puntos, 
+				                             sum(GolesAF)-sum(GolesEC) as GolDif
+			            from todos2
+			            group by Season, Team 
+			            order by Season, Puntos desc, GolDif desc")
+
+###################### Solución 2 ######################						
+clasificacion <- todos2 %>% group_by(Season,Team) %>%
+		                    summarise(Puntos=sum(3*PG+PE),
+							          GolDif=sum(GolesAF)-sum(GolesEC)) %>%
+		                    arrange(Season,desc(Puntos,Goldif)) %>%
+		                    as.data.frame()
+
+clasificacion <- within(clasificacion, Posicion <- rep(1:20,5))
+
+#################################
+########### Parte (A) ###########
+#################################
+
+###################### Solución 1 ######################
+sqldf("select Team
+       from clasificacion
+       where Posicion <= 4 
+       group by Team
+       having count(*) = 5")
+
+###################### Solución 2 ######################	   
+clasificacion %>% filter(Posicion <= 4) %>%
+		          group_by(Team) %>%
+				  summarise(veces = n()) %>%
+				  filter(veces == 5) %>%
+				  select(!veces) %>% as.data.frame()
+
+########### Man City
+
+#################################
+########### Parte (B) ###########
+#################################
+
+###################### Solución 1 ######################
+sqldf("select Team
+       from clasificacion
+       where Posicion <= 5 
+       group by Team
+       having count(*) = 5")
+
+###################### Solución 2 ######################	   
+clasificacion %>% filter(Posicion <= 5) %>%
+		          group_by(Team) %>%
+				  summarise(veces = n()) %>%
+				  filter(veces == 5) %>%
+				  select(!veces) %>% as.data.frame()
+	   
+########### Man City, Tottenham
+
+#################################
+########### Parte (C) ###########
+#################################
+
+###################### Solución 1 ######################
+sqldf("select Team
+       from clasificacion
+       where Posicion <= 6 
+       group by Team
+       having count(*) = 5")
+	   
+###################### Solución 2 ######################
+clasificacion %>% filter(Posicion <= 6) %>%
+		          group_by(Team) %>%
+				  summarise(veces = n()) %>%
+				  filter(veces == 5) %>%
+				  select(!veces) %>% as.data.frame()
+	   
+########### Arsenal, Man City, Man United, Tottenham

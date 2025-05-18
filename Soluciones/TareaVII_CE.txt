@@ -1,0 +1,594 @@
+﻿/*Tarea 6 Computaci?n Esradistica 2022-2
+Integrantes: Tania Vanesa Vasquez,  Angela Gissel Lopez Rodriguez, Jhon Ramirez , Jesus Castro.
+Lunes 24/10/22
+*/
+/*Elecciones USA */
+
+/*Importe los conjuntos de datos */
+filename a "/home/u62463561/CE2022-2/counties.xlsx";
+proc import datafile=a dbms=xlsx out=counties replace;
+  getnames=yes;
+run;
+
+filename b "/home/u62463561/CE2022-2/states.xlsx";
+proc import datafile=b dbms=xlsx out=states replace;
+  getnames=yes;
+run;
+
+filename c "/home/u62463561/CE2022-2/elections.xlsx";
+proc import datafile=c dbms=xlsx out=elections replace;
+  getnames=yes;
+run;
+
+/*Cuantos registros? Cuantas variables? De qué tipo son estas variables?*/
+proc contents data=counties varnum;
+run;
+
+proc contents data=states varnum;
+run;
+
+proc contents data=elections varnum;
+run;
+
+/*Existen valores perdidos?*/
+%include "/home/u62463561/CE2022-2/mismacros.sas";
+%missings(counties);
+%missings(states);
+%missings(elections);
+
+/*codecounty y codestate son identificadores de condados y estados?*/
+proc sql;
+select   codecounty, count(*) as repetidos
+from     counties
+group by codecounty
+having   repetidos > 1;
+
+select   codestate, count(*) as repetidos
+from     states
+group by codestate
+having   repetidos > 1;
+quit;
+
+/*Limpie las variables county, state y region*/
+data counties;
+  set counties;
+  county = lowcase(county);
+  county = compress(county,"abcdefghijklmnñopqrstuvwxyzáéíóúü ","k");
+  county = propcase(compbl(strip(county)));
+run;
+
+data states;
+  set states;
+  state = lowcase(state);
+  state = compress(state,"abcdefghijklmnopqrstuvwxyz ","k");
+  state = propcase(compbl(strip(state)));
+  region = lowcase(region);
+  region = compress(region,"abcdefghijklmnopqrstuvwxyz ","k");
+  region = propcase(compbl(strip(region)));
+run;
+
+/*Cree la variable populationC en Counties */
+proc sort data=counties;
+  by codestate;
+run;
+
+proc means data=counties n p25 p75 stackodsoutput;
+  var population;
+  by  codestate;
+  ods output Summary=pops;
+run;
+
+proc sql;
+create table counties2 as
+select       counties.*, case when population <= p25 and n >= 3 then "Low" 
+                              when population >  p75 and n >= 3 then "High"
+                              when n < 3 then " "
+                              else "Mid"
+                         end as populationC     
+from         counties left join pops on (counties.codestate=pops.codestate);
+quit;
+
+/*Existen condados con el mismo nombre? Cuantos? Cuales? En qué estados están? */
+proc sql;
+  create table counties3 as
+  select       counties2.*, state, region
+  from         counties2 left join states on (counties2.codestate=states.codestate);
+
+  select       county, state, codestate, codecounty
+  from         counties3 
+  where        county in (select   county
+                          from     counties2 
+                          group by county
+                          having   count(*) > 1)
+  order by     county, state;
+quit;
+
+/*En cuales condados el candidato republicano obtuvo mayor votación que el candidato demócrata en las elecciones de 2000 a 2016?*/
+proc sql;
+  create table elections2 as
+  select       elections.*, counties3.county as countyname, codestate, state, region
+  from         elections left join counties3 on (elections.codecounty=counties3.codecounty);
+  
+  create table results as
+  select       codestate, state, codecounty, countyname
+  from         elections2
+  group by     codestate, state, codecounty, countyname
+  having       min(republic - democrat) > 0 and count(*) = 5;
+quit;
+
+/*En cuales estados el candidato republicano obtuvo mayor votación que el candidato demócrata en las elecciones de 2000 en más del 75% de los condados que los componen?*/
+data temporal;
+  set elections2;
+  where year=2000;
+  dif = republic-democrat;
+run;
+
+proc sort data=temporal;
+  by state codestate;
+run;
+
+proc means data=temporal p25 stackodsoutput;
+  by state codestate;
+  var dif;
+  ods output Summary=out;
+run;
+
+proc print data=out noobs;
+  var state;
+  where p25 > 0;
+run;
+
+/*En cuales condados no se tiene niguna información sobre los resultados de las votaciones realizadas entre 2000 y 2016?*/
+proc sql;
+  create table out as
+  select       counties3.*
+  from         counties3
+  where        codecounty not in (select distinct codecounty
+                                  from   elections)
+  order by     codestate, state, codecounty, county;                         ;
+quit;
+  
+/*En cuales condados se tiene solo alguna información sobre los resultados de las votaciones realizadas entre 2000 y 2016?*/
+proc sql;
+  create table salida as
+  select       counties3.*
+  from         counties3
+  where        codecounty in (select   codecounty
+                              from     elections
+                              group by codecounty
+                              having   count(*) < 5)
+  order by     codestate, state, codecounty, county;                         
+quit;
+
+
+/* En qué años el candidato demócrata ganó las elecciones en la parte del país formada por estados con más de 10 millones de personas? */
+proc sql;
+  create table _out as
+  select       year
+  from         elections2
+  where        codestate in (select   codestate 
+                             from     counties3 
+                             group by codestate
+                             having   sum(population) > 10000000)
+  group by     year
+  having       sum(democrat) > sum(republic) and sum(democrat) > sum(other);
+quit;
+
+
+
+
+
+/*English Premiere League */
+
+proc import out=s1415 dbms=xlsx datafile="/home/hvanegasp0/Curso/season-1415.xlsx" replace;
+  getnames=yes;
+run;
+proc import out=s1516 dbms=xlsx datafile="/home/hvanegasp0/Curso/season-1516.xlsx" replace;
+  getnames=yes;
+run;
+proc import out=s1617 dbms=xlsx datafile="/home/hvanegasp0/Curso/season-1617.xlsx" replace;
+  getnames=yes;
+run;
+proc import out=s1718 dbms=xlsx datafile="/home/hvanegasp0/Curso/season-1718.xlsx" replace;
+  getnames=yes;
+run;
+proc import out=s1819 dbms=xlsx datafile="/home/hvanegasp0/Curso/season-1819.xlsx" replace;
+  getnames=yes;
+run;
+
+data todos;
+  set s1415 s1516 s1617 s1718 s1819;
+run;
+
+data partA;
+  set todos;
+  Date=date; Team = HomeTeam;
+  GolesAF = FTHG; GolesEC = FTAG;
+  Tiros = HS; TirosP = HST; R = HR;
+  keep Date Season Team GolesAF GolesEC Tiros TirosP R;  
+run;
+
+data partB;
+  set todos;
+  Date=date; Team = AwayTeam;
+  GolesAF = FTAG; GolesEC = FTHG;
+  Tiros = AS; TirosP = AST; R = AR;
+  keep Date Season Team GolesAF GolesEC Tiros TirosP R;  
+run;
+
+data todos2;
+  set partA partB;
+  if GolesAF > GolesEC then PG=1;else PG=0;
+  if GolesAF = GolesEC then PE=1;else PE=0;
+  if R > 0 then RC = 0;else RC = 1; 
+run;
+
+/* En la temporada 16/17 */
+proc sql outobs=2;
+select   Team, sum(3*PG+PE) as Puntos, 
+               sum(GolesAF)-sum(GolesEC) as GolDif,
+               100*mean(PG) as PPG, 
+               100*mean(1-PG-PE) as PPP,
+               100*sum(TirosP)/sum(Tiros) as PTP,
+               100*mean(RC) as RC
+from     todos2
+where    Season='16-17'
+group by Team 
+order by Puntos desc, GolDif desc;
+
+/*** Chelsea	93	52	78.94737	13.15789	35.17241	100
+
+/*En la temporada 17/18 */
+proc sql outobs=4;
+select   Team, sum(3*PG+PE) as Puntos, 
+               sum(GolesAF)-sum(GolesEC) as GolDif,
+               100*mean(PG) as PPG, 
+               100*mean(1-PG-PE) as PPP,
+               100*sum(TirosP)/sum(Tiros) as PTP,
+               100*mean(RC) as RC
+from     todos2
+where    Season='17-18'
+group by Team 
+order by Puntos desc, GolDif desc;
+
+/*** Tottenham	77	38	60.52632	18.42105	34.88746	94.73684
+
+/*Parte de la temporada 18/19 jugada en 2018 */
+proc sql outobs=2;
+select   Team, sum(3*PG+PE) as Puntos, 
+               sum(GolesAF)-sum(GolesEC) as GolDif,
+               100*mean(PG) as PPG, 
+               100*mean(1-PG-PE) as PPP,
+               100*sum(TirosP)/sum(Tiros) as PTP,
+               100*mean(RC) as RC
+from     todos2
+where    Season='18-19' and date < '01JAN2019'd
+group by Team 
+order by Puntos desc, GolDif desc;
+
+/*** Liverpool	54	40	85	0	41.0828	95
+
+/*Desde la temporada 14/15 hasta la 18/19 */
+proc sql;
+create table clasificacion as
+select       Season, Team, sum(3*PG+PE) as Puntos, 
+                           sum(GolesAF)-sum(GolesEC) as GolDif,
+                           100*mean(PG) as PPG, 
+                           100*mean(1-PG-PE) as PPP,
+                           100*sum(TirosP)/sum(Tiros) as PTP,
+                           100*mean(RC) as RC
+from         todos2
+group by     Season, Team 
+order by     Season, Puntos desc, GolDif desc;
+quit;
+
+data clasificacion;
+  set clasificacion;
+  Posicion = _n_;
+run;
+ 
+proc sql;
+  create table temporal as
+  select       Season, min(Posicion) as minimo
+  from         clasificacion
+  group by     Season;
+
+  create table clasificacion2 as
+  select       clasificacion.Season, Team, Puntos, (Posicion - minimo + 1) as Pos
+  from         clasificacion inner join temporal on (clasificacion.Season=temporal.Season)
+  order by     clasificacion.Season, Pos;
+quit;
+  
+  
+/*Cuales equipos se mantuvieron en las primeras 4 posiciones de la clasificación final?*/
+proc sql;
+select   Team
+from     clasificacion2
+where    Pos <= 4 
+group by Team
+having   count(*) = 5;
+quit;
+
+/*** Man City
+
+
+/*Cuales equipos se mantuvieron en las primeras 5 posiciones de la clasificación final?*/
+proc sql;
+select   Team
+from     clasificacion2
+where    Pos <= 5 
+group by Team
+having   count(*) = 5;
+quit;
+
+/*** Man City, Tottenham
+
+
+/*Cuales equipos se mantuvieron en las primeras 6 posiciones de la clasificación final?*/
+proc sql;
+select    Team
+from      clasificacion2
+where     Pos <= 6 
+group  by Team
+having    count(*) = 5;
+quit;
+
+/*** Arsenal, Man City, Man United, Tottenham
+
+
+/*Cuales equipos descendieron a la segunda división?*/
+proc sql;
+select distinct Team
+from   clasificacion2
+where  Pos >= 18;
+quit;
+
+/*** Aston Villa, Burnley, Cardiff, Fulham,
+/*** Huddersfield, Hull, Middlesbrough, Newcastle,
+/*** Norwich, QPR, Stoke, Sunderland, Swansea, West Brom
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Cursos a cargo del departamento de Estadística*/
+
+proc import out=ofrecidos dbms=xlsx datafile="/home/u62463561/CE2022-2/ofrecidos.xlsx" replace;
+  getnames=yes;
+run;
+proc contents data=ofrecidos;
+run;
+
+proc import out=docentes dbms=csv datafile="/home/u62463561/CE2022-2/docentes.csv" replace;
+  getnames=yes;
+  delimiter=",";
+run;
+proc contents data=docentes;
+run;
+
+proc import out=cursos dbms=tab datafile="/home/u62463561/CE2022-2/cursos.txt" replace;
+  getnames=yes;
+  delimiter=";";
+run;
+proc contents data=cursos;
+run;
+
+proc sql;
+  create table ofrecidos2 as
+  select ofrecidos.*, nombrecurso
+  from   ofrecidos left join cursos on (ofrecidos.codigocurso=cursos.codigocurso);
+  
+  create table ofrecidos3 as
+  select ofrecidos2.*, nombredocente
+  from   ofrecidos2 left join docentes on (ofrecidos2.iddocente=docentes.iddocente);   
+quit;
+
+
+/*En qué semestre hubo más grupos de Bioestadística Fundamental?/
+
+
+/*  1 */
+
+proc sql;
+  select   semestre, count(*) as ngrupos
+  from     ofrecidos3
+  where    nombrecurso="Bioestadística Fundamental"
+  group by semestre
+  order by ngrupos desc;
+quit;
+
+
+/*** 2014-II
+
+/*En qué semestre hubo más cupos de Probabilidad y Estadística Fundamental?*/
+
+
+/* 1 */
+
+proc sql;
+  select   semestre, sum(cuposn) as ncupos
+  from     ofrecidos3
+  where    nombrecurso="Probabilidad y Estadística Fundamental"
+  group by semestre
+  order by ncupos desc;
+quit;
+
+
+/*** 2015-II
+
+/*En qué semestre hubo mayor homogeneidad en el número de cupos por grupo de Estadística Social Fundamental?*/
+
+
+/* 1 */
+
+proc sql;
+  select   semestre, cv(cuposn) as cvcupos
+  from     ofrecidos3
+  where    nombrecurso="Estadística Social Fundamental"
+  group by semestre
+  order by cvcupos;
+quit;
+
+
+/*** 2016-I
+
+/*Cuales cursos del pregrado en Estadística se abrieron solo un semestre/
+proc sql;
+  select   codigocurso, nombrecurso
+  from     ofrecidos3
+  where    programa="Pregrado"
+  group by codigocurso, nombrecurso
+  having   count(distinct semestre)=1;
+quit;
+
+/*** 2016321 Finanzas y Modelos de Inversión
+/*** 2016332 Teoría Estadística del Riesgo
+/*** 2016334 Análisis de Datos Longitudinales
+/*** 2016340 Series de Tiempo Multivariadas
+
+
+/*Cuales cursos del pregrado en Estadística se abrieron todos los semestres*/
+proc sql;
+  select   codigocurso, nombrecurso
+  from     ofrecidos3
+  where    programa="Pregrado"
+  group by codigocurso, nombrecurso
+  having   count(distinct semestre)=6;
+quit;
+
+/*** 2015178 Probabilidad
+/*** 2016360 Análisis de Regresión
+/*** 2016366 Estadística Descriptiva y Exploratoria
+
+
+/*En cual de los edificios (404 o 405) hubo mayor número de cupos ofrecidos en los todos los semestres */
+
+data ofrecidos3;
+set ofrecidos3;
+  edificio=substr(salon,1,3);
+run;
+
+
+/* 1 */
+
+proc sql;
+  select   semestre, edificio, sum(cuposn) as cupos
+  from     ofrecidos3
+  where    programa="Pregrado"
+  group by semestre, edificio;
+quit;
+
+
+/*** 405
+
+/*Cuales de las agrupaciones del pregrado han tenido número de cursos y número de cupos mayores al 35% del total que se ofrecieron en todos los semestres?*/
+
+
+/* 1 */
+
+proc freq data=ofrecidos3;
+  table agrupacion*semestre / nopercent norow;
+  where programa="Pregrado";
+run;  
+
+proc freq data=ofrecidos3;
+  table  agrupacion*semestre / nopercent norow;
+  weight cuposn;
+  where  programa="Pregrado";
+run;  
+
+
+/*** Nucleo
+
+
+/*En qué semestre se tuvo el mayor porcentaje de cupos ofrecidos en cursos con clases los lunes del total de cupos ofrecidos en los programas de posgrado*/
+data ofrecidos3;
+set ofrecidos3;
+  lunes="No";
+  if lowcase(substr(dia,1,2))="lu" then lunes="Si";
+run;
+
+/* 1 */
+
+proc freq data=ofrecidos3;
+  table  lunes*semestre / nopercent norow;
+  weight cuposn;
+  where  programa is not null and 
+         programa not in ("Pregrado","Otros pregrados");
+run;  
+
+
+
+/*** 2014-I
+
+/* Cuales profesores(as) dictaron en solo uno de los programas del departamento de Estadística?*/
+proc sql;
+  select   iddocente, nombredocente
+  from     ofrecidos3
+  where    programa ne "Otros pregrados"
+  group by iddocente, nombredocente
+  having   count(distinct programa)=1;  
+quit;
+
+/*** 32710817 Mayo Luz Polo Gonzalez
+/*** 35324340 Nelcy Rodriguez Malagon
+/*** 52866185 Diana Carolina Franco Soto
+/*** 65734135 Sandra Vergara Cardozo
+/*** 79550569 Carlos Arturo Panza Ospino
+
+
+/* Cuales profesores(as) dictaron en todos los programas del departamento de Estadística? */
+proc sql;
+  select   iddocente, nombredocente
+  from     ofrecidos3
+  where    programa ne "Otros pregrados"
+  group by iddocente, nombredocente
+  having   count(distinct programa)=4;  
+quit;
+
+/*** 19258429 Jose Alberto Vargas Navas
+/*** 79386588 Ruben Dario Guevara Gonzalez
+/*** 79560032 Carlos Eduardo Alonso Malaver
+/*** 79640675 Leonardo Trujillo Oyola
+
+
+/* En los programas del departamento de Estadística cual(es) es(son) el(los) profesor(es) con el menor número de cursos diferentes asignados?*/
+proc sql;
+  select   iddocente, nombredocente, 
+           count(distinct codigocurso) as cursosdiferentes
+  from     ofrecidos3
+  where    programa ne "Otros pregrados"
+  group by iddocente, nombredocente
+  order by cursosdiferentes;  
+quit;
+
+/*** 32710817 Mayo Luz Polo Gonzalez
+/*** 65734135 Sandra Vergara Cardozo
+
+
+/*En qué semestre se tuvo el mayor porcentaje de cupos ofrecidos en cursos con clases entre 9:00 y 4:00 del total de cupos ofrecidos en la maestria? */
+data ofrecidos3;
+set ofrecidos3;
+  diurno="No";
+  if horario in ("09:00-11:00","11:00-13:00","14:00-16:00") then diurno="Si";
+run;
+
+
+/* 1 */
+
+
+proc freq data=ofrecidos3;
+  table  diurno*semestre / nopercent norow;
+  weight cuposn;
+  where  programa = "Maestría";
+run;
+
+/*** 2016-I

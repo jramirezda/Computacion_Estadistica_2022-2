@@ -1,0 +1,1118 @@
+Departamento@Dep@Municipio@Depmun@Superficie@Poblacion@Irural@Region@Tipo2@Tipo@Zona@denspobl
+Antioquia@05@Medellín@05001@374.83062476@2483545@5@Eje Cafetero@Capital@Capital@Urbano@6625.779314564244
+Antioquia@05@Abejorral@05002@507.1341142@20258@45@Eje Cafetero@Otro@Otro@Rural@39.946040766665504
+Antioquia@05@Abriaquí@05004@296.95598007@2710@58@Eje Cafetero@Otro@Otro@Rural@9.125931726854548
+Antioquia@05@Alejandría@05021@128.93215315@4669@48@Eje Cafetero@Otro@Otro@Rural@36.21284439862005
+Antioquia@05@Amagá@05030@84.13247691@30777@28@Eje Cafetero@Otro@Otro@Urbano@365.81592662395326
+Antioquia@05@Amalfi@05031@1209.12687145@26552@54@Eje Cafetero@Otro@Otro@Rural@21.95964759939419
+Antioquia@05@Andes@05034@402.50256241@43713@38@Eje Cafetero@Otro@Otro@Urbano@108.6030353155187
+Antioquia@05@Angelópolis@05036@81.87630162@5790@37@Eje Cafetero@Otro@Otro@Urbano@70.71643302688786
+Antioquia@05@Angostura@05038@338.66648207@11462@47@Eje Cafetero@Otro@Otro@Rural@33.844506636564304
+Antioquia@05@Anorí@05040@1413.77390426@18737@58@Eje Cafetero@Otro@Otro@Rural@13.253179977039789
+Antioquia@05@Santafé De Antioquia@05042@525.60137455@26598@45@Eje Cafetero@Otro@Otro@Rural@50.6048904890559
+Antioquia@05@Anza@05044@255.9233139@7085@48@Eje Cafetero@Otro@Otro@Rural@27.684074154996317
+Antioquia@05@Apartadó@05045@535.17237724@124647@34@Eje Cafetero@Otro@Otro@Urbano@232.91000302151545
+Antioquia@05@Arboletes@05051@754.25190197@29942@48@Eje Cafetero@Otro@Otro@Rural@39.69761285559334
+Antioquia@05@Argelia@05055@245.34178234@7577@46@Eje Cafetero@Otro@Otro@Rural@30.88344727804915
+Antioquia@05@Armenia@05059@110.43497498@5085@43@Eje Cafetero@Otro@Otro@Rural@46.04519538235875
+Antioquia@05@Barbosa@05079@205.66616815@53242@32@Eje Cafetero@Otro@Otro@Urbano@258.8758300838698
+Antioquia@05@Belmira@05086@296.15316705@6054@51@Eje Cafetero@Otro@Otro@Rural@20.442124797462977
+Antioquia@05@Bello@05088@147.75841796@538527@12@Eje Cafetero@Otro@Otro@Urbano@3644.645140595548
+Antioquia@05@Betania@05091@180.52598682000001@10274@42@Eje Cafetero@Otro@Otro@Rural@56.91147397102482
+Antioquia@05@Betulia@05093@262.36750258@15736@42@Eje Cafetero@Otro@Otro@Rural@59.9769401517318
+Antioquia@05@Ciudad Bolívar@05101@260.44610792@26160@38@Eje Cafetero@Otro@Otro@Urbano@100.44304447058754
+Antioquia@05@Briceño@05107@376.3467564@8065@52@Eje Cafetero@Otro@Otro@Rural@21.429705086731552
+Antioquia@05@Buriticá@05113@355.21025575@9502@52@Eje Cafetero@Otro@Otro@Rural@26.75035375861329
+Antioquia@05@Cáceres@05120@1873.80283368@29716@56@Eje Cafetero@Otro@Otro@Rural@15.858658907906621
+Antioquia@05@Caicedo@05125@200.12988321@8420@46@Eje Cafetero@Otro@Otro@Rural@42.07267732807667
+Antioquia@05@Caldas@05129@132.75593574@81658@24@Eje Cafetero@Otro@Otro@Urbano@615.0986737039439
+Antioquia@05@Campamento@05134@206.34334641@9202@46@Eje Cafetero@Otro@Otro@Rural@44.59557412486572
+Antioquia@05@Cañasgordas@05138@364.83123014@15490@46@Eje Cafetero@Otro@Otro@Rural@42.45798802382099
+Antioquia@05@Caracolí@05142@262.79877541@4537@53@Eje Cafetero@Otro@Otro@Rural@17.2641595948143
+Antioquia@05@Caramanta@05145@92.05778314@4670@42@Eje Cafetero@Otro@Otro@Rural@50.729007811299766
+Antioquia@05@Carepa@05147@387.27064217@49659@40@Eje Cafetero@Otro@Otro@Urbano@128.22815517784903
+Antioquia@05@El Carmen De Viboral@05148@423.64519157@61122@38@Eje Cafetero@Otro@Otro@Urbano@144.2763926423573
+Antioquia@05@Carolina@05150@149.580818@3954@51@Eje Cafetero@Otro@Otro@Rural@26.433870685210454
+Antioquia@05@Caucasia@05154@1429.12197616@93044@45@Eje Cafetero@Otro@Otro@Rural@65.10570934610209
+Antioquia@05@Chigorodó@05172@721.68264526@58684@43@Eje Cafetero@Otro@Otro@Rural@81.31552058988196
+Antioquia@05@Cisneros@05190@46.93473179@9844@34@Eje Cafetero@Otro@Otro@Urbano@209.73806868749128
+Antioquia@05@Cocorná@05197@241.76470342@15042@41@Eje Cafetero@Otro@Otro@Rural@62.21751888185532
+Antioquia@05@Concepción@05206@202.05448562@4760@49@Eje Cafetero@Otro@Otro@Rural@23.55800211707272
+Antioquia@05@Concordia@05209@247.88039048@21504@39@Eje Cafetero@Otro@Otro@Urbano@86.75151736835363
+Antioquia@05@Copacabana@05212@67.76071731@80000@20@Eje Cafetero@Otro@Otro@Urbano@1180.625046131171
+Antioquia@05@Dabeiba@05234@1957.26270789@23255@57@Eje Cafetero@Otro@Otro@Rural@11.881389200466467
+Antioquia@05@Don Matías@05237@203.33231063@19332@39@Eje Cafetero@Otro@Otro@Urbano@95.07588803816861
+Antioquia@05@Ebéjico@05240@237.77937835@12108@42@Eje Cafetero@Otro@Otro@Rural@50.921152557551046
+Antioquia@05@El Bagre@05250@1560.24887159@52925@51@Eje Cafetero@Otro@Otro@Rural@33.920870550648644
+Antioquia@05@Entrerrios@05264@214.1959458@11465@46@Eje Cafetero@Otro@Otro@Rural@53.52575632176134
+Antioquia@05@Envigado@05266@77.99670323@236114@8@Eje Cafetero@Otro@Otro@Urbano@3027.230513881298
+Antioquia@05@Fredonia@05282@258.09259898@24553@38@Eje Cafetero@Otro@Otro@Urbano@95.13252257924161
+Antioquia@05@Frontino@05284@1384.1313647@20657@55@Eje Cafetero@Otro@Otro@Rural@14.924161482661907
+Antioquia@05@Giraldo@05306@93.49444129@5652@48@Eje Cafetero@Otro@Otro@Rural@60.45279186672383
+Antioquia@05@Girardota@05308@82.85600095@53162@25@Eje Cafetero@Otro@Otro@Urbano@641.6191873909165
+Antioquia@05@Gómez Plata@05310@332.20462869@9828@48@Eje Cafetero@Otro@Otro@Rural@29.584175388390193
+Antioquia@05@Granada@05313@190.22512112@9870@43@Eje Cafetero@Otro@Otro@Rural@51.88589152624954
+Antioquia@05@Guadalupe@05315@118.20974808@6607@45@Eje Cafetero@Otro@Otro@Rural@55.892175622678984
+Antioquia@05@Guarne@05318@151.8116382@56774@30@Eje Cafetero@Otro@Otro@Urbano@373.9765980603192
+Antioquia@05@Guatapé@05321@83.32688921@8548@41@Eje Cafetero@Otro@Otro@Rural@102.58393276217684
+Antioquia@05@Heliconia@05347@114.84882851@5400@41@Eje Cafetero@Otro@Otro@Rural@47.01832896388505
+Antioquia@05@Hispania@05353@57.52160128@5530@39@Eje Cafetero@Otro@Otro@Urbano@96.1377965311052
+Antioquia@05@Itagui@05360@19.64955524@283794@0@Eje Cafetero@Otro@Otro@Urbano@14442.769647136298
+Antioquia@05@Ituango@05361@2841.11608867@27419@58@Eje Cafetero@Otro@Otro@Rural@9.650784812821762
+Antioquia@05@Jardín@05364@201.16256166@14662@41@Eje Cafetero@Otro@Otro@Rural@72.88632576066192
+Antioquia@05@Jericó@05368@205.00067523@13637@41@Eje Cafetero@Otro@Otro@Rural@66.52173210990647
+Antioquia@05@La Ceja@05376@132.71495274@66746@28@Eje Cafetero@Otro@Otro@Urbano@502.9275045650745
+Antioquia@05@La Estrella@05380@36.63179449@73696@16@Eje Cafetero@Otro@Otro@Urbano@2011.8042543648264
+Antioquia@05@La Pintada@05390@54.29631115@8298@36@Eje Cafetero@Otro@Otro@Urbano@152.828061874697
+Antioquia@05@La Unión@05400@167.73965985@21963@37@Eje Cafetero@Otro@Otro@Urbano@130.93504553210764
+Antioquia@05@Liborina@05411@216.41644317@10040@46@Eje Cafetero@Otro@Otro@Rural@46.39203866830652
+Antioquia@05@Maceo@05425@387.10137584@8218@53@Eje Cafetero@Otro@Otro@Rural@21.229580964849717
+Antioquia@05@Marinilla@05440@114.87120133@66399@27@Eje Cafetero@Otro@Otro@Urbano@578.029995605688
+Antioquia@05@Montebello@05467@76.02845245@6635@37@Eje Cafetero@Otro@Otro@Urbano@87.26995994510736
+Antioquia@05@Murindó@05475@1266.20138253@5088@68@Eje Cafetero@Otro@Otro@Rural@4.0183181523887255
+Antioquia@05@Mutatá@05480@1075.17282089@14196@57@Eje Cafetero@Otro@Otro@Rural@13.203458759540558
+Antioquia@05@Nariño@05483@316.76741824@9997@44@Eje Cafetero@Otro@Otro@Rural@31.559432644760633
+Antioquia@05@Necoclí@05490@1255.54393569@43257@49@Eje Cafetero@Otro@Otro@Rural@34.452796728477345
+Antioquia@05@Nechí@05495@937.32294501@26652@53@Eje Cafetero@Otro@Otro@Rural@28.434170039138067
+Antioquia@05@Olaya@05501@86.98619201@3150@47@Eje Cafetero@Otro@Otro@Rural@36.21264395201797
+Antioquia@05@Peñol@05541@118.31434977@21427@37@Eje Cafetero@Otro@Otro@Urbano@181.10229267754525
+Antioquia@05@Peque@05543@434.06904339@8186@52@Eje Cafetero@Otro@Otro@Rural@18.85875098594646
+Antioquia@05@Pueblorrico@05576@75.43285986@8681@37@Eje Cafetero@Otro@Otro@Urbano@115.08247222909945
+Antioquia@05@Puerto Berrío@05579@1220.10917421@40048@49@Eje Cafetero@Otro@Otro@Rural@32.82329224835999
+Antioquia@05@Puerto Nare@05585@669.29146921@14384@50@Eje Cafetero@Otro@Otro@Rural@21.491384040765073
+Antioquia@05@Puerto Triunfo@05591@369.55676202@18550@46@Eje Cafetero@Otro@Otro@Rural@50.19526607659825
+Antioquia@05@Remedios@05604@1989.19130969@29061@57@Eje Cafetero@Otro@Otro@Rural@14.609454534832516
+Antioquia@05@Retiro@05607@243.60002783@24185@40@Eje Cafetero@Otro@Otro@Urbano@99.28159785300957
+Antioquia@05@Rionegro@05615@195.94014889@139553@24@Eje Cafetero@Otro@Otro@Urbano@712.2225883289723
+Antioquia@05@Sabanalarga@05628@265.76441601@9155@49@Eje Cafetero@Otro@Otro@Rural@34.44780207014442
+Antioquia@05@Sabaneta@05631@15.83531904@85484@10@Eje Cafetero@Otro@Otro@Urbano@5398.31245484019
+Antioquia@05@Salgar@05642@288.23494211@18218@42@Eje Cafetero@Otro@Otro@Rural@63.20538331208784
+Antioquia@05@San Andrés De Cuerquía@05647@218.72661072@7240@48@Eje Cafetero@Otro@Otro@Rural@33.10068206226718
+Antioquia@05@San Carlos@05649@717.81457076@15940@51@Eje Cafetero@Otro@Otro@Rural@22.206292055514027
+Antioquia@05@San Francisco@05652@356.33907493@5776@52@Eje Cafetero@Otro@Otro@Rural@16.20928044765972
+Antioquia@05@San Jerónimo@05656@161.26572012@15710@40@Eje Cafetero@Otro@Otro@Urbano@97.4168595056034
+Antioquia@05@San José De La Montaña@05658@126.07358378@3706@50@Eje Cafetero@Otro@Otro@Rural@29.395531473643334
+Antioquia@05@San Juan De Urabá@05659@251.99693536@20549@43@Eje Cafetero@Otro@Otro@Rural@81.5446424800521
+Antioquia@05@San Luis@05660@425.61907424@13035@51@Eje Cafetero@Otro@Otro@Rural@30.625977050666123
+Antioquia@05@San Pedro@05664@220.94427439@22447@38@Eje Cafetero@Otro@Otro@Urbano@101.59575332727408
+Antioquia@05@San Pedro De Uraba@05665@602.53315431@31571@46@Eje Cafetero@Otro@Otro@Rural@52.397116696680385
+Antioquia@05@San Rafael@05667@363.92865829@15632@47@Eje Cafetero@Otro@Otro@Rural@42.95347355564258
+Antioquia@05@San Roque@05670@424.85489769@21533@46@Eje Cafetero@Otro@Otro@Rural@50.683186464550985
+Antioquia@05@San Vicente@05674@230.49117392@22258@39@Eje Cafetero@Otro@Otro@Urbano@96.56768899847512
+Antioquia@05@Santa Bárbara@05679@196.16974628@26944@36@Eje Cafetero@Otro@Otro@Urbano@137.3504350744374
+Antioquia@05@Santa Rosa De Osos@05686@864.77891437@37143@47@Eje Cafetero@Otro@Otro@Rural@42.950862217841006
+Antioquia@05@Santo Domingo@05690@265.95072004@12326@45@Eje Cafetero@Otro@Otro@Rural@46.346932236717095
+Antioquia@05@El Santuario@05697@83.45109381@36043@28@Eje Cafetero@Otro@Otro@Urbano@431.90566299900246
+Antioquia@05@Segovia@05736@1127.32687972@38692@50@Eje Cafetero@Otro@Otro@Rural@34.32189961585067
+Antioquia@05@Sonsón@05756@1346.39714434@36394@48@Eje Cafetero@Otro@Otro@Rural@27.030657449767716
+Antioquia@05@Sopetrán@05761@219.07191325@15293@42@Eje Cafetero@Otro@Otro@Rural@69.80812726343413
+Antioquia@05@Támesis@05789@252.23974404@16193@41@Eje Cafetero@Otro@Otro@Rural@64.1968618451822
+Antioquia@05@Tarazá@05790@1148.98499304@27517@54@Eje Cafetero@Otro@Otro@Rural@23.948963795597667
+Antioquia@05@Tarso@05792@120.47906214@6194@42@Eje Cafetero@Otro@Otro@Rural@51.411422781515355
+Antioquia@05@Titiribí@05809@140.34578815@10716@38@Eje Cafetero@Otro@Otro@Urbano@76.35426856235158
+Antioquia@05@Toledo@05819@122.57841669@5005@46@Eje Cafetero@Otro@Otro@Rural@40.83100545063828
+Antioquia@05@Turbo@05837@2919.53532994@127565@48@Eje Cafetero@Otro@Otro@Rural@43.693596954218606
+Antioquia@05@Uramita@05842@265.93037264@6875@49@Eje Cafetero@Otro@Otro@Rural@25.85263176879366
+Antioquia@05@Urrao@05847@2563.39722765@30484@54@Eje Cafetero@Otro@Otro@Rural@11.892031274429627
+Antioquia@05@Valdivia@05854@567.70263561@13950@50@Eje Cafetero@Otro@Otro@Rural@24.572723684840106
+Antioquia@05@Valparaíso@05856@126.17475786@6462@43@Eje Cafetero@Otro@Otro@Rural@51.214681205650145
+Antioquia@05@Vegachí@05858@524.95500916@11910@52@Eje Cafetero@Otro@Otro@Rural@22.68765854631549
+Antioquia@05@Venecia@05861@139.67431059@11636@38@Eje Cafetero@Otro@Otro@Urbano@83.30808973280932
+Antioquia@05@Vigía Del Fuerte@05873@1661.85288067@9265@67@Eje Cafetero@Otro@Otro@Rural@5.57510240994659
+Antioquia@05@Yalí@05885@440.85831184@7630@54@Eje Cafetero@Otro@Otro@Rural@17.307147886482728
+Antioquia@05@Yarumal@05887@738.25626326@42116@45@Eje Cafetero@Otro@Otro@Rural@57.047941339533935
+Antioquia@05@Yolombó@05890@1012.5146203@23050@53@Eje Cafetero@Otro@Otro@Rural@22.765103375169502
+Antioquia@05@Yondó@05893@1894.98748943@19624@59@Eje Cafetero@Otro@Otro@Rural@10.355741190620087
+Antioquia@05@Zaragoza@05895@1167.35761591@25210@53@Eje Cafetero@Otro@Otro@Rural@21.59578149524286
+Atlántico@08@Barranquilla@08001@154.20207902@1243056@3@Caribe@Capital@Capital@Urbano@8061.214270909899
+Atlántico@08@Baranoa@08078@121.34712432@64949@26@Caribe@Otro@Otro@Urbano@535.2331203887898
+Atlántico@08@Campo De La Cruz@08137@99.99500657@23230@34@Caribe@Otro@Otro@Urbano@232.3116003171437
+Atlántico@08@Candelaria@08141@135.7690644@16648@39@Caribe@Otro@Otro@Urbano@122.6199802846988
+Atlántico@08@Galapa@08296@97.51307157@64260@28@Caribe@Otro@Otro@Urbano@658.9885742022884
+Atlántico@08@Juan De Acosta@08372@167.93048227@21971@39@Caribe@Otro@Otro@Urbano@130.83390045099048
+Atlántico@08@Luruaco@08421@224.32105579@29348@38@Caribe@Otro@Otro@Urbano@130.8303400081817
+Atlántico@08@Malambo@08433@97.94233728@134468@19@Caribe@Otro@Otro@Urbano@1372.9302744285092
+Atlántico@08@Manatí@08436@214.27303319@20698@42@Caribe@Otro@Otro@Rural@96.59638309057158
+Atlántico@08@Palmar De Varela@08520@92.33826091@30094@29@Caribe@Otro@Otro@Urbano@325.91040488982065
+Atlántico@08@Piojó@08549@252.97468793@6873@51@Caribe@Otro@Otro@Rural@27.168726073898
+Atlántico@08@Polonuevo@08558@73.86433128@18941@32@Caribe@Otro@Otro@Urbano@256.4295874851925
+Atlántico@08@Ponedera@08560@206.53519105@24877@38@Caribe@Otro@Otro@Urbano@120.44920709893714
+Atlántico@08@Puerto Colombia@08573@70.56709254@51695@27@Caribe@Otro@Otro@Urbano@732.5652529994401
+Atlántico@08@Repelón@08606@358.54030648@27249@41@Caribe@Otro@Otro@Rural@75.99982347178586
+Atlántico@08@Sabanagrande@08634@43.11113256@33858@23@Caribe@Otro@Otro@Urbano@785.3655886418215
+Atlántico@08@Sabanalarga@08638@395.87438012@97005@32@Caribe@Otro@Otro@Urbano@245.03985322463964
+Atlántico@08@Santa Lucía@08675@57.36635532@16624@33@Caribe@Otro@Otro@Urbano@289.78658147738855
+Atlántico@08@Santo Tomás@08685@65.00300596@31027@28@Caribe@Otro@Otro@Urbano@477.31638778509193
+Atlántico@08@Soledad@08758@59.35835745@638065@4@Caribe@Otro@Otro@Urbano@10749.370895875421
+Atlántico@08@Suan@08770@42.55805817@12282@32@Caribe@Otro@Otro@Urbano@288.5939943720886
+Atlántico@08@Tubará@08832@182.9895582@18190@41@Caribe@Otro@Otro@Rural@99.40457903132966
+Atlántico@08@Usiacurí@08849@101.37813271@12743@39@Caribe@Otro@Otro@Urbano@125.69771862392
+Bogotá D C@11@Bogotá D C@11001.0@1622.85260469@7592871@6@Centro Oriente@Otro@Capital@Urbano@4678.718805427437
+Bolívar@13@Cartagena@13001.0@597.68101163@1003685@18@Caribe@Otro@Capital@Urbano@1679.2987906086275
+Bolívar@13@Achí@13006.0@951.76583131@24610@54@Caribe@Otro@Otro@Rural@25.857200574354586
+Bolívar@13@Altos Del Rosario@13030.0@303.74622699@11309@49@Caribe@Otro@Otro@Rural@37.23173819167247
+Bolívar@13@Arenal@13042.0@461.93228344@7590@50@Caribe@Otro@Otro@Rural@16.430979760664115
+Bolívar@13@Arjona@13052.0@589.57701537@71837@38@Caribe@Otro@Otro@Urbano@121.84498060006182
+Bolívar@13@Arroyohondo@13062.0@163.80837577@8504@44@Caribe@Otro@Otro@Rural@51.914317323677594
+Bolívar@13@Barranco De Loba@13074.0@430.7368606@14996@50@Caribe@Otro@Otro@Rural@34.81475901345231
+Bolívar@13@Calamar@13140.0@255.35331939@22794@41@Caribe@Otro@Otro@Rural@89.26455334299698
+Bolívar@13@Cantagallo@13160.0@881.48321743@8488@59@Caribe@Otro@Otro@Rural@9.629224734132894
+Bolívar@13@Cicuco@13188.0@133.17933326@13903@41@Caribe@Otro@Otro@Rural@104.39307405795313
+Bolívar@13@Córdoba@13212.0@597.31809782@16225@51@Caribe@Otro@Otro@Rural@27.163081211193024
+Bolívar@13@Clemencia@13222.0@85.37593328@15014@36@Caribe@Otro@Otro@Urbano@175.85752123798042
+Bolívar@13@El Carmen De Bolívar@13244.0@946.27376344@71428@42@Caribe@Otro@Otro@Rural@75.48344121931159
+Bolívar@13@El Guamo@13248.0@383.17338739@8825@52@Caribe@Otro@Otro@Rural@23.031348967400426
+Bolívar@13@El Peñón@13268.0@318.9348519@7884@52@Caribe@Otro@Otro@Rural@24.719781964976278
+Bolívar@13@Hatillo De Loba@13300.0@194.33101468@12699@44@Caribe@Otro@Otro@Rural@65.34726338413415
+Bolívar@13@Magangué@13430.0@1129.96283733@137030@39@Caribe@Otro@Otro@Urbano@121.26947495352104
+Bolívar@13@Mahates@13433.0@432.18034127@28602@43@Caribe@Otro@Otro@Rural@66.1807057580419
+Bolívar@13@Margarita@13440.0@293.68335547@10913@50@Caribe@Otro@Otro@Rural@37.15906876143947
+Bolívar@13@María La Baja@13442.0@559.91784324@47389@40@Caribe@Otro@Otro@Urbano@84.63563105219251
+Bolívar@13@Montecristo@13458.0@2092.81355819@17017@61@Caribe@Otro@Otro@Rural@8.131159096043604
+Bolívar@13@Mompós@13468.0@652.14257901@45498@44@Caribe@Otro@Otro@Rural@69.76695198934762
+Bolívar@13@Morales@13473.0@1347.5998537@22846@57@Caribe@Otro@Otro@Rural@16.953103651112396
+Bolívar@13@Pinillos@13549.0@775.56872544@24433@51@Caribe@Otro@Otro@Rural@31.50333322960971
+Bolívar@13@Regidor@13580.0@183.45268918@6983@47@Caribe@Otro@Otro@Rural@38.06430982948647
+Bolívar@13@Río Viejo@13600.0@845.23649259@10638@53@Caribe@Otro@Otro@Rural@12.585826680770383
+Bolívar@13@San Cristóbal@13620.0@42.2688054@8330@35@Caribe@Otro@Otro@Urbano@197.07204689536837
+Bolívar@13@San Estanislao@13647.0@211.63925667@18729@41@Caribe@Otro@Otro@Rural@88.49492430982842
+Bolívar@13@San Fernando@13650.0@317.3249881@12813@48@Caribe@Otro@Otro@Rural@40.37816270542862
+Bolívar@13@San Jacinto@13654.0@442.91599064@24232@45@Caribe@Otro@Otro@Rural@54.710149355830445
+Bolívar@13@San Jacinto Del Cauca@13655.0@569.95070071@10305@54@Caribe@Otro@Otro@Rural@18.080511151513345
+Bolívar@13@San Juan Nepomuceno@13657.0@631.22474109@37765@44@Caribe@Otro@Otro@Rural@59.82813654418446
+Bolívar@13@San Martín De Loba@13667.0@450.19812675@14792@51@Caribe@Otro@Otro@Rural@32.856644932719064
+Bolívar@13@San Pablo De Borbur@13670.0@2021.0359913@28043@56@Caribe@Otro@Otro@Rural@13.875556952334023
+Bolívar@13@Santa Catalina@13673.0@172.77422027@14747@41@Caribe@Otro@Otro@Rural@85.35416902448974
+Bolívar@13@Santa Rosa@13683.0@154.67224223@21766@37@Caribe@Otro@Otro@Urbano@140.72337535285502
+Bolívar@13@Santa Rosa Del Sur@13688.0@2382.7823713@33701@56@Caribe@Otro@Otro@Rural@14.143549325326504
+Bolívar@13@Simití@13744.0@1354.65972673@18678@57@Caribe@Otro@Otro@Rural@13.787964336318348
+Bolívar@13@Soplaviento@13760.0@92.60413437@10733@39@Caribe@Otro@Otro@Urbano@115.90195268297933
+Bolívar@13@Talaigua Nuevo@13780.0@249.3051513@13106@46@Caribe@Otro@Otro@Rural@52.57011309898272
+Bolívar@13@Tiquisio@13810.0@762.80877801@18584@52@Caribe@Otro@Otro@Rural@24.36259326810785
+Bolívar@13@Turbaco@13836.0@201.98114245@109813@30@Caribe@Otro@Otro@Urbano@543.6794676373512
+Bolívar@13@Turbaná@13838.0@191.15515136@16954@40@Caribe@Otro@Otro@Urbano@88.69235215152928
+Bolívar@13@Villanueva@13873.0@137.126414@24581@37@Caribe@Otro@Otro@Urbano@179.25795098820274
+Bolívar@13@Zambrano@13894.0@309.15321@12113@47@Caribe@Otro@Otro@Rural@39.18122021116973
+Boyacá@15@Tunja@15001.0@119.68891815@176347@20@Centro Oriente@Otro@Capital@Urbano@1473.377842541724
+Boyacá@15@Almeida@15022.0@57.67211917@1845@46@Centro Oriente@Otro@Otro@Rural@31.991194819137768
+Boyacá@15@Aquitania@15047.0@942.14656272@15460@54@Centro Oriente@Otro@Otro@Rural@16.409336521237847
+Boyacá@15@Arcabuco@15051.0@137.89858803@5911@48@Centro Oriente@Otro@Otro@Rural@42.864833385488
+Boyacá@15@Belén@15087.0@163.08822003@7500@45@Centro Oriente@Otro@Otro@Rural@45.98738031858082
+Boyacá@15@Berbeo@15090.0@58.01301631@1587@49@Centro Oriente@Otro@Otro@Rural@27.355929771340655
+Boyacá@15@Betéitiva@15092.0@101.89954848000001@1943@51@Centro Oriente@Otro@Otro@Rural@19.067797934171963
+Boyacá@15@Boavita@15097.0@145.3052912@4888@45@Centro Oriente@Otro@Otro@Rural@33.63951828341954
+Boyacá@15@Boyacá@15104.0@48.02286793@5103@39@Centro Oriente@Otro@Otro@Urbano@106.26187522657605
+Boyacá@15@Briceño@15106.0@64.59970295@2175@46@Centro Oriente@Otro@Otro@Rural@33.668885469697045
+Boyacá@15@Buena Vista@15109.0@110.15675651@4396@45@Centro Oriente@Otro@Otro@Rural@39.906766859107115
+Boyacá@15@Busbanzá@15114.0@25.35271463@1138@49@Centro Oriente@Otro@Otro@Rural@44.88671199940848
+Boyacá@15@Caldas@15131.0@78.96557418@3127@45@Centro Oriente@Otro@Otro@Rural@39.599534765264714
+Boyacá@15@Campohermoso@15135.0@298.72837929@3082@55@Centro Oriente@Otro@Otro@Rural@10.317064643557186
+Boyacá@15@Cerinza@15162.0@63.57858191@3703@43@Centro Oriente@Otro@Otro@Rural@58.24288445504902
+Boyacá@15@Chinavita@15172.0@136.37345653@3198@49@Centro Oriente@Otro@Otro@Rural@23.45031123631079
+Boyacá@15@Chiquinquirá@15176.0@165.01366942@57101@31@Centro Oriente@Otro@Otro@Urbano@346.0379991591123
+Boyacá@15@Chiscas@15180.0@658.81489814@3924@60@Centro Oriente@Otro@Otro@Rural@5.956149460308864
+Boyacá@15@Chita@15183.0@677.37700246@7881@56@Centro Oriente@Otro@Otro@Rural@11.634584539154595
+Boyacá@15@Chitaraque@15185.0@158.53472168@5843@47@Centro Oriente@Otro@Otro@Rural@36.85627941993685
+Boyacá@15@Chivatá@15187.0@49.53234015@2812@40@Centro Oriente@Otro@Otro@Urbano@56.77099025574708
+Boyacá@15@Ciénega@15189.0@53.99242241@4642@40@Centro Oriente@Otro@Otro@Urbano@85.97502747237823
+Boyacá@15@Cómbita@15204.0@145.27595481@13140@41@Centro Oriente@Otro@Otro@Rural@90.44855370033689
+Boyacá@15@Coper@15212.0@149.86972672@3585@50@Centro Oriente@Otro@Otro@Rural@23.920774918725364
+Boyacá@15@Corrales@15215.0@60.85143191@2523@47@Centro Oriente@Otro@Otro@Rural@41.461637315807906
+Boyacá@15@Covarachía@15218.0@102.43132247@2742@49@Centro Oriente@Otro@Otro@Rural@26.769155507126005
+Boyacá@15@Cubará@15223.0@1177.6146102@10563@64@Centro Oriente@Otro@Otro@Rural@8.96982757220211
+Boyacá@15@Cucaita@15224.0@42.12806645@3759@39@Centro Oriente@Otro@Otro@Urbano@89.22792610150756
+Boyacá@15@Cuítiva@15226.0@44.13326992@1804@47@Centro Oriente@Otro@Otro@Rural@40.876191663796845
+Boyacá@15@Chíquiza@15232.0@116.5118127@4713@45@Centro Oriente@Otro@Otro@Rural@40.45083404663225
+Boyacá@15@Chivor@15236.0@108.6796408@2504@51@Centro Oriente@Otro@Otro@Rural@23.040193927472018
+Boyacá@15@Duitama@15238.0@234.02439254@124780@28@Centro Oriente@Otro@Otro@Urbano@533.1922824184761
+Boyacá@15@El Cocuy@15244.0@238.34461943@4150@52@Centro Oriente@Otro@Otro@Rural@17.411762891584065
+Boyacá@15@El Espino@15248.0@69.40066627@3054@45@Centro Oriente@Otro@Otro@Rural@44.005341218462625
+Boyacá@15@Firavitoba@15272.0@109.34059509@6737@45@Centro Oriente@Otro@Otro@Rural@61.614810075385705
+Boyacá@15@Floresta@15276.0@88.12845643@3240@45@Centro Oriente@Otro@Otro@Rural@36.76451547263302
+Boyacá@15@Gachantivá@15293.0@88.16642732@2779@48@Centro Oriente@Otro@Otro@Rural@31.519934338652753
+Boyacá@15@Gameza@15296.0@123.68161708@4845@47@Centro Oriente@Otro@Otro@Rural@39.173161819724164
+Boyacá@15@Garagoa@15299.0@193.51249105@18144@41@Centro Oriente@Otro@Otro@Rural@93.76138925994152
+Boyacá@15@Guacamayas@15317.0@57.65232987@1843@49@Centro Oriente@Otro@Otro@Rural@31.967485167655376
+Boyacá@15@Guateque@15322.0@36.13928524@10809@31@Centro Oriente@Otro@Otro@Urbano@299.09279965604543
+Boyacá@15@Guayatá@15325.0@99.96683864@3387@42@Centro Oriente@Otro@Otro@Rural@33.88123547846946
+Boyacá@15@Güicán@15332.0@952.2178782@4285@61@Centro Oriente@Otro@Otro@Rural@4.500020529020141
+Boyacá@15@Iza@15362.0@34.24778273@1972@44@Centro Oriente@Otro@Otro@Rural@57.58036996282942
+Boyacá@15@Jenesano@15367.0@59.00829053@7274@38@Centro Oriente@Otro@Otro@Urbano@123.27081389185264
+Boyacá@15@Jericó@15368.0@131.73689116@3900@49@Centro Oriente@Otro@Otro@Rural@29.60446360665431
+Boyacá@15@Labranzagrande@15377.0@581.27677009@3501@60@Centro Oriente@Otro@Otro@Rural@6.0229484131250155
+Boyacá@15@La Capilla@15380.0@56.9311693@2686@44@Centro Oriente@Otro@Otro@Rural@47.1797792496772
+Boyacá@15@La Victoria@15401.0@28.00521775@1118@44@Centro Oriente@Otro@Otro@Rural@39.921132196874275
+Boyacá@15@La Uvita@15403.0@161.56318622@2831@52@Centro Oriente@Otro@Otro@Rural@17.52255613568451
+Boyacá@15@Villa De Leyva@15407.0@126.58841271@16617@40@Centro Oriente@Otro@Otro@Urbano@131.2679387020019
+Boyacá@15@Macanal@15425.0@199.96600559@5027@51@Centro Oriente@Otro@Otro@Rural@25.13927297376286
+Boyacá@15@Maripí@15442.0@160.68478941@5697@45@Centro Oriente@Otro@Otro@Rural@35.4545070564436
+Boyacá@15@Miraflores@15455.0@258.7141808@8937@47@Centro Oriente@Otro@Otro@Rural@34.54391240698469
+Boyacá@15@Mongua@15464.0@360.37714728@4620@55@Centro Oriente@Otro@Otro@Rural@12.819902801468228
+Boyacá@15@Monguí@15466.0@68.85476038@4266@43@Centro Oriente@Otro@Otro@Rural@61.95650055938805
+Boyacá@15@Moniquirá@15469.0@218.27905548@22821@40@Centro Oriente@Otro@Otro@Urbano@104.54965525581996
+Boyacá@15@Motavita@15476.0@60.044097@5641@39@Centro Oriente@Otro@Otro@Urbano@93.94761986344803
+Boyacá@15@Muzo@15480.0@137.87412732@8466@42@Centro Oriente@Otro@Otro@Rural@61.40383380524159
+Boyacá@15@Nobsa@15491.0@55.42547563@16238@32@Centro Oriente@Otro@Otro@Urbano@292.96997121682614
+Boyacá@15@Nuevo Colón@15494.0@51.39679736@5172@38@Centro Oriente@Otro@Otro@Urbano@100.62883809225735
+Boyacá@15@Oicatá@15500.0@60.30217623@2858@46@Centro Oriente@Otro@Otro@Rural@47.39464110050079
+Boyacá@15@Otanche@15507.0@475.04006737@8002@53@Centro Oriente@Otro@Otro@Rural@16.844894882871827
+Boyacá@15@Pachavita@15511.0@66.69016938@2447@45@Centro Oriente@Otro@Otro@Rural@36.69206455387773
+Boyacá@15@Páez@15514.0@339.06908334@3256@58@Centro Oriente@Otro@Otro@Rural@9.602762858609141
+Boyacá@15@Paipa@15516.0@305.10919497@34177@41@Centro Oriente@Otro@Otro@Rural@112.01563428254094
+Boyacá@15@Pajarito@15518.0@313.68257433@2400@61@Centro Oriente@Otro@Otro@Rural@7.651046619743545
+Boyacá@15@Panqueba@15522.0@39.7152486@1702@47@Centro Oriente@Otro@Otro@Rural@42.85507607272034
+Boyacá@15@Pauna@15531.0@252.62872292@7198@48@Centro Oriente@Otro@Otro@Rural@28.492405443063543
+Boyacá@15@Paya@15533.0@443.81045736@2616@63@Centro Oriente@Otro@Otro@Rural@5.8944082020086634
+Boyacá@15@Paz De Río@15537.0@122.69950912@4228@47@Centro Oriente@Otro@Otro@Rural@34.458165564990324
+Boyacá@15@Pesca@15542.0@263.09258436@6765@49@Centro Oriente@Otro@Otro@Rural@25.71338153242352
+Boyacá@15@Pisba@15550.0@464.9507465@1779@68@Centro Oriente@Otro@Otro@Rural@3.826211729719204
+Boyacá@15@Puerto Boyacá@15572.0@1513.60103664@47600@49@Centro Oriente@Otro@Otro@Rural@31.44818142148336
+Boyacá@15@Quípama@15580.0@167.32685905@4939@44@Centro Oriente@Otro@Otro@Rural@29.517078298374955
+Boyacá@15@Ramiriquí@15599.0@125.68380229@9988@41@Centro Oriente@Otro@Otro@Rural@79.4692698503337
+Boyacá@15@Ráquira@15600.0@220.66637028@7958@44@Centro Oriente@Otro@Otro@Rural@36.06349254715262
+Boyacá@15@Rondón@15621.0@206.36342967@2384@53@Centro Oriente@Otro@Otro@Rural@11.552434478397183
+Boyacá@15@Saboyá@15632.0@248.65196199@13728@45@Centro Oriente@Otro@Otro@Rural@55.209699091584476
+Boyacá@15@Sáchica@15638.0@63.92725829@5578@44@Centro Oriente@Otro@Otro@Rural@87.25542357371135
+Boyacá@15@Samacá@15646.0@167.5862368@18588@40@Centro Oriente@Otro@Otro@Urbano@110.91602959127967
+Boyacá@15@San Eduardo@15660.0@109.46960177@1676@53@Centro Oriente@Otro@Otro@Rural@15.31018632479675
+Boyacá@15@San José De Pare@15664.0@74.40355031@4989@42@Centro Oriente@Otro@Otro@Rural@67.05325188399601
+Boyacá@15@San Luis De Gaceno@15667.0@469.84549583@5476@55@Centro Oriente@Otro@Otro@Rural@11.654895170009956
+Boyacá@15@San Mateo@15673.0@123.87947184@3204@48@Centro Oriente@Otro@Otro@Rural@25.86384937238202
+Boyacá@15@San Miguel De Sema@15676.0@93.99806905@3006@45@Centro Oriente@Otro@Otro@Rural@31.979380325366375
+Boyacá@15@San Pablo De Borbur@15681.0@195.90435681@6664@44@Centro Oriente@Otro@Otro@Rural@34.01659926564652
+Boyacá@15@Santana@15686.0@67.9638235@7643@40@Centro Oriente@Otro@Otro@Urbano@112.4568867141502
+Boyacá@15@Santa María@15690.0@309.65967352@3518@54@Centro Oriente@Otro@Otro@Rural@11.360859358952927
+Boyacá@15@Santa Rosa De Viterbo@15693.0@116.70609242@13205@40@Centro Oriente@Otro@Otro@Urbano@113.14747778957468
+Boyacá@15@Santa Sofía@15696.0@77.56281644@3195@47@Centro Oriente@Otro@Otro@Rural@41.19241856658912
+Boyacá@15@Sativanorte@15720.0@161.31016461@2177@54@Centro Oriente@Otro@Otro@Rural@13.495739746241897
+Boyacá@15@Sativasur@15723.0@54.88468108@1100@51@Centro Oriente@Otro@Otro@Rural@20.042022261123066
+Boyacá@15@Siachoque@15740.0@119.22296697@6747@44@Centro Oriente@Otro@Otro@Rural@56.59144518436404
+Boyacá@15@Soatá@15753.0@123.09543776@8908@43@Centro Oriente@Otro@Otro@Rural@72.36661376003218
+Boyacá@15@Socotá@15755.0@603.58638786@7231@55@Centro Oriente@Otro@Otro@Rural@11.980058108396587
+Boyacá@15@Socha@15757.0@150.15200342@8018@46@Centro Oriente@Otro@Otro@Rural@53.39922090531371
+Boyacá@15@Sogamoso@15759.0@208.30587404@129346@27@Centro Oriente@Otro@Otro@Urbano@620.9426431016645
+Boyacá@15@Somondoco@15761.0@58.79505007@2887@41@Centro Oriente@Otro@Otro@Rural@49.10277304913944
+Boyacá@15@Sora@15762.0@47.84502378@3050@44@Centro Oriente@Otro@Otro@Rural@63.74748634308234
+Boyacá@15@Sotaquirá@15763.0@285.29380791@8237@49@Centro Oriente@Otro@Otro@Rural@28.871990108521665
+Boyacá@15@Soracá@15764.0@55.75775305@6015@40@Centro Oriente@Otro@Otro@Urbano@107.8773743734998
+Boyacá@15@Susacón@15774.0@182.70313713@2704@53@Centro Oriente@Otro@Otro@Rural@14.79996480890202
+Boyacá@15@Sutamarchán@15776.0@103.50533623@6164@44@Centro Oriente@Otro@Otro@Rural@59.55248516175947
+Boyacá@15@Sutatenza@15778.0@41.12701065@4224@38@Centro Oriente@Otro@Otro@Urbano@102.70622477152979
+Boyacá@15@Tasco@15790.0@209.69811173@5823@49@Centro Oriente@Otro@Otro@Rural@27.76849038820861
+Boyacá@15@Tenza@15798.0@45.86408254@3828@39@Centro Oriente@Otro@Otro@Urbano@83.46400468517908
+Boyacá@15@Tibaná@15804.0@121.83265484@9085@42@Centro Oriente@Otro@Otro@Rural@74.56949872701304
+Boyacá@15@Tibasosa@15806.0@93.75675416@13196@38@Centro Oriente@Otro@Otro@Urbano@140.74719328999433
+Boyacá@15@Tinjacá@15808.0@79.7514018@3313@49@Centro Oriente@Otro@Otro@Rural@41.54158955485595
+Boyacá@15@Tipacoque@15810.0@71.94767125@3299@45@Centro Oriente@Otro@Otro@Rural@45.85276969614218
+Boyacá@15@Toca@15814.0@168.25186277@8831@44@Centro Oriente@Otro@Otro@Rural@52.486788880738644
+Boyacá@15@Togüí@15816.0@101.44312446@4330@47@Centro Oriente@Otro@Otro@Rural@42.68401651713084
+Boyacá@15@Tópaga@15820.0@33.62952821@3660@40@Centro Oriente@Otro@Otro@Urbano@108.8329273353193
+Boyacá@15@Tota@15822.0@196.04606101@5206@50@Centro Oriente@Otro@Otro@Rural@26.554983931732504
+Boyacá@15@Tununguá@15832.0@29.22130806@1559@48@Centro Oriente@Otro@Otro@Rural@53.351478886534146
+Boyacá@15@Turmequé@15835.0@79.70660437@6131@40@Centro Oriente@Otro@Otro@Urbano@76.91959842549244
+Boyacá@15@Tuta@15837.0@165.33038307@8369@45@Centro Oriente@Otro@Otro@Rural@50.61985489053521
+Boyacá@15@Tutazá@15839.0@122.00950202@2037@54@Centro Oriente@Otro@Otro@Rural@16.69542098176986
+Boyacá@15@Umbita@15842.0@146.0853498@7534@42@Centro Oriente@Otro@Otro@Rural@51.57259102514057
+Boyacá@15@Ventaquemada@15861.0@160.01150448@15920@40@Centro Oriente@Otro@Otro@Urbano@99.49284616588213
+Boyacá@15@Viracachá@15879.0@62.58114464@2817@45@Centro Oriente@Otro@Otro@Rural@45.013558256322746
+Boyacá@15@Zetaquira@15897.0@251.50506514@4621@52@Centro Oriente@Otro@Otro@Rural@18.37338742035961
+Caldas@17@Manizales@17001.0@441.00165521@440608@20@Eje Cafetero@Otro@Capital@Urbano@999.1073611508044
+Caldas@17@Aguadas@17013.0@475.73266398@22907@43@Eje Cafetero@Otro@Otro@Rural@48.15099263598814
+Caldas@17@Anserma@17042.0@209.14267671@36405@33@Eje Cafetero@Otro@Otro@Urbano@174.0677731235106
+Caldas@17@Aranzazu@17050.0@149.5767563@10533@39@Eje Cafetero@Otro@Otro@Urbano@70.4186951271653
+Caldas@17@Belalcázar@17088.0@113.34668528@10634@37@Eje Cafetero@Otro@Otro@Urbano@93.8183589024316
+Caldas@17@Chinchiná@17174.0@109.37265837@51773@24@Eje Cafetero@Otro@Otro@Urbano@473.36327718080685
+Caldas@17@Filadelfia@17272.0@192.60136678@11399@41@Eje Cafetero@Otro@Otro@Rural@59.184419044235405
+Caldas@17@La Dorada@17380.0@549.23634105@72972@37@Eje Cafetero@Otro@Otro@Urbano@132.86083703146105
+Caldas@17@La Merced@17388.0@88.6003592@5916@40@Eje Cafetero@Otro@Otro@Urbano@66.77173832496156
+Caldas@17@Manzanares@17433.0@197.91188654@17805@37@Eje Cafetero@Otro@Otro@Urbano@89.9642781001
+Caldas@17@Marmato@17442.0@36.88602204@9035@32@Eje Cafetero@Otro@Otro@Urbano@244.94373478935327
+Caldas@17@Marquetalia@17444.0@90.33303734@13368@35@Eje Cafetero@Otro@Otro@Urbano@147.9857247541102
+Caldas@17@Marulanda@17446.0@376.95952271@2565@56@Eje Cafetero@Otro@Otro@Rural@6.804444099355699
+Caldas@17@Neira@17486.0@369.34275305@21040@39@Eje Cafetero@Otro@Otro@Urbano@56.966056126060494
+Caldas@17@Norcasia@17495.0@227.5466889@6075@49@Eje Cafetero@Otro@Otro@Rural@26.697817618738377
+Caldas@17@Pácora@17513.0@257.12020167@15296@42@Eje Cafetero@Otro@Otro@Rural@59.489685760403994
+Caldas@17@Palestina@17524.0@112.230143@15598@33@Eje Cafetero@Otro@Otro@Urbano@138.98226967419973
+Caldas@17@Pensilvania@17541.0@498.54510758@19781@43@Eje Cafetero@Otro@Otro@Rural@39.67745285079506
+Caldas@17@Riosucio@17614.0@384.1694705@51371@35@Eje Cafetero@Otro@Otro@Urbano@133.71963142500675
+Caldas@17@Risaralda@17616.0@89.8893734@10640@36@Eje Cafetero@Otro@Otro@Urbano@118.36771797988749
+Caldas@17@Salamina@17653.0@388.08933444@19387@43@Eje Cafetero@Otro@Otro@Rural@49.95499303781382
+Caldas@17@Samaná@17662.0@758.17528641@20116@47@Eje Cafetero@Otro@Otro@Rural@26.53212305989334
+Caldas@17@San José@17665.0@60.94262259@4875@36@Eje Cafetero@Otro@Otro@Urbano@79.99327552404895
+Caldas@17@Supía@17777.0@121.61157198@29021@32@Eje Cafetero@Otro@Otro@Urbano@238.6368297646275
+Caldas@17@Victoria@17867.0@558.88528479@10255@54@Eje Cafetero@Otro@Otro@Rural@18.349024887733975
+Caldas@17@Villamaría@17873.0@455.0658332@66189@37@Eje Cafetero@Otro@Otro@Urbano@145.44928485305584
+Caldas@17@Viterbo@17877.0@112.90636922@12780@36@Eje Cafetero@Otro@Otro@Urbano@113.19113428488653
+Caquetá@18@Florencia@18001.0@2547.63753226@170764@46@Centro Sur@Otro@Capital@Rural@67.0283734784343
+Caquetá@18@Albania@18029.0@414.12207019@4491@57@Centro Sur@Otro@Otro@Rural@10.84462848826077
+Caquetá@18@Belén De Los Andaquies@18094.0@1191.61857163@11102@60@Centro Sur@Otro@Otro@Rural@9.316739655050622
+Caquetá@18@Cartagena Del Chairá@18150.0@12785.6187892@30778@73@Centro Sur@Otro@Otro@Rural@2.407235856742276
+Caquetá@18@Curillo@18205.0@403.35824943@7683@54@Centro Sur@Otro@Otro@Rural@19.04758365759749
+Caquetá@18@El Doncello@18247.0@1106.0761511@19256@54@Centro Sur@Otro@Otro@Rural@17.409289569122144
+Caquetá@18@El Paujil@18256.0@1234.73414492@18251@57@Centro Sur@Otro@Otro@Rural@14.781319586154723
+Caquetá@18@La Montañita@18410.0@1701.06142971@14662@58@Centro Sur@Otro@Otro@Rural@8.61932423128282
+Caquetá@18@Milán@18460.0@1220.57599924@9838@61@Centro Sur@Otro@Otro@Rural@8.060128993299637
+Caquetá@18@Morelia@18479.0@462.47959066@3718@62@Centro Sur@Otro@Otro@Rural@8.03927367842131
+Caquetá@18@Puerto Rico@18592.0@4146.39715969@26329@61@Centro Sur@Otro@Otro@Rural@6.349849998924959
+Caquetá@18@San José Del Fragua@18610.0@1304.76900624@12949@59@Centro Sur@Otro@Otro@Rural@9.924362042684937
+Caquetá@18@San Vicente Del Caguán@18753.0@17464.6343678@51714@69@Centro Sur@Otro@Otro@Rural@2.9610697201509377
+Caquetá@18@Solano@18756.0@42312.7836103@11359@87@Centro Sur@Otro@Otro@Rural@0.268453148925776
+Caquetá@18@Solita@18785.0@476.93147286@6280@58@Centro Sur@Otro@Otro@Rural@13.167510129580926
+Caquetá@18@Valparaíso@18860.0@1330.21001503@6968@60@Centro Sur@Otro@Otro@Rural@5.23827058980822
+Cauca@19@Popayán@19001.0@480.17974332@321991@27@Pacífico@Otro@Capital@Urbano@670.5634806119251
+Cauca@19@Almaguer@19022.0@236.7148308@18263@42@Pacífico@Otro@Otro@Rural@77.1519044171355
+Cauca@19@Argelia@19050.0@775.78782612@26376@50@Pacífico@Otro@Otro@Rural@33.99898672284672
+Cauca@19@Balboa@19075.0@413.21119743@21270@46@Pacífico@Otro@Otro@Rural@51.47488773849901
+Cauca@19@Bolívar@19100.0@797.82025554@37327@46@Pacífico@Otro@Otro@Rural@46.78622752531576
+Cauca@19@Buenos Aires@19110.0@435.02879869@31754@38@Pacífico@Otro@Otro@Urbano@72.99286873793335
+Cauca@19@Cajibío@19130.0@552.27861171@42439@44@Pacífico@Otro@Otro@Rural@76.8434610722977
+Cauca@19@Caldono@19137.0@354.73865334@40898@41@Pacífico@Otro@Otro@Rural@115.29050926627167
+Cauca@19@Caloto@19142.0@266.56458831@30143@37@Pacífico@Otro@Otro@Urbano@113.07953614958544
+Cauca@19@Corinto@19212.0@325.91558067@25342@40@Pacífico@Otro@Otro@Urbano@77.75633170989634
+Cauca@19@El Tambo@19256.0@2739.59890644@53840@55@Pacífico@Otro@Otro@Rural@19.65251185983387
+Cauca@19@Florencia@19290.0@56.65263631@5254@41@Pacífico@Otro@Otro@Rural@92.74060912629751
+Cauca@19@Guapi@19318.0@2567.94927079@27619@59@Pacífico@Otro@Otro@Rural@10.75527476892226
+Cauca@19@Inzá@19355.0@866.31206859@29170@49@Pacífico@Otro@Otro@Rural@33.67146904403256
+Cauca@19@Jambaló@19364.0@234.44755746@18240@43@Pacífico@Otro@Otro@Rural@77.79991481938129
+Cauca@19@La Sierra@19392.0@208.35441987@10674@46@Pacífico@Otro@Otro@Rural@51.230014734796136
+Cauca@19@La Vega@19397.0@516.0748807@24542@43@Pacífico@Otro@Otro@Rural@47.555114418108126
+Cauca@19@López@19418.0@3367.56736383@18761@63@Pacífico@Otro@Otro@Rural@5.571083804144826
+Cauca@19@Mercaderes@19450.0@697.98138533@22901@52@Pacífico@Otro@Otro@Rural@32.810330592373305
+Cauca@19@Miranda@19455.0@189.68431355@31733@34@Pacífico@Otro@Otro@Urbano@167.29374931488633
+Cauca@19@Morales@19473.0@511.47772753@39516@46@Pacífico@Otro@Otro@Rural@77.25849606556376
+Cauca@19@Padilla@19513.0@69.68342538@9953@38@Pacífico@Otro@Otro@Urbano@142.8316697367267
+Cauca@19@Páez@19517.0@1793.14388826@46278@53@Pacífico@Otro@Otro@Rural@25.808302558980053
+Cauca@19@Patía@19532.0@755.29108288@37183@48@Pacífico@Otro@Otro@Rural@49.230026466375755
+Cauca@19@Piamonte@19533.0@1104.75169652@9004@63@Pacífico@Otro@Otro@Rural@8.150247723866695
+Cauca@19@Piendamó@19548.0@181.26962982@41362@35@Pacífico@Otro@Otro@Urbano@228.17942553902876
+Cauca@19@Puerto Tejada@19573.0@109.12329128@41648@28@Pacífico@Otro@Otro@Urbano@381.6600426130402
+Cauca@19@Puracé@19585.0@848.32330826@17423@50@Pacífico@Otro@Otro@Rural@20.538160192411073
+Cauca@19@Rosas@19622.0@169.0917445@11495@43@Pacífico@Otro@Otro@Rural@67.98084693011135
+Cauca@19@San Sebastián@19693.0@419.03490454@11004@50@Pacífico@Otro@Otro@Rural@26.260342231107828
+Cauca@19@Santander De Quilichao@19698.0@518.19747613@111789@36@Pacífico@Otro@Otro@Urbano@215.72663926281942
+Cauca@19@Santa Rosa@19701.0@3619.37102599@5354@70@Pacífico@Otro@Otro@Rural@1.4792625463247526
+Cauca@19@Silvia@19743.0@680.9915665@37713@45@Pacífico@Otro@Otro@Rural@55.37954044545425
+Cauca@19@Sotara@19760.0@515.94418589@14079@50@Pacífico@Otro@Otro@Rural@27.28783536093895
+Cauca@19@Suárez@19780.0@392.38570876@32226@49@Pacífico@Otro@Otro@Rural@82.12837338505315
+Cauca@19@Sucre@19785.0@135.87329611@9582@44@Pacífico@Otro@Otro@Rural@70.5215835217733
+Cauca@19@Timbío@19807.0@201.29270219@35895@37@Pacífico@Otro@Otro@Urbano@178.32241114294715
+Cauca@19@Timbiquí@19809.0@2057.70619339@26363@59@Pacífico@Otro@Otro@Rural@12.81183877692853
+Cauca@19@Toribio@19821.0@492.14116839@36016@44@Pacífico@Otro@Otro@Rural@73.18225402240465
+Cauca@19@Totoró@19824.0@404.47045945@25137@47@Pacífico@Otro@Otro@Rural@62.147925547347405
+Cauca@19@Villa Rica@19845.0@81.62162048@21000@35@Pacífico@Otro@Otro@Urbano@257.2847718104996
+Cesar@20@Valledupar@20001.0@4185.7918013@513685@40@Caribe@Otro@Capital@Urbano@122.72110615737328
+Cesar@20@Aguachica@20011.0@877.66663962@114569@42@Caribe@Otro@Otro@Rural@130.53817341126754
+Cesar@20@Agustín Codazzi@20013.0@1753.09250676@62864@50@Caribe@Otro@Otro@Rural@35.858917745409165
+Cesar@20@Astrea@20032.0@637.90277265@20617@51@Caribe@Otro@Otro@Rural@32.3199723907016
+Cesar@20@Becerril@20045.0@1225.40113276@22542@58@Caribe@Otro@Otro@Rural@18.395608913163088
+Cesar@20@Bosconia@20060.0@586.20917207@41825@45@Caribe@Otro@Otro@Rural@71.34825245451059
+Cesar@20@Chimichagua@20175.0@1376.42532217@35269@53@Caribe@Otro@Otro@Rural@25.62362042598631
+Cesar@20@Chiriguaná@20178.0@1114.48037122@28743@54@Caribe@Otro@Otro@Rural@25.790494603808586
+Cesar@20@Curumaní@20228.0@915.1712714@38617@51@Caribe@Otro@Otro@Rural@42.19647317045359
+Cesar@20@El Copey@20238.0@956.4508359@30957@49@Caribe@Otro@Otro@Rural@32.366535568835715
+Cesar@20@El Paso@20250.0@813.93282122@39365@51@Caribe@Otro@Otro@Rural@48.36394229808301
+Cesar@20@Gamarra@20295.0@326.88059474@15458@48@Caribe@Otro@Otro@Rural@47.28943916752004
+Cesar@20@González@20310.0@73.00612174@4469@39@Caribe@Otro@Otro@Urbano@61.21404470594469
+Cesar@20@La Gloria@20383.0@802.87211404@17858@55@Caribe@Otro@Otro@Rural@22.242645731136072
+Cesar@20@La Jagua De Ibirico@20400.0@755.90675861@49052@51@Caribe@Otro@Otro@Rural@64.89160130040288
+Cesar@20@Manaure@20443.0@136.78208517@10479@42@Caribe@Otro@Otro@Rural@76.61090987884961
+Cesar@20@Pailitas@20517.0@531.84299144@19183@51@Caribe@Otro@Otro@Rural@36.06891565508979
+Cesar@20@Pelaya@20550.0@423.38737311@21564@49@Caribe@Otro@Otro@Rural@50.93208104342184
+Cesar@20@Pueblo Bello@20570.0@743.8018203@28298@50@Caribe@Otro@Otro@Rural@38.04508032608266
+Cesar@20@Río De Oro@20614.0@549.43802067@17346@52@Caribe@Otro@Otro@Rural@31.57043988118588
+Cesar@20@La Paz@20621.0@1073.10115197@28758@52@Caribe@Otro@Otro@Rural@26.79896480141321
+Cesar@20@San Alberto@20710.0@550.21154775@27449@49@Caribe@Otro@Otro@Rural@49.888084160080226
+Cesar@20@San Diego@20750.0@645.99944462@19818@52@Caribe@Otro@Otro@Rural@30.67804495042199
+Cesar@20@San Martín@20770.0@993.29124301@27823@54@Caribe@Otro@Otro@Rural@28.010918444913635
+Cesar@20@Tamalameque@20787.0@513.29849259@15790@51@Caribe@Otro@Otro@Rural@30.761828113554092
+Córdoba@23@Montería@23001.0@3136.58704395@498858@39@Caribe@Otro@Capital@Urbano@159.04484492538515
+Córdoba@23@Ayapel@23068.0@1964.83882082@47057@53@Caribe@Otro@Otro@Rural@23.94954715947712
+Córdoba@23@Buenavista@23079.0@834.92703813@21274@53@Caribe@Otro@Otro@Rural@25.48007074683763
+Córdoba@23@Canalete@23090.0@420.03970139@15385@47@Caribe@Otro@Otro@Rural@36.62749008983624
+Córdoba@23@Cereté@23162.0@290.84433337@107234@31@Caribe@Otro@Otro@Urbano@368.6989488757939
+Córdoba@23@Chimá@23168.0@324.00306947@17738@46@Caribe@Otro@Otro@Rural@54.746394930812194
+Córdoba@23@Chinú@23182.0@626.18713046@48323@42@Caribe@Otro@Otro@Rural@77.17022220578326
+Córdoba@23@Ciénaga De Oro@23189.0@641.23960727@59871@42@Caribe@Otro@Otro@Rural@93.36759507868446
+Córdoba@23@Cotorra@23300.0@88.26853651@19315@36@Caribe@Otro@Otro@Urbano@218.82089319348566
+Córdoba@23@La Apartada@23350.0@287.04371714@15058@47@Caribe@Otro@Otro@Rural@52.458908176191684
+Córdoba@23@Lorica@23417.0@950.99428938@114666@38@Caribe@Otro@Otro@Urbano@120.5748565270107
+Córdoba@23@Los Córdobas@23419.0@366.06479027@19038@47@Caribe@Otro@Otro@Rural@52.007186995389695
+Córdoba@23@Momil@23464.0@158.76277337@19876@40@Caribe@Otro@Otro@Urbano@125.19307629930704
+Córdoba@23@Montelíbano@23466.0@1551.16600939@83908@47@Caribe@Otro@Otro@Rural@54.093500948358866
+Córdoba@23@Moñitos@23500.0@203.17288025@30242@39@Caribe@Otro@Otro@Urbano@148.848605989086
+Córdoba@23@Planeta Rica@23555.0@1140.62303334@64465@46@Caribe@Otro@Otro@Rural@56.51735772092208
+Córdoba@23@Pueblo Nuevo@23570.0@849.27988741@36112@48@Caribe@Otro@Otro@Rural@42.52072907334317
+Córdoba@23@Puerto Escondido@23574.0@411.04173093000003@24036@46@Caribe@Otro@Otro@Rural@58.47581447659217
+Córdoba@23@Puerto Libertador@23580.0@1647.3563643@42835@53@Caribe@Otro@Otro@Rural@26.002266982591582
+Córdoba@23@Purísima@23586.0@117.73425289@17411@38@Caribe@Otro@Otro@Urbano@147.8838959148722
+Córdoba@23@Sahagún@23660.0@964.81454114@109052@41@Caribe@Otro@Otro@Rural@113.02897639907766
+Córdoba@23@San Andrés Sotavento@23670.0@206.77031991@48215@31@Caribe@Otro@Otro@Urbano@233.18143542548236
+Córdoba@23@San Antero@23672.0@207.49037215@34520@38@Caribe@Otro@Otro@Urbano@166.36916519213057
+Córdoba@23@San Bernardo Del Viento@23675.0@315.97198331@37052@40@Caribe@Otro@Otro@Urbano@117.2635611925387
+Córdoba@23@San Carlos@23678.0@446.82063435@27174@47@Caribe@Otro@Otro@Rural@60.81634980786111
+Córdoba@23@San Pelayo@23686.0@445.49118008@52481@42@Caribe@Otro@Otro@Rural@117.8048014117263
+Córdoba@23@Tierralta@23807.0@4937.72293616@93873@55@Caribe@Otro@Otro@Rural@19.0113947691451
+Córdoba@23@Valencia@23855.0@919.25919955@36042@48@Caribe@Otro@Otro@Rural@39.207657663522376
+Cundinamarca@25@Agua De Dios@25001.0@85.7453277@11966@35@Centro Oriente@Otro@Capital@Urbano@139.55279338211685
+Cundinamarca@25@Albán@25019.0@50.83509982@6650@36@Centro Oriente@Otro@Otro@Urbano@130.8151262325976
+Cundinamarca@25@Anapoima@25035.0@123.95549005@15315@38@Centro Oriente@Otro@Otro@Urbano@123.55241380452274
+Cundinamarca@25@Anolaima@25040.0@120.95234711@14161@37@Centro Oriente@Otro@Otro@Urbano@117.07916661692634
+Cundinamarca@25@Arbeláez@25053.0@142.45996723@10825@38@Centro Oriente@Otro@Otro@Urbano@75.98625923115061
+Cundinamarca@25@Beltrán@25086.0@176.84598708@1832@55@Centro Oriente@Otro@Otro@Rural@10.359296415198024
+Cundinamarca@25@Bituima@25095.0@61.0461936@2507@44@Centro Oriente@Otro@Otro@Rural@41.06726156305346
+Cundinamarca@25@Bojacá@25099.0@102.31988131@10524@38@Centro Oriente@Otro@Otro@Urbano@102.85391133435043
+Cundinamarca@25@Cabrera@25120.0@421.83959263@4885@55@Centro Oriente@Otro@Otro@Rural@11.580231171626142
+Cundinamarca@25@Cachipay@25123.0@53.45261554@10324@32@Centro Oriente@Otro@Otro@Urbano@193.14302762741852
+Cundinamarca@25@Cajicá@25126.0@51.27563121@87866@21@Centro Oriente@Otro@Otro@Urbano@1713.6015281829234
+Cundinamarca@25@Caparrapí@25148.0@615.66759762@12714@50@Centro Oriente@Otro@Otro@Rural@20.650753830717733
+Cundinamarca@25@Caqueza@25151.0@111.50681966@17480@33@Centro Oriente@Otro@Otro@Urbano@156.76171245219783
+Cundinamarca@25@Carmen De Carupa@25154.0@298.54906407@7733@49@Centro Oriente@Otro@Otro@Rural@25.9019401855732
+Cundinamarca@25@Chaguaní@25168.0@172.02672254@4255@49@Centro Oriente@Otro@Otro@Rural@24.73452924740003
+Cundinamarca@25@Chía@25175.0@80.15804066@141308@18@Centro Oriente@Otro@Otro@Urbano@1762.8674408269899
+Cundinamarca@25@Chipaque@25178.0@150.54955403@9748@40@Centro Oriente@Otro@Otro@Urbano@64.74944454539876
+Cundinamarca@25@Choachí@25181.0@212.42009623@11213@42@Centro Oriente@Otro@Otro@Rural@52.786907637302875
+Cundinamarca@25@Chocontá@25183.0@300.19389865@21425@42@Centro Oriente@Otro@Otro@Rural@71.37053783021649
+Cundinamarca@25@Cogua@25200.0@132.88038205@23286@36@Centro Oriente@Otro@Otro@Urbano@175.24031494158396
+Cundinamarca@25@Cota@25214.0@53.67739272@34948@27@Centro Oriente@Otro@Otro@Urbano@651.074842295358
+Cundinamarca@25@Cucunubá@25224.0@109.84017355@7935@43@Centro Oriente@Otro@Otro@Rural@72.24132795445678
+Cundinamarca@25@El Colegio@25245.0@118.27964495@25047@33@Centro Oriente@Otro@Otro@Urbano@211.7608656213674
+Cundinamarca@25@El Peñón@25258.0@134.09099836@4710@47@Centro Oriente@Otro@Otro@Rural@35.12540034458433
+Cundinamarca@25@El Rosal@25260.0@87.21297255@23417@34@Centro Oriente@Otro@Otro@Urbano@268.5036332934853
+Cundinamarca@25@Facatativá@25269.0@158.0207331@148001@22@Centro Oriente@Otro@Otro@Urbano@936.592288217906
+Cundinamarca@25@Fomeque@25279.0@460.17535188@12367@47@Centro Oriente@Otro@Otro@Rural@26.874538041804865
+Cundinamarca@25@Fosca@25281.0@111.20354527@5892@40@Centro Oriente@Otro@Otro@Urbano@52.98392228138357
+Cundinamarca@25@Funza@25286.0@67.75368968@99387@20@Centro Oriente@Otro@Otro@Urbano@1466.8869026824048
+Cundinamarca@25@Fúquene@25288.0@77.46122838@5047@43@Centro Oriente@Otro@Otro@Rural@65.155176409558507
+Cundinamarca@25@Fusagasugá@25290.0@193.95287674@146556@23@Centro Oriente@Otro@Otro@Urbano@755.626843299999
+Cundinamarca@25@Gachala@25293.0@384.9970873@4386@53@Centro Oriente@Otro@Otro@Rural@11.392293980090068
+Cundinamarca@25@Gachancipá@25295.0@43.05740685@18264@31@Centro Oriente@Otro@Otro@Urbano@424.1778903134293
+Cundinamarca@25@Gachetá@25297.0@258.86202298@8439@45@Centro Oriente@Otro@Otro@Rural@32.60037877650368
+Cundinamarca@25@Gama@25299.0@107.68679831@3152@46@Centro Oriente@Otro@Otro@Rural@29.270068842851828
+Cundinamarca@25@Girardot@25307.0@130.15534622@105379@22@Centro Oriente@Otro@Otro@Urbano@809.6401958155384
+Cundinamarca@25@Granada@25312.0@60.70497778@7566@35@Centro Oriente@Otro@Otro@Urbano@124.6355781138711
+Cundinamarca@25@Guachetá@25317.0@170.17330358@13749@43@Centro Oriente@Otro@Otro@Rural@80.79410642419873
+Cundinamarca@25@Guaduas@25320.0@763.67586395@31869@46@Centro Oriente@Otro@Otro@Rural@41.731055680039866
+Cundinamarca@25@Guasca@25322.0@360.58852085@16166@46@Centro Oriente@Otro@Otro@Rural@44.83226465970845
+Cundinamarca@25@Guataquí@25324.0@90.95220287@2811@48@Centro Oriente@Otro@Otro@Rural@30.90634323632408
+Cundinamarca@25@Guatavita@25326.0@252.36806197@6561@48@Centro Oriente@Otro@Otro@Rural@25.997742934602922
+Cundinamarca@25@Guayabal De Siquima@25328.0@61.87344864@4587@42@Centro Oriente@Otro@Otro@Rural@74.13519208681367
+Cundinamarca@25@Guayabetal@25335.0@222.81782658@6485@48@Centro Oriente@Otro@Otro@Rural@29.104493565606344
+Cundinamarca@25@Gutiérrez@25339.0@453.22549053@3478@56@Centro Oriente@Otro@Otro@Rural@7.673884352649365
+Cundinamarca@25@Jerusalén@25368.0@221.86018197@2283@54@Centro Oriente@Otro@Otro@Rural@10.290264705131756
+Cundinamarca@25@Junín@25372.0@343.82555376@5920@48@Centro Oriente@Otro@Otro@Rural@17.218033782713917
+Cundinamarca@25@La Calera@25377.0@326.50993553@31432@40@Centro Oriente@Otro@Otro@Urbano@96.26659583567864
+Cundinamarca@25@La Mesa@25386.0@148.19873476@34465@33@Centro Oriente@Otro@Otro@Urbano@232.55934037368294
+Cundinamarca@25@La Palma@25394.0@190.7906933@9588@44@Centro Oriente@Otro@Otro@Rural@50.25402358030008
+Cundinamarca@25@La Peña@25398.0@128.47071695@5976@43@Centro Oriente@Otro@Otro@Rural@46.516436911656854
+Cundinamarca@25@La Vega@25402.0@155.43755745@17830@39@Centro Oriente@Otro@Otro@Urbano@114.70844172094907
+Cundinamarca@25@Lenguazaque@25407.0@155.6303769@10424@43@Centro Oriente@Otro@Otro@Rural@66.9792119484355
+Cundinamarca@25@Macheta@25426.0@229.20747739@6171@48@Centro Oriente@Otro@Otro@Rural@26.92320543059749
+Cundinamarca@25@Madrid@25430.0@119.58191688@120067@24@Centro Oriente@Otro@Otro@Urbano@1004.0564922578285
+Cundinamarca@25@Manta@25436.0@107.90651222@3795@45@Centro Oriente@Otro@Otro@Rural@35.169332433456354
+Cundinamarca@25@Medina@25438.0@1196.74948999@8064@58@Centro Oriente@Otro@Otro@Rural@6.738252297118073
+Cundinamarca@25@Mosquera@25473.0@105.93888875@141171@23@Centro Oriente@Otro@Otro@Urbano@1332.5701417648672
+Cundinamarca@25@Nariño@25483.0@55.16262691@2395@45@Centro Oriente@Otro@Otro@Rural@43.41707663609888
+Cundinamarca@25@Nemocón@25486.0@98.36503989@13868@38@Centro Oriente@Otro@Otro@Urbano@140.98504931740337
+Cundinamarca@25@Nilo@25488.0@224.73208637@11441@41@Centro Oriente@Otro@Otro@Rural@50.90950822733645
+Cundinamarca@25@Nimaima@25489.0@59.49982456@3665@39@Centro Oriente@Otro@Otro@Urbano@61.59682027808655
+Cundinamarca@25@Nocaima@25491.0@68.93823303@6317@37@Centro Oriente@Otro@Otro@Urbano@91.63275184687453
+Cundinamarca@25@Venecia@25506.0@122.20331678@4320@45@Centro Oriente@Otro@Otro@Rural@35.35092265766569
+Cundinamarca@25@Pacho@25513.0@402.62677712@25046@42@Centro Oriente@Otro@Otro@Rural@62.20649351529648
+Cundinamarca@25@Paime@25518.0@173.63571119@4206@48@Centro Oriente@Otro@Otro@Rural@24.223127668694868
+Cundinamarca@25@Pandi@25524.0@71.69758309@5146@40@Centro Oriente@Otro@Otro@Urbano@71.77368857106896
+Cundinamarca@25@Paratebueno@25530.0@885.53370336@8786@59@Centro Oriente@Otro@Otro@Rural@9.921700288383251
+Cundinamarca@25@Pasca@25535.0@271.71161198@9341@42@Centro Oriente@Otro@Otro@Rural@34.37836142493449
+Cundinamarca@25@Puerto Salgar@25572.0@515.94145456@16058@49@Centro Oriente@Otro@Otro@Rural@31.12368633703687
+Cundinamarca@25@Pulí@25580.0@197.68788457@3369@52@Centro Oriente@Otro@Otro@Rural@17.042015535388355
+Cundinamarca@25@Quebradanegra@25592.0@79.85642952@4807@42@Centro Oriente@Otro@Otro@Rural@60.195528761977634
+Cundinamarca@25@Quetame@25594.0@137.83551298@5176@42@Centro Oriente@Otro@Otro@Rural@37.55200592427178
+Cundinamarca@25@Quipile@25596.0@127.71713494@6380@41@Centro Oriente@Otro@Otro@Rural@49.95414282505827
+Cundinamarca@25@Apulo@25599.0@121.98690331@8457@41@Centro Oriente@Otro@Otro@Rural@69.32711439119488
+Cundinamarca@25@Ricaurte@25612.0@128.2975197@13652@41@Centro Oriente@Otro@Otro@Rural@106.40891602520979
+Cundinamarca@25@San Antonio Del Tequendama@25645.0@88.56564868@12340@34@Centro Oriente@Otro@Otro@Urbano@139.33167298967274
+Cundinamarca@25@San Bernardo@25649.0@247.01261762@8703@43@Centro Oriente@Otro@Otro@Rural@35.233017988532666
+Cundinamarca@25@San Cayetano@25653.0@287.80794531@4892@52@Centro Oriente@Otro@Otro@Rural@16.997445969501612
+Cundinamarca@25@San Francisco@25658.0@118.74598286@11316@41@Centro Oriente@Otro@Otro@Rural@95.29585529930237
+Cundinamarca@25@San Juan De Río Seco@25662.0@314.08727396@8324@47@Centro Oriente@Otro@Otro@Rural@26.502188054458035
+Cundinamarca@25@Sasaima@25718.0@111.61525364@11104@39@Centro Oriente@Otro@Otro@Urbano@99.48461019328468
+Cundinamarca@25@Sesquilé@25736.0@141.14774932@12052@41@Centro Oriente@Otro@Otro@Rural@85.38570439884644
+Cundinamarca@25@Sibaté@25740.0@122.1326726@35102@28@Centro Oriente@Otro@Otro@Urbano@287.4087601027409
+Cundinamarca@25@Silvania@25743.0@162.57452807@22550@34@Centro Oriente@Otro@Otro@Urbano@138.70561561950595
+Cundinamarca@25@Simijaca@25745.0@96.7155455@13465@39@Centro Oriente@Otro@Otro@Urbano@139.22270644691756
+Cundinamarca@25@Soacha@25754.0@187.44595436@709276@12@Centro Oriente@Otro@Otro@Urbano@3783.8960164368095
+Cundinamarca@25@Sopó@25758.0@111.08048922@27456@32@Centro Oriente@Otro@Otro@Urbano@247.17211989967143
+Cundinamarca@25@Subachoque@25769.0@209.21729148@16183@41@Centro Oriente@Otro@Otro@Rural@77.35020315730932
+Cundinamarca@25@Suesca@25772.0@173.0689862@17902@40@Centro Oriente@Otro@Otro@Urbano@103.43852121091352
+Cundinamarca@25@Supatá@25777.0@130.38967354@5361@46@Centro Oriente@Otro@Otro@Rural@41.11521913087229
+Cundinamarca@25@Susa@25779.0@104.15457146@6769@40@Centro Oriente@Otro@Otro@Urbano@64.98994624157805
+Cundinamarca@25@Sutatausa@25781.0@64.85053814@6169@42@Centro Oriente@Otro@Otro@Rural@95.12642727316002
+Cundinamarca@25@Tabio@25785.0@75.19839528@22983@30@Centro Oriente@Otro@Otro@Urbano@305.63152198159514
+Cundinamarca@25@Tausa@25793.0@201.86641634@8354@46@Centro Oriente@Otro@Otro@Rural@41.3838029696307
+Cundinamarca@25@Tena@25797.0@51.43734552@10065@34@Centro Oriente@Otro@Otro@Urbano@195.674949751956
+Cundinamarca@25@Tenjo@25799.0@114.23607382@23052@34@Centro Oriente@Otro@Otro@Urbano@201.7926494595978
+Cundinamarca@25@Tibacuy@25805.0@84.75227305@4477@41@Centro Oriente@Otro@Otro@Rural@52.82454191356936
+Cundinamarca@25@Tibirita@25807.0@56.54739447@3207@44@Centro Oriente@Otro@Otro@Rural@56.713488394260224
+Cundinamarca@25@Tocaima@25815.0@245.8345215@16136@40@Centro Oriente@Otro@Otro@Urbano@65.63764886047544
+Cundinamarca@25@Tocancipá@25817.0@73.24008721@43020@28@Centro Oriente@Otro@Otro@Urbano@587.38324377809
+Cundinamarca@25@Topaipí@25823.0@143.71079231@4189@48@Centro Oriente@Otro@Otro@Rural@29.148819881000072
+Cundinamarca@25@Ubalá@25839.0@522.45862443@7696@46@Centro Oriente@Otro@Otro@Rural@14.730353065558639
+Cundinamarca@25@Ubaque@25841.0@107.09078877@6875@40@Centro Oriente@Otro@Otro@Urbano@64.19786499813264
+Cundinamarca@25@Villa De San Diego De Ubate@25843.0@102.27688028@44802@29@Centro Oriente@Otro@Otro@Urbano@438.04621217764037
+Cundinamarca@25@Une@25845.0@209.12826861@7144@43@Centro Oriente@Otro@Otro@Rural@34.16085279854123
+Cundinamarca@25@Útica@25851.0@92.08432173@4324@43@Centro Oriente@Otro@Otro@Rural@46.95696204049132
+Cundinamarca@25@Vergara@25862.0@144.65077516@6975@43@Centro Oriente@Otro@Otro@Rural@48.21958259321367
+Cundinamarca@25@Vianí@25867.0@67.11837694@4497@42@Centro Oriente@Otro@Otro@Rural@67.00102423543497
+Cundinamarca@25@Villagómez@25871.0@62.96892692@1783@47@Centro Oriente@Otro@Otro@Rural@28.315553197615138
+Cundinamarca@25@Villapinzón@25873.0@226.15993867@17796@42@Centro Oriente@Otro@Otro@Rural@78.68767609619373
+Cundinamarca@25@Villeta@25875.0@140.88722611@27986@34@Centro Oriente@Otro@Otro@Urbano@198.6411456362231
+Cundinamarca@25@Viotá@25878.0@201.3298269@13508@40@Centro Oriente@Otro@Otro@Urbano@67.09388374286632
+Cundinamarca@25@Yacopí@25885.0@956.7832746@12367@54@Centro Oriente@Otro@Otro@Rural@12.925602200948004
+Cundinamarca@25@Zipacón@25898.0@54.27038247@4836@38@Centro Oriente@Otro@Otro@Urbano@89.10937752600658
+Cundinamarca@25@Zipaquirá@25899.0@194.82043432@138654@25@Centro Oriente@Otro@Otro@Urbano@711.7015239389905
+Chocó@27@Quibdó@27001.0@3507.12280947@130042@47@Pacífico@Otro@Capital@Rural@37.079397290810036
+Chocó@27@Acandí@27006.0@797.63756232@14085@58@Pacífico@Otro@Otro@Rural@17.658396075320876
+Chocó@27@Alto Baudo@27025.0@2050.41671438@27982@56@Pacífico@Otro@Otro@Rural@13.646982003100344
+Chocó@27@Atrato@27050.0@421.56667641@6145@53@Pacífico@Otro@Otro@Rural@14.576579089053999
+Chocó@27@Bagadó@27073.0@807.45420576@11149@56@Pacífico@Otro@Otro@Rural@13.807594189823098
+Chocó@27@Bahía Solano@27075.0@895.29847091@10207@60@Pacífico@Otro@Otro@Rural@11.400667298834312
+Chocó@27@Bajo Baudó@27077.0@3479.25484894@30263@65@Pacífico@Otro@Otro@Rural@8.698126844378764
+Chocó@27@Bojaya@27099.0@3630.65458604@12212@69@Pacífico@Otro@Otro@Rural@3.3635807842904106
+Chocó@27@El Cantón Del San Pablo@27135.0@380.49573095@6210@54@Pacífico@Otro@Otro@Rural@16.320813861683092
+Chocó@27@Carmen Del Darien@27150.0@3180.69457893@18930@74@Pacífico@Otro@Otro@Rural@5.95153024920995
+Chocó@27@Cértegui@27160.0@423.35406736@5705@51@Pacífico@Otro@Otro@Rural@13.475717938830481
+Chocó@27@Condoto@27205.0@467.71740478@12464@50@Pacífico@Otro@Otro@Rural@26.648569996796862
+Chocó@27@El Carmen De Atrato@27245.0@830.18092904@8197@53@Pacífico@Otro@Otro@Rural@9.873751267062712
+Chocó@27@El Litoral Del San Juan@27250.0@4134.97895532@22242@67@Pacífico@Otro@Otro@Rural@5.3789874725683395
+Chocó@27@Istmina@27361.0@1879.96677361@30739@57@Pacífico@Otro@Otro@Rural@16.35082089295309
+Chocó@27@Juradó@27372.0@1252.15064599@6774@71@Pacífico@Otro@Otro@Rural@5.409892189644807
+Chocó@27@Lloró@27413.0@842.90904894@9850@55@Pacífico@Otro@Otro@Rural@11.685721030503663
+Chocó@27@Medio Atrato@27425.0@1812.93290111@10817@56@Pacífico@Otro@Otro@Rural@5.966574931359623
+Chocó@27@Medio Baudó@27430.0@1372.04441067@15405@60@Pacífico@Otro@Otro@Rural@11.227770675788399
+Chocó@27@Medio San Juan@27450.0@660.55836166@10718@53@Pacífico@Otro@Otro@Rural@16.2256669843152
+Chocó@27@Nóvita@27491.0@944.33194813@9116@59@Pacífico@Otro@Otro@Rural@9.653385144971352
+Chocó@27@Nuquí@27495.0@704.08794484@16459@59@Pacífico@Otro@Otro@Rural@23.376341152581748
+Chocó@27@Río Iro@27580.0@325.10858975@5537@50@Pacífico@Otro@Otro@Rural@17.03123256219655
+Chocó@27@Río Quito@27600.0@698.95677901@8355@57@Pacífico@Otro@Otro@Rural@11.953528817381232
+Chocó@27@Riosucio@27615.0@7607.55093003@54458@73@Pacífico@Otro@Otro@Rural@7.158414120506617
+Chocó@27@San José Del Palmar@27660.0@1582.20973626@5015@66@Pacífico@Otro@Otro@Rural@3.169617709378006
+Chocó@27@Sipí@27745.0@1580.67425506@3202@69@Pacífico@Otro@Otro@Rural@2.025717816147045
+Chocó@27@Tadó@27787.0@714.82821081@17925@51@Pacífico@Otro@Otro@Rural@25.075954934247036
+Chocó@27@Unguía@27800.0@1190.32119604@12821@58@Pacífico@Otro@Otro@Rural@10.771042339373043
+Chocó@27@Unión Panamericana@27810.0@177.75984118@6909@47@Pacífico@Otro@Otro@Rural@38.86704642700447
+Huila@41@Neiva@41001.0@1269.82716707@361049@32@Centro Sur@Otro@Capital@Urbano@284.32924524136985
+Huila@41@Acevedo@41006.0@540.51687453@25046@47@Centro Sur@Otro@Otro@Rural@46.33712873770768
+Huila@41@Agrado@41013.0@273.73164832@8866@50@Centro Sur@Otro@Otro@Rural@32.38938593478017
+Huila@41@Aipe@41016.0@795.63062496@16361@50@Centro Sur@Otro@Otro@Rural@20.563562395329544
+Huila@41@Algeciras@41020.0@589.68898703@22498@48@Centro Sur@Otro@Otro@Rural@38.152315025098865
+Huila@41@Altamira@41026.0@180.97556357@4323@54@Centro Sur@Otro@Otro@Rural@23.88720286166091
+Huila@41@Baraya@41078.0@786.00202477@8282@57@Centro Sur@Otro@Otro@Rural@10.536868530871125
+Huila@41@Campoalegre@41132.0@462.79933783@31195@43@Centro Sur@Otro@Otro@Rural@67.40502297662935
+Huila@41@Colombia@41206.0@1584.96991787@7136@60@Centro Sur@Otro@Otro@Rural@4.502293652102802
+Huila@41@Elías@41244.0@80.4417432@4257@48@Centro Sur@Otro@Otro@Rural@52.92028529784521
+Huila@41@Garzón@41298.0@606.52117137@73292@40@Centro Sur@Otro@Otro@Urbano@120.83996974821049
+Huila@41@Gigante@41306.0@503.703102@24634@45@Centro Sur@Otro@Otro@Rural@48.90579371496505
+Huila@41@Guadalupe@41319.0@249.60733873@18104@44@Centro Sur@Otro@Otro@Rural@72.52991876005328
+Huila@41@Hobo@41349.0@194.23339809@7335@49@Centro Sur@Otro@Otro@Rural@37.76384531254122
+Huila@41@Iquira@41357.0@356.51547983@9291@50@Centro Sur@Otro@Otro@Rural@26.060579485721906
+Huila@41@Isnos@41359.0@370.65656623@25463@44@Centro Sur@Otro@Otro@Rural@68.69701583594687
+Huila@41@La Argentina@41378.0@356.42110062@13021@49@Centro Sur@Otro@Otro@Rural@36.53262945810383
+Huila@41@La Plata@41396.0@814.65092121@61735@44@Centro Sur@Otro@Otro@Rural@75.78092455637942
+Huila@41@Nátaga@41483.0@131.94003053@6520@46@Centro Sur@Otro@Otro@Rural@49.41638995996373
+Huila@41@Oporapa@41503.0@155.81260716@11779@43@Centro Sur@Otro@Otro@Rural@75.59722037064975
+Huila@41@Paicol@41518.0@278.31076075@6655@54@Centro Sur@Otro@Otro@Rural@23.91211889208276
+Huila@41@Palermo@41524.0@884.26636483@26590@49@Centro Sur@Otro@Otro@Rural@30.070124860071907
+Huila@41@Palestina@41530.0@178.21745571@11282@45@Centro Sur@Otro@Otro@Rural@63.30468558791659
+Huila@41@Pital@41548.0@193.66004805@13851@44@Centro Sur@Otro@Otro@Rural@71.52223775357056
+Huila@41@Pitalito@41551.0@630.6659366@126682@37@Centro Sur@Otro@Otro@Urbano@200.87021138791596
+Huila@41@Rivera@41615.0@251.2301651@24757@46@Centro Sur@Otro@Otro@Rural@98.54310285608295
+Huila@41@Saladoblanco@41660.0@466.64490866@10502@52@Centro Sur@Otro@Otro@Rural@22.50533500977681
+Huila@41@San Agustín@41668.0@1390.43219055@33391@53@Centro Sur@Otro@Otro@Rural@24.0148352626904
+Huila@41@Santa María@41676.0@339.37958933@10422@49@Centro Sur@Otro@Otro@Rural@30.70897699114733
+Huila@41@Suaza@41770.0@429.66717384@22342@50@Centro Sur@Otro@Otro@Rural@51.99838703135312
+Huila@41@Tarqui@41791.0@362.81183634@17587@47@Centro Sur@Otro@Otro@Rural@48.47416274346349
+Huila@41@Tesalia@41797.0@367.02538714@10815@52@Centro Sur@Otro@Otro@Rural@29.466626503072582
+Huila@41@Tello@41799.0@530.39938957@11775@51@Centro Sur@Otro@Otro@Rural@22.200251794305622
+Huila@41@Teruel@41801.0@471.73435368@8064@55@Centro Sur@Otro@Otro@Rural@17.094366643202324
+Huila@41@Timaná@41807.0@185.72708538@21921@40@Centro Sur@Otro@Otro@Urbano@118.02801920435758
+Huila@41@Villavieja@41872.0@543.92692149@7247@55@Centro Sur@Otro@Otro@Rural@13.323480992902526
+Huila@41@Yaguará@41885.0@332.91537649000003@7774@51@Centro Sur@Otro@Otro@Rural@23.351279481179244
+La Guajira@44@Riohacha@44001.0@3088.71092238@195747@44@Caribe@Otro@Capital@Rural@63.37498228845824
+La Guajira@44@Albania@44035.0@546.02655249@30848@48@Caribe@Otro@Otro@Rural@56.49542107307127
+La Guajira@44@Barrancas@44078.0@800.94176484@37170@49@Caribe@Otro@Otro@Rural@46.407868376579486
+La Guajira@44@Dibula@44090.0@1749.97806851@40051@55@Caribe@Otro@Otro@Rural@22.886572535220967
+La Guajira@44@Distracción@44098.0@231.87284126@13706@45@Caribe@Otro@Otro@Rural@59.109984272075245
+La Guajira@44@El Molino@44110.0@242.18481458@7574@49@Caribe@Otro@Otro@Rural@31.27363709047955
+La Guajira@44@Fonseca@44279.0@473.52241624@43728@45@Caribe@Otro@Otro@Rural@92.34620896561086
+La Guajira@44@Hatonuevo@44378.0@214.63991721@21151@43@Caribe@Otro@Otro@Rural@98.54178232516847
+La Guajira@44@La Jagua Del Pilar@44420.0@179.59079648@3686@54@Caribe@Otro@Otro@Rural@20.524437066074757
+La Guajira@44@Maicao@44430.0@1768.71981226@178832@44@Caribe@Otro@Otro@Rural@101.10815673597027
+La Guajira@44@Manaure@44560.0@1619.65545669@88881@48@Caribe@Otro@Otro@Rural@54.876486003783285
+La Guajira@44@San Juan Del Cesar@44650.0@1313.68836144@48387@50@Caribe@Otro@Otro@Rural@36.83293650174427
+La Guajira@44@Uribia@44847.0@7886.05807696@177815@57@Caribe@Otro@Otro@Rural@22.548020603539097
+La Guajira@44@Urumita@44855.0@246.2746095@11114@45@Caribe@Otro@Otro@Rural@45.12848491594096
+La Guajira@44@Villanueva@44874.0@260.09593663@28816@41@Caribe@Otro@Otro@Rural@110.78988919766272
+Magdalena@47@Santa Marta@47001.0@2347.13928928@521239@33@Caribe@Otro@Capital@Urbano@222.07416593494688
+Magdalena@47@Algarrobo@47030.0@406.3883775@16194@49@Caribe@Otro@Otro@Rural@39.848580561337535
+Magdalena@47@Aracataca@47053.0@1740.83847822@40726@50@Caribe@Otro@Otro@Rural@23.394473703064147
+Magdalena@47@Ariguaní@47058.0@1131.74423754@31077@50@Caribe@Otro@Otro@Rural@27.45938434601627
+Magdalena@47@Cerro San Antonio@47161.0@177.19613158@9885@44@Caribe@Otro@Otro@Rural@55.78564222513598
+Magdalena@47@Chivolo@47170.0@536.54374061@22715@49@Caribe@Otro@Otro@Rural@42.335784169572406
+Magdalena@47@Ciénaga@47189.0@1324.77726918@122285@39@Caribe@Otro@Otro@Urbano@92.30608257317925
+Magdalena@47@Concordia@47205.0@109.48370602@10908@40@Caribe@Otro@Otro@Urbano@99.63126383397521
+Magdalena@47@El Banco@47245.0@814.87333087@67811@45@Caribe@Otro@Otro@Rural@83.21661469470543
+Magdalena@47@El Piñon@47258.0@557.14237706@23400@48@Caribe@Otro@Otro@Rural@42.00003619089273
+Magdalena@47@El Retén@47268.0@262.18227685@20455@40@Caribe@Otro@Otro@Urbano@78.01824076652876
+Magdalena@47@Fundación@47288.0@971.90123504@68681@42@Caribe@Otro@Otro@Rural@70.66664546132955
+Magdalena@47@Guamal@47318.0@564.49241709@27345@47@Caribe@Otro@Otro@Rural@48.441749033521994
+Magdalena@47@Nueva Granada@47460.0@842.05095637@20485@53@Caribe@Otro@Otro@Rural@24.327506364114647
+Magdalena@47@Pedraza@47541.0@325.47994473@9225@50@Caribe@Otro@Otro@Rural@28.342760128131843
+Magdalena@47@Pijiño Del Carmen@47545.0@661.56415402@12548@52@Caribe@Otro@Otro@Rural@18.96717033979543
+Magdalena@47@Pivijay@47551.0@1640.4444537@38203@50@Caribe@Otro@Otro@Rural@23.28820089813688
+Magdalena@47@Plato@47555.0@1457.33827748@63026@48@Caribe@Otro@Otro@Rural@43.24733726817585
+Magdalena@47@Pueblo Viejo@47570.0@675.46864031@31151@45@Caribe@Otro@Otro@Rural@46.11761100515864
+Magdalena@47@Remolino@47605.0@594.93120048@11702@52@Caribe@Otro@Otro@Rural@19.669501264278356
+Magdalena@47@Sabanas De San Angel@47660.0@1238.96717389@16247@56@Caribe@Otro@Otro@Rural@13.113341775625178
+Magdalena@47@Salamina@47675.0@170.47864124@11043@43@Caribe@Otro@Otro@Rural@64.77644307625407
+Magdalena@47@San Sebastián De Buenavista@47692.0@437.64556835@20171@48@Caribe@Otro@Otro@Rural@46.089807503474056
+Magdalena@47@San Zenón@47703.0@268.8830035@12104@49@Caribe@Otro@Otro@Rural@45.015861331673946
+Magdalena@47@Santa Ana@47707.0@1120.4373424@25750@52@Caribe@Otro@Otro@Rural@22.982097280730546
+Magdalena@47@Santa Bárbara De Pinto@47720.0@494.70419275@10977@51@Caribe@Otro@Otro@Rural@22.189017519702436
+Magdalena@47@Sitionuevo@47745.0@970.90464516@28254@47@Caribe@Otro@Otro@Rural@29.10069504852754
+Magdalena@47@Tenerife@47798.0@492.19925738@13354@50@Caribe@Otro@Otro@Rural@27.131288395443697
+Magdalena@47@Zapayán@47960.0@353.276259@10293@50@Caribe@Otro@Otro@Rural@29.13583842043572
+Magdalena@47@Zona Bananera@47980.0@446.46211795@71578@35@Caribe@Otro@Otro@Urbano@160.32267267973705
+Meta@50@Villavicencio@50001.0@1285.87935359@538824@30@Llano@Otro@Capital@Urbano@419.03153549800516
+Meta@50@Acacias@50006.0@1123.73792942@90124@43@Llano@Otro@Otro@Rural@80.20019404926211
+Meta@50@Barranca De Upía@50110.0@403.81886311@6513@60@Llano@Otro@Otro@Rural@16.128518489305595
+Meta@50@Cabuyaro@50124.0@913.66250933@6130@65@Llano@Otro@Otro@Rural@6.7092607362156125
+Meta@50@Castilla La Nueva@50150.0@514.6859666@15186@54@Llano@Otro@Otro@Rural@29.505370236375896
+Meta@50@Cubarral@50223.0@1157.8652462@7019@62@Llano@Otro@Otro@Rural@6.062018031058164
+Meta@50@Cumaral@50226.0@625.0924459@23014@49@Llano@Otro@Otro@Rural@36.816954277642466
+Meta@50@El Calvario@50245.0@277.85164762@1696@56@Llano@Otro@Otro@Rural@6.103976760719127
+Meta@50@El Castillo@50251.0@568.21805564@7619@55@Llano@Otro@Otro@Rural@13.408584828263695
+Meta@50@El Dorado@50270.0@117.34108343@3932@48@Llano@Otro@Otro@Rural@33.509150291301346
+Meta@50@Fuente De Oro@50287.0@570.99121767@12266@53@Llano@Otro@Otro@Rural@21.481941613835893
+Meta@50@Granada@50313.0@348.31178758@69770@36@Llano@Otro@Otro@Urbano@200.3090406005145
+Meta@50@Guamal@50318.0@595.70391831@14298@52@Llano@Otro@Otro@Rural@24.001856560828305
+Meta@50@Mapiripán@50325.0@11949.0284041@7086@78@Llano@Otro@Otro@Rural@0.59301892675798
+Meta@50@Mesetas@50330.0@2280.62999025@10706@64@Llano@Otro@Otro@Rural@4.694316941270434
+Meta@50@La Macarena@50350.0@10839.3339304@27534@72@Llano@Otro@Otro@Rural@2.540192983886042
+Meta@50@Uribe@50370.0@6437.20868907@9388@71@Llano@Otro@Otro@Rural@1.4583960926946906
+Meta@50@Lejanías@50400.0@815.42633461@11256@56@Llano@Otro@Otro@Rural@13.803822028121633
+Meta@50@Puerto Concordia@50450.0@1242.93551683@8484@59@Llano@Otro@Otro@Rural@6.82577646637511
+Meta@50@Puerto Gaitán@50568.0@17250.0831663@42677@78@Llano@Otro@Otro@Rural@2.4740170576901552
+Meta@50@Puerto López@50573.0@6913.34657571@30301@65@Llano@Otro@Otro@Rural@4.382971353766983
+Meta@50@Puerto Lleras@50577.0@2535.77420998@10359@66@Llano@Otro@Otro@Rural@4.085142896094721
+Meta@50@Puerto Rico@50590.0@3428.13356997@12918@65@Llano@Otro@Otro@Rural@3.76823123613385
+Meta@50@Restrepo@50606.0@365.11661@18474@48@Llano@Otro@Otro@Rural@50.59753375777673
+Meta@50@San Carlos De Guaroa@50680.0@807.79479697@12598@59@Llano@Otro@Otro@Rural@15.595544867650176
+Meta@50@San Juan De Arama@50683.0@1169.10460006@8948@60@Llano@Otro@Otro@Rural@7.653720633329796
+Meta@50@San Juanito@50686.0@237.35085216@1266@57@Llano@Otro@Otro@Rural@5.333875941370456
+Meta@50@San Martín@50689.0@5933.65235467@26571@67@Llano@Otro@Otro@Rural@4.478017654520602
+Meta@50@Vista Hermosa@50711.0@4819.21010773@17168@66@Llano@Otro@Otro@Rural@3.5624095269186484
+Nariño@52@Pasto@52001.0@1099.41143362@392748@32@Pacífico@Otro@Capital@Urbano@357.23477852764375
+Nariño@52@Albán@52019.0@38.61008739@9443@30@Pacífico@Otro@Otro@Urbano@244.57339100573324
+Nariño@52@Aldana@52022.0@47.64054844@7375@40@Pacífico@Otro@Otro@Urbano@154.80510282723353
+Nariño@52@Ancuyá@52036.0@68.90636196@8678@40@Pacífico@Otro@Otro@Urbano@125.93902439716032
+Nariño@52@Arboleda@52051.0@60.18576464@8431@40@Pacífico@Otro@Otro@Urbano@140.08295899254358
+Nariño@52@Barbacoas@52079.0@2732.9332761@56195@60@Pacífico@Otro@Otro@Rural@20.56215586799558
+Nariño@52@Belén@52083.0@41.84540565@6311@39@Pacífico@Otro@Otro@Urbano@150.817034796746
+Nariño@52@Buesaco@52110.0@635.96083273@23909@48@Pacífico@Otro@Otro@Rural@37.59508254205754
+Nariño@52@Colón@52203.0@61.75052927@8403@38@Pacífico@Otro@Otro@Urbano@136.0798052962178
+Nariño@52@Consaca@52207.0@119.35363587@13761@43@Pacífico@Otro@Otro@Rural@115.29602680046114
+Nariño@52@Contadero@52210.0@43.20904594@7252@39@Pacífico@Otro@Otro@Urbano@167.8352262179108
+Nariño@52@Córdoba@52215.0@304.63446136@15496@49@Pacífico@Otro@Otro@Rural@50.867521457750286
+Nariño@52@Cuaspud@52224.0@57.11859178@9199@40@Pacífico@Otro@Otro@Urbano@161.0508892696654
+Nariño@52@Cumbal@52227.0@915.32764146@36975@52@Pacífico@Otro@Otro@Rural@40.39537136781181
+Nariño@52@Cumbitara@52233.0@355.16697695@5843@51@Pacífico@Otro@Otro@Rural@16.45141688052426
+Nariño@52@Chachagüí@52240.0@146.27176111@15328@43@Pacífico@Otro@Otro@Rural@104.79124530723988
+Nariño@52@El Charco@52250.0@2490.66932541@22528@60@Pacífico@Otro@Otro@Rural@9.044958224750115
+Nariño@52@El Peñol@52254.0@119.85744434@7443@46@Pacífico@Otro@Otro@Rural@62.0987710941543
+Nariño@52@El Rosario@52256.0@520.29155027@12169@54@Pacífico@Otro@Otro@Rural@23.388809588941086
+Nariño@52@El Tablón De Gómez@52258.0@306.90261046@14296@48@Pacífico@Otro@Otro@Rural@46.58155229951445
+Nariño@52@El Tambo@52260.0@247.35273444@13986@46@Pacífico@Otro@Otro@Rural@56.54273453521317
+Nariño@52@Funes@52287.0@394.76235663@7168@55@Pacífico@Otro@Otro@Rural@18.157759673925472
+Nariño@52@Guachucal@52317.0@155.66689654@19387@42@Pacífico@Otro@Otro@Rural@124.54157197781826
+Nariño@52@Guaitarilla@52320.0@116.73978241@11422@41@Pacífico@Otro@Otro@Rural@97.8415392268333
+Nariño@52@Gualmatán@52323.0@29.96186568@7049@37@Pacífico@Otro@Otro@Urbano@235.26572327921872
+Nariño@52@Iles@52352.0@80.53153841@7646@42@Pacífico@Otro@Otro@Rural@94.94416909152898
+Nariño@52@Imués@52354.0@81.72986498@7530@43@Pacífico@Otro@Otro@Rural@92.13278404219382
+Nariño@52@Ipiales@52356.0@1571.75175458@115992@45@Pacífico@Otro@Otro@Rural@73.7979134822058
+Nariño@52@La Cruz@52378.0@238.84631918@18697@44@Pacífico@Otro@Otro@Rural@78.28046111068397
+Nariño@52@La Florida@52381.0@136.31292026@9985@43@Pacífico@Otro@Otro@Rural@73.25057654809866
+Nariño@52@La Llanada@52385.0@244.99828389@6481@53@Pacífico@Otro@Otro@Rural@26.453246517064816
+Nariño@52@La Tola@52390.0@415.90904779@7441@54@Pacífico@Otro@Otro@Rural@17.890930816578667
+Nariño@52@La Unión@52399.0@142.15237731@31803@37@Pacífico@Otro@Otro@Urbano@223.72471429475527
+Nariño@52@Leiva@52405.0@310.42044583@9653@49@Pacífico@Otro@Otro@Rural@31.096534167360904
+Nariño@52@Linares@52411.0@135.6634468@10098@43@Pacífico@Otro@Otro@Rural@74.43419902847404
+Nariño@52@Los Andes@52418.0@956.86953807@9376@56@Pacífico@Otro@Otro@Rural@9.798618962111945
+Nariño@52@Magüí@52427.0@1808.09579936@25214@61@Pacífico@Otro@Otro@Rural@13.945057562173883
+Nariño@52@Mallama@52435.0@569.04545354@8960@57@Pacífico@Otro@Otro@Rural@15.745666614609325
+Nariño@52@Mosquera@52473.0@768.05222911@12283@57@Pacífico@Otro@Otro@Rural@15.99240199358999
+Nariño@52@Nariño@52480.0@25.3128147@4355@43@Pacífico@Otro@Otro@Rural@172.0472437227615
+Nariño@52@Olaya Herrera@52490.0@1003.1174455@25282@52@Pacífico@Otro@Otro@Rural@25.20342968155467
+Nariño@52@Ospina@52506.0@64.8432117@7039@41@Pacífico@Otro@Otro@Rural@108.55415417370513
+Nariño@52@Francisco Pizarro@52520.0@525.18401588@14176@55@Pacífico@Otro@Otro@Rural@26.992443736595163
+Nariño@52@Policarpa@52540.0@434.34130939@9827@51@Pacífico@Otro@Otro@Rural@22.625064177757555
+Nariño@52@Potosí@52560.0@388.29955759@10197@50@Pacífico@Otro@Otro@Rural@26.260653149563634
+Nariño@52@Providencia@52565.0@39.94762088@5562@35@Pacífico@Otro@Otro@Urbano@139.23232166210545
+Nariño@52@Puerres@52573.0@350.14397612@8450@53@Pacífico@Otro@Otro@Rural@24.132929812575295
+Nariño@52@Pupiales@52585.0@129.65979837@17334@40@Pacífico@Otro@Otro@Urbano@133.68831525200528
+Nariño@52@Ricaurte@52612.0@1055.73278102@19885@58@Pacífico@Otro@Otro@Rural@18.83525865398253
+Nariño@52@Roberto Payán@52621.0@1457.71594318@12681@59@Pacífico@Otro@Otro@Rural@8.699225702599136
+Nariño@52@Samaniego@52678.0@605.04394486@28380@44@Pacífico@Otro@Otro@Rural@46.90568386163553
+Nariño@52@Sandoná@52683.0@101.61251434@20184@35@Pacífico@Otro@Otro@Urbano@198.63695068565508
+Nariño@52@San Bernardo@52685.0@65.16451439@9186@35@Pacífico@Otro@Otro@Urbano@140.96629255952323
+Nariño@52@San Lorenzo@52687.0@249.14358916@18435@44@Pacífico@Otro@Otro@Rural@73.99347525719814
+Nariño@52@San Pablo@52693.0@111.85964388@15034@38@Pacífico@Otro@Otro@Urbano@134.40057091660393
+Nariño@52@San Pedro De Cartago@52694.0@55.64727657@6831@40@Pacífico@Otro@Otro@Urbano@122.75533361290604
+Nariño@52@Santa Bárbara@52696.0@1224.57560616@13331@58@Pacífico@Otro@Otro@Rural@10.886220444814418
+Nariño@52@Santacruz@52699.0@540.63261385@10939@50@Pacífico@Otro@Otro@Rural@20.233703479522337
+Nariño@52@Sapuyes@52720.0@115.54851072@7277@46@Pacífico@Otro@Otro@Rural@62.97787790302037
+Nariño@52@Taminango@52786.0@234.65783497@17866@44@Pacífico@Otro@Otro@Rural@76.13638812564724
+Nariño@52@Tangua@52788.0@217.95976613@13397@47@Pacífico@Otro@Otro@Rural@61.46547244875226
+Nariño@52@San Andrés De Tumaco@52835.0@3611.51083314@255783@30@Pacífico@Otro@Otro@Urbano@70.8243756748229
+Nariño@52@Túquerres@52838.0@216.27234926@44650@37@Pacífico@Otro@Otro@Urbano@206.4526517272086
+Nariño@52@Yacuanquer@52885.0@102.73515616@10946@42@Pacífico@Otro@Otro@Rural@106.54580582865587
+Norte De Santander@54@Cúcuta@54001.0@1133.52594601@749197@29@Centro Oriente@Otro@Capital@Urbano@660.9438475027113
+Norte De Santander@54@Abrego@54003.0@1382.44975629@33003@52@Centro Oriente@Otro@Otro@Rural@23.872838669065434
+Norte De Santander@54@Arboledas@54051.0@456.14898855@9860@53@Centro Oriente@Otro@Otro@Rural@21.615744520979494
+Norte De Santander@54@Bochalema@54099.0@170.26704427@8529@48@Centro Oriente@Otro@Otro@Rural@50.091901439688975
+Norte De Santander@54@Bucarasica@54109.0@270.79085907@6472@55@Centro Oriente@Otro@Otro@Rural@23.9003636320197
+Norte De Santander@54@Cácota@54125.0@138.92219018@2855@53@Centro Oriente@Otro@Otro@Rural@20.55107248381851
+Norte De Santander@54@Cachirá@54128.0@615.81990466@11096@54@Centro Oriente@Otro@Otro@Rural@18.01825487619827
+Norte De Santander@54@Chinácota@54172.0@166.25413881@18176@42@Centro Oriente@Otro@Otro@Rural@109.32660161183749
+Norte De Santander@54@Chitagá@54174.0@1185.17804104@12042@59@Centro Oriente@Otro@Otro@Rural@10.16049874619098
+Norte De Santander@54@Convención@54206.0@931.92135593@19131@55@Centro Oriente@Otro@Otro@Rural@20.528556275983657
+Norte De Santander@54@Cucutilla@54223.0@374.91054548@8307@52@Centro Oriente@Otro@Otro@Rural@22.157285518241434
+Norte De Santander@54@Durania@54239.0@175.0128162@4693@52@Centro Oriente@Otro@Otro@Rural@26.815179036013934
+Norte De Santander@54@El Carmen@54245.0@1727.74295841@13648@60@Centro Oriente@Otro@Otro@Rural@7.899323179739609
+Norte De Santander@54@El Tarra@54250.0@704.10028661@21145@57@Centro Oriente@Otro@Otro@Rural@30.03123333723649
+Norte De Santander@54@El Zulia@54261.0@505.30409734@28240@48@Centro Oriente@Otro@Otro@Rural@55.887138356209235
+Norte De Santander@54@Gramalote@54313.0@149.0239078@7524@48@Centro Oriente@Otro@Otro@Rural@50.48854315441593
+Norte De Santander@54@Hacarí@54344.0@419.00493416@10342@53@Centro Oriente@Otro@Otro@Rural@24.68228690607933
+Norte De Santander@54@Herrán@54347.0@106.95802481@7087@48@Centro Oriente@Otro@Otro@Rural@66.25963795226521
+Norte De Santander@54@Labateca@54377.0@256.03978606@6443@52@Centro Oriente@Otro@Otro@Rural@25.16405789563563
+Norte De Santander@54@La Esperanza@54385.0@669.89943971@11941@54@Centro Oriente@Otro@Otro@Rural@17.825063423204636
+Norte De Santander@54@La Playa@54398.0@242.21466725@7821@50@Centro Oriente@Otro@Otro@Rural@32.28953922896674
+Norte De Santander@54@Los Patios@54405.0@127.58813309@93754@28@Centro Oriente@Otro@Otro@Urbano@734.8175549670158
+Norte De Santander@54@Lourdes@54418.0@86.58733641@4091@48@Centro Oriente@Otro@Otro@Rural@47.247093739304916
+Norte De Santander@54@Mutiscua@54480.0@158.80967491@4373@51@Centro Oriente@Otro@Otro@Rural@27.536105734604956
+Norte De Santander@54@Ocaña@54498.0@522.5999579@124603@36@Centro Oriente@Otro@Otro@Urbano@238.4290280096863
+Norte De Santander@54@Pamplona@54518.0@298.29409051@52240@36@Centro Oriente@Otro@Otro@Urbano@175.1291817772324
+Norte De Santander@54@Pamplonita@54520.0@170.93089437@5628@50@Centro Oriente@Otro@Otro@Rural@32.92558680362096
+Norte De Santander@54@Puerto Santander@54553.0@44.94540103@8938@37@Centro Oriente@Otro@Otro@Urbano@198.86350539033114
+Norte De Santander@54@Ragonvalia@54599.0@97.72577789@6149@44@Centro Oriente@Otro@Otro@Rural@62.920962439626784
+Norte De Santander@54@Salazar@54660.0@493.91008949@10501@54@Centro Oriente@Otro@Otro@Rural@21.260954622010427
+Norte De Santander@54@San Calixto@54670.0@398.02195262@12127@51@Centro Oriente@Otro@Otro@Rural@30.468168703191868
+Norte De Santander@54@San Cayetano@54673.0@139.2816488@7442@49@Centro Oriente@Otro@Otro@Rural@53.431303148100014
+Norte De Santander@54@Santiago@54680.0@172.53818835@3537@56@Centro Oriente@Otro@Otro@Rural@20.499809542598573
+Norte De Santander@54@Sardinata@54720.0@1467.70683028@26100@56@Centro Oriente@Otro@Otro@Rural@17.782842909452704
+Norte De Santander@54@Silos@54743.0@316.85540767@6380@54@Centro Oriente@Otro@Otro@Rural@20.13536725446918
+Norte De Santander@54@Teorama@54800.0@927.05395631@17040@55@Centro Oriente@Otro@Otro@Rural@18.380807162320064
+Norte De Santander@54@Tibú@54810.0@2680.07291457@56510@58@Centro Oriente@Otro@Otro@Rural@21.08524723069583
+Norte De Santander@54@Toledo@54820.0@1480.66502911@15937@58@Centro Oriente@Otro@Otro@Rural@10.763406771063833
+Norte De Santander@54@Villa Caro@54871.0@401.05845167@5172@57@Centro Oriente@Otro@Otro@Rural@12.895875846684909
+Norte De Santander@54@Villa Del Rosario@54874.0@90.61902907@107288@25@Centro Oriente@Otro@Otro@Urbano@1183.94559179313
+Quindío@63@Armenia@63001.0@121.61741615@300194@13@Eje Cafetero@Otro@Capital@Urbano@2468.3471290801635
+Quindío@63@Buenavista@63111.0@38.45809947@3107@39@Eje Cafetero@Otro@Otro@Urbano@80.78922366987159
+Quindío@63@Calarcá@63130.0@220.83628992@73872@28@Eje Cafetero@Otro@Otro@Urbano@334.5102384520262
+Quindío@63@Circasia@63190.0@90.32288746@28631@29@Eje Cafetero@Otro@Otro@Urbano@316.9849946690356
+Quindío@63@Córdoba@63212.0@92.97624817@5687@42@Eje Cafetero@Otro@Otro@Rural@61.166159228126226
+Quindío@63@Filandia@63272.0@106.56200975@12154@35@Eje Cafetero@Otro@Otro@Urbano@114.05565668772496
+Quindío@63@Génova@63302.0@294.93771857@7455@46@Eje Cafetero@Otro@Otro@Rural@25.27652290844802
+Quindío@63@La Tebaida@63401.0@89.37974557@34172@27@Eje Cafetero@Otro@Otro@Urbano@382.3237555899881
+Quindío@63@Montenegro@63470.0@149.05751226@37127@30@Eje Cafetero@Otro@Otro@Urbano@249.07835530784672
+Quindío@63@Pijao@63548.0@248.58261671@5146@48@Eje Cafetero@Otro@Otro@Rural@20.701367087157976
+Quindío@63@Quimbaya@63594.0@133.52035396@30911@30@Eje Cafetero@Otro@Otro@Urbano@231.50777453196622
+Quindío@63@Salento@63690.0@347.31994862@9399@49@Eje Cafetero@Otro@Otro@Rural@27.061503485028357
+Risaralda@66@Pereira@66001.0@608.16599064@472406@21@Eje Cafetero@Otro@Capital@Urbano@776.7714855328662
+Risaralda@66@Apía@66045.0@149.98051137@12276@37@Eje Cafetero@Otro@Otro@Urbano@81.85063437819109
+Risaralda@66@Balboa@66075.0@119.48598487@6348@43@Eje Cafetero@Otro@Otro@Rural@53.12756978909773
+Risaralda@66@Belén De Umbría@66088.0@180.60043873@24660@34@Eje Cafetero@Otro@Otro@Urbano@136.54451879193394
+Risaralda@66@Dosquebradas@66170.0@70.12886684@220771@12@Eje Cafetero@Otro@Otro@Urbano@3148.075962836989
+Risaralda@66@Guática@66318.0@100.82063905@12108@34@Eje Cafetero@Otro@Otro@Urbano@120.09445798092271
+Risaralda@66@La Celia@66383.0@92.47366148@7448@39@Eje Cafetero@Otro@Otro@Urbano@80.54185246694094
+Risaralda@66@La Virginia@66400.0@32.80121313@27916@20@Eje Cafetero@Otro@Otro@Urbano@851.0660837256661
+Risaralda@66@Marsella@66440.0@149.31913742@16782@34@Eje Cafetero@Otro@Otro@Urbano@112.39014830896147
+Risaralda@66@Mistrató@66456.0@564.7434802@17110@49@Eje Cafetero@Otro@Otro@Rural@30.29694117750702
+Risaralda@66@Pueblo Rico@66572.0@613.76781319@16309@51@Eje Cafetero@Otro@Otro@Rural@26.571937546277507
+Risaralda@66@Quinchía@66594.0@140.1300619@27235@32@Eje Cafetero@Otro@Otro@Urbano@194.3551557083841
+Risaralda@66@Santa Rosa De Cabal@66682.0@543.49262961@78636@35@Eje Cafetero@Otro@Otro@Urbano@144.68641471077115
+Risaralda@66@Santuario@66687.0@190.86402368@12506@40@Eje Cafetero@Otro@Otro@Urbano@65.52308684934458
+Santander@68@Bucaramanga@68001.0@152.91568607@595635@11@Centro Oriente@Otro@Capital@Urbano@3895.18574129365
+Santander@68@Aguada@68013.0@75.23124792@1858@48@Centro Oriente@Otro@Otro@Rural@24.69718436647196
+Santander@68@Albania@68020.0@166.21696603@4242@51@Centro Oriente@Otro@Otro@Rural@25.520860483245578
+Santander@68@Aratoca@68051.0@169.79155179@8368@45@Centro Oriente@Otro@Otro@Rural@49.283959724625355
+Santander@68@Barbosa@68077.0@46.66488698@31940@27@Centro Oriente@Otro@Otro@Urbano@684.4546738897941
+Santander@68@Barichara@68079.0@137.2758117@10674@44@Centro Oriente@Otro@Otro@Rural@77.75586877116241
+Santander@68@Barrancabermeja@68081.0@1326.83830229@207494@36@Centro Oriente@Otro@Otro@Urbano@156.38228082644628
+Santander@68@Betulia@68092.0@431.24870865@6003@55@Centro Oriente@Otro@Otro@Rural@13.92004168265699
+Santander@68@Bolívar@68101.0@1010.1258607@11073@56@Centro Oriente@Otro@Otro@Rural@10.962000311848863
+Santander@68@Cabrera@68121.0@65.57430937@1983@49@Centro Oriente@Otro@Otro@Rural@30.240501486809638
+Santander@68@California@68132.0@45.01345975@2186@47@Centro Oriente@Otro@Otro@Rural@48.56325223923717
+Santander@68@Capitanejo@68147.0@85.28406397@5479@42@Centro Oriente@Otro@Otro@Rural@64.24412422380955
+Santander@68@Carcasí@68152.0@258.94615159@4263@53@Centro Oriente@Otro@Otro@Rural@16.462882239508165
+Santander@68@Cepitá@68160.0@107.96710895@2018@52@Centro Oriente@Otro@Otro@Rural@18.69087743133461
+Santander@68@Cerrito@68162.0@421.08144251@6838@55@Centro Oriente@Otro@Otro@Rural@16.23913882131628
+Santander@68@Charalá@68167.0@419.23135063@12256@50@Centro Oriente@Otro@Otro@Rural@29.234454869804686
+Santander@68@Charta@68169.0@126.70625039@2883@50@Centro Oriente@Otro@Otro@Rural@22.753415803294377
+Santander@68@Chimá@68176.0@173.21902206@2865@53@Centro Oriente@Otro@Otro@Rural@16.53975392499107
+Santander@68@Chipatá@68179.0@94.93681903@5084@45@Centro Oriente@Otro@Otro@Rural@53.55140452297499
+Santander@68@Cimitarra@68190.0@3174.28853876@33750@58@Centro Oriente@Otro@Otro@Rural@10.632303770716463
+Santander@68@Concepción@68207.0@337.11991806@5738@54@Centro Oriente@Otro@Otro@Rural@17.020649604508865
+Santander@68@Confines@68209.0@71.42170043@3233@48@Centro Oriente@Otro@Otro@Rural@45.26635435078509
+Santander@68@Contratación@68211.0@137.17207648@3683@50@Centro Oriente@Otro@Otro@Rural@26.849487844102075
+Santander@68@Coromoro@68217.0@577.49574601@5009@56@Centro Oriente@Otro@Otro@Rural@8.673656965627698
+Santander@68@Curití@68229.0@244.22273703@13028@46@Centro Oriente@Otro@Otro@Rural@53.34474651473445
+Santander@68@El Carmen De Chucurí@68235.0@924.0326235@21415@52@Centro Oriente@Otro@Otro@Rural@23.175588670111495
+Santander@68@El Guacamayo@68245.0@92.96763011@2119@52@Centro Oriente@Otro@Otro@Rural@22.79287960220975
+Santander@68@El Peñón@68250.0@398.21774664@5405@56@Centro Oriente@Otro@Otro@Rural@13.572976206121401
+Santander@68@El Playón@68255.0@454.98192085@13882@49@Centro Oriente@Otro@Otro@Rural@30.511102450105188
+Santander@68@Encino@68264.0@400.43269142@2567@61@Centro Oriente@Otro@Otro@Rural@6.410565508268061
+Santander@68@Enciso@68266.0@74.81603233@3444@45@Centro Oriente@Otro@Otro@Rural@46.03291423967978
+Santander@68@Florián@68271.0@176.59965513@5569@49@Centro Oriente@Otro@Otro@Rural@31.5346029181116
+Santander@68@Floridablanca@68276.0@100.32773906@300730@14@Centro Oriente@Otro@Otro@Urbano@2997.4761000061153
+Santander@68@Galán@68296.0@201.73157557@2883@54@Centro Oriente@Otro@Otro@Rural@14.291267947786446
+Santander@68@Gambita@68298.0@608.23306615@4008@59@Centro Oriente@Otro@Otro@Rural@6.589579263373299
+Santander@68@Girón@68307.0@493.0298875@166843@31@Centro Oriente@Otro@Otro@Urbano@338.40341981296217
+Santander@68@Guaca@68318.0@302.39826382@5900@51@Centro Oriente@Otro@Otro@Rural@19.510694028031605
+Santander@68@Guadalupe@68320.0@146.33070938@4473@48@Centro Oriente@Otro@Otro@Rural@30.567746298449606
+Santander@68@Guapotá@68322.0@67.30036397@2394@49@Centro Oriente@Otro@Otro@Rural@35.57187300008
+Santander@68@Guavatá@68324.0@83.79545511@4200@45@Centro Oriente@Otro@Otro@Rural@50.12205010983679
+Santander@68@Güepsa@68327.0@30.15674861@5222@38@Centro Oriente@Otro@Otro@Urbano@173.16190374277886
+Santander@68@Hato@68344.0@169.01757229@2349@55@Centro Oriente@Otro@Otro@Rural@13.897963200948068
+Santander@68@Jesús María@68368.0@89.59308517@3337@50@Centro Oriente@Otro@Otro@Rural@37.246178024432915
+Santander@68@Jordán@68370.0@39.89917751@1325@49@Centro Oriente@Otro@Otro@Rural@33.20870460720432
+Santander@68@La Belleza@68377.0@335.20158172@6174@52@Centro Oriente@Otro@Otro@Rural@18.418767501990057
+Santander@68@Landázuri@68385.0@590.2163864@10482@51@Centro Oriente@Otro@Otro@Rural@17.759588248531216
+Santander@68@La Paz@68397.0@284.34697209@4921@52@Centro Oriente@Otro@Otro@Rural@17.306321090144863
+Santander@68@Lebríja@68406.0@550.43323732@43145@43@Centro Oriente@Otro@Otro@Rural@78.38371136537529
+Santander@68@Los Santos@68418.0@290.12518836@14485@47@Centro Oriente@Otro@Otro@Rural@49.926723294450326
+Santander@68@Macaravita@68425.0@102.91750817@2125@51@Centro Oriente@Otro@Otro@Rural@20.647604453169496
+Santander@68@Málaga@68432.0@57.18169557@21339@31@Centro Oriente@Otro@Otro@Urbano@373.17886060019816
+Santander@68@Matanza@68444.0@235.74856786@4999@44@Centro Oriente@Otro@Otro@Rural@21.204794775121055
+Santander@68@Mogotes@68464.0@483.97012733@10576@51@Centro Oriente@Otro@Otro@Rural@21.85258841975725
+Santander@68@Molagavita@68468.0@180.47170201@4105@49@Centro Oriente@Otro@Otro@Rural@22.745948280426482
+Santander@68@Ocamonte@68498.0@75.22127909@5740@43@Centro Oriente@Otro@Otro@Rural@76.30819456197047
+Santander@68@Oiba@68500.0@286.06674772@11004@47@Centro Oriente@Otro@Otro@Rural@38.46654701290425
+Santander@68@Onzaga@68502.0@489.22843694@4111@57@Centro Oriente@Otro@Otro@Rural@8.403027480808891
+Santander@68@Palmar@68522.0@19.69444169@1386@37@Centro Oriente@Otro@Otro@Urbano@70.37518614725452
+Santander@68@Palmas Del Socorro@68524.0@58.54111972@2584@47@Centro Oriente@Otro@Otro@Rural@44.13991417245136
+Santander@68@Páramo@68533.0@72.9811189@4773@45@Centro Oriente@Otro@Otro@Rural@65.40047716369007
+Santander@68@Piedecuesta@68547.0@484.57230922@177586@32@Centro Oriente@Otro@Otro@Urbano@366.4798764210326
+Santander@68@Pinchote@68549.0@55.53541904@5285@42@Centro Oriente@Otro@Otro@Rural@95.1644930633083
+Santander@68@Puente Nacional@68572.0@251.67854824@14740@45@Centro Oriente@Otro@Otro@Rural@58.56677139580436
+Santander@68@Puerto Parra@68573.0@762.34460068@7846@59@Centro Oriente@Otro@Otro@Rural@10.291933586204303
+Santander@68@Puerto Wilches@68575.0@1507.9862462@33572@53@Centro Oriente@Otro@Otro@Rural@22.26280251865602
+Santander@68@Rionegro@68615.0@1168.43222332@26746@51@Centro Oriente@Otro@Otro@Rural@22.890501876098156
+Santander@68@Sabana De Torres@68655.0@1402.8700085@33887@55@Centro Oriente@Otro@Otro@Rural@24.155481117051764
+Santander@68@San Andrés@68669.0@281.5588552@8613@48@Centro Oriente@Otro@Otro@Rural@30.59040708871301
+Santander@68@San Benito@68673.0@59.11302218@2957@43@Centro Oriente@Otro@Otro@Rural@50.02281884685057
+Santander@68@San Gil@68679.0@146.87727411@58032@31@Centro Oriente@Otro@Otro@Urbano@395.1053718258579
+Santander@68@San Joaquín@68682.0@143.13342696@2215@53@Centro Oriente@Otro@Otro@Rural@15.47507138649732
+Santander@68@San José De Miranda@68684.0@75.30374323@4313@44@Centro Oriente@Otro@Otro@Rural@57.27470926414398
+Santander@68@San Miguel@68686.0@71.21134788@2494@48@Centro Oriente@Otro@Otro@Rural@35.0225079885119
+Santander@68@San Vicente De Chucurí@68689.0@1116.36060506@33414@49@Centro Oriente@Otro@Otro@Rural@29.931188765124986
+Santander@68@Santa Bárbara@68705.0@221.21709441@2425@55@Centro Oriente@Otro@Otro@Rural@10.962082322198603
+Santander@68@Santa Helena Del Opón@68720.0@373.85726248@3393@57@Centro Oriente@Otro@Otro@Rural@9.075656247767858
+Santander@68@Simacota@68745.0@904.71295485@10138@58@Centro Oriente@Otro@Otro@Rural@11.205764154975393
+Santander@68@Socorro@68755.0@127.8258349@32965@34@Centro Oriente@Otro@Otro@Urbano@257.8899643079898
+Santander@68@Suaita@68770.0@285.19553397@10086@48@Centro Oriente@Otro@Otro@Rural@35.365210175629734
+Santander@68@Sucre@68773.0@522.53920084@7103@54@Centro Oriente@Otro@Otro@Rural@13.593238533265406
+Santander@68@Suratá@68780.0@363.00877434@3977@58@Centro Oriente@Otro@Otro@Rural@10.955658047744809
+Santander@68@Tona@68820.0@330.72628373@7562@52@Centro Oriente@Otro@Otro@Rural@22.864829231938227
+Santander@68@Valle De San José@68855.0@81.11493889@6222@43@Centro Oriente@Otro@Otro@Rural@76.70596914876131
+Santander@68@Vélez@68861.0@447.6767281@24843@47@Centro Oriente@Otro@Otro@Rural@55.49316826326224
+Santander@68@Vetas@68867.0@92.42238639@2142@50@Centro Oriente@Otro@Otro@Rural@23.176203122058336
+Santander@68@Villanueva@68872.0@97.60691327@7927@42@Centro Oriente@Otro@Otro@Rural@81.21350972417652
+Santander@68@Zapatoca@68895.0@364.4185511@9507@49@Centro Oriente@Otro@Otro@Rural@26.08813401870748
+Sucre@70@Sincelejo@70001.0@279.97294538@286635@23@Caribe@Otro@Capital@Urbano@1023.7953514078218
+Sucre@70@Buenavista@70110.0@146.49809594@10727@42@Caribe@Otro@Otro@Rural@73.22279467982551
+Sucre@70@Caimito@70124.0@412.46980712@15668@51@Caribe@Otro@Otro@Rural@37.98581066914724
+Sucre@70@Coloso@70204.0@131.16269241@8670@45@Caribe@Otro@Otro@Rural@66.10111336307845
+Sucre@70@Corozal@70215.0@285.89446074@69268@34@Caribe@Otro@Otro@Urbano@242.2852118950082
+Sucre@70@Coveñas@70221.0@56.55515347@18892@33@Caribe@Otro@Otro@Urbano@334.0455969237422
+Sucre@70@Chalán@70230.0@83.71001483@4537@45@Caribe@Otro@Otro@Rural@54.199010825811364
+Sucre@70@El Roble@70233.0@198.43440202@10215@46@Caribe@Otro@Otro@Rural@51.477969021573394
+Sucre@70@Galeras@70235.0@321.85642596@22673@44@Caribe@Otro@Otro@Rural@70.4444533999075
+Sucre@70@Guaranda@70265.0@361.8676371@18198@48@Caribe@Otro@Otro@Rural@50.28910611028498
+Sucre@70@La Unión@70400.0@232.35039472@12701@47@Caribe@Otro@Otro@Rural@54.6631307224835
+Sucre@70@Los Palmitos@70418.0@198.8844424@23420@40@Caribe@Otro@Otro@Urbano@117.75682259197163
+Sucre@70@Majagual@70429.0@845.15861198@37564@50@Caribe@Otro@Otro@Rural@44.44609504953955
+Sucre@70@Morroa@70473.0@170.01489701@15495@42@Caribe@Otro@Otro@Rural@91.13907235486906
+Sucre@70@Ovejas@70508.0@460.04836197@23148@45@Caribe@Otro@Otro@Rural@50.31644912477592
+Sucre@70@Palmito@70523.0@174.57019535@14635@43@Caribe@Otro@Otro@Rural@83.83447111723702
+Sucre@70@Sampués@70670.0@213.93770069@47746@35@Caribe@Otro@Otro@Urbano@223.17712047015456
+Sucre@70@San Benito Abad@70678.0@1494.16295579@29282@55@Caribe@Otro@Otro@Rural@19.59759468438829
+Sucre@70@San Juan De Betulia@70702.0@168.17557244@13892@42@Caribe@Otro@Otro@Rural@82.60414873840402
+Sucre@70@San Marcos@70708.0@970.35481214@59254@46@Caribe@Otro@Otro@Rural@61.06426150381269
+Sucre@70@San Onofre@70713.0@1035.07899305@50423@45@Caribe@Otro@Otro@Rural@48.714156444641795
+Sucre@70@San Pedro@70717.0@212.9948174@18920@41@Caribe@Otro@Otro@Rural@88.82845240534007
+Sucre@70@San Luis De Sincé@70742.0@418.97976977@31365@43@Caribe@Otro@Otro@Rural@74.8604163327931
+Sucre@70@Sucre@70771.0@1131.18019269@30253@53@Caribe@Otro@Otro@Rural@26.744633786467684
+Sucre@70@Santiago De Tolú@70820.0@302.51669186@33553@40@Caribe@Otro@Otro@Urbano@110.912888124295
+Sucre@70@Tolú Viejo@70823.0@285.01589128@21850@42@Caribe@Otro@Otro@Rural@76.6623920577626
+Tolima@73@Ibagué@73001.0@1377.25137736@536087@27@Centro Sur@Otro@Capital@Urbano@389.2441197100884
+Tolima@73@Alpujarra@73024.0@501.5113202@4493@57@Centro Sur@Otro@Otro@Rural@8.95892040524273
+Tolima@73@Alvarado@73026.0@344.33559262@8710@48@Centro Sur@Otro@Otro@Rural@25.295090564779734
+Tolima@73@Ambalema@73030.0@238.04483788@6596@47@Centro Sur@Otro@Otro@Rural@27.70906548002981
+Tolima@73@Anzoátegui@73043.0@469.71132542@10110@46@Centro Sur@Otro@Otro@Rural@21.52385827818816
+Tolima@73@Armero@73055.0@440.63084363@12335@48@Centro Sur@Otro@Otro@Rural@27.99395498141243
+Tolima@73@Ataco@73067.0@1017.64443733@19195@51@Centro Sur@Otro@Otro@Rural@18.862187317961506
+Tolima@73@Cajamarca@73124.0@508.49091081@18443@45@Centro Sur@Otro@Otro@Rural@36.27006817215522
+Tolima@73@Carmen De Apicala@73148.0@190.83613055@10306@45@Centro Sur@Otro@Otro@Rural@54.00444858265336
+Tolima@73@Casabianca@73152.0@175.29617919@6326@45@Centro Sur@Otro@Otro@Rural@36.087495056828224
+Tolima@73@Chaparral@73168.0@2102.06323602@50565@50@Centro Sur@Otro@Otro@Rural@24.054937612504297
+Tolima@73@Coello@73200.0@343.59810611@8286@48@Centro Sur@Otro@Otro@Rural@24.115383212698234
+Tolima@73@Coyaima@73217.0@669.055687@22610@46@Centro Sur@Otro@Otro@Rural@33.7938985338899
+Tolima@73@Cunday@73226.0@507.51528262@8518@51@Centro Sur@Otro@Otro@Rural@16.78373103569734
+Tolima@73@Dolores@73236.0@651.95039954@8250@54@Centro Sur@Otro@Otro@Rural@12.654336903269014
+Tolima@73@Espinal@73268.0@216.49894583@70769@28@Centro Sur@Otro@Otro@Urbano@326.87918977475977
+Tolima@73@Falan@73270.0@181.32221342@7494@44@Centro Sur@Otro@Otro@Rural@41.329740348147574
+Tolima@73@Flandes@73275.0@96.79717451@28510@30@Centro Sur@Otro@Otro@Urbano@294.5333905077432
+Tolima@73@Fresno@73283.0@219.66147916@31124@36@Centro Sur@Otro@Otro@Urbano@141.69075123694984
+Tolima@73@Guamo@73319.0@505.74382712@32826@41@Centro Sur@Otro@Otro@Rural@64.90637797188819
+Tolima@73@Herveo@73347.0@322.74343346@7266@48@Centro Sur@Otro@Otro@Rural@22.513238835269842
+Tolima@73@Honda@73349.0@304.88691225@24585@40@Centro Sur@Otro@Otro@Urbano@80.63645572244467
+Tolima@73@Icononzo@73352.0@215.18185508@11891@42@Centro Sur@Otro@Otro@Rural@55.26023556019248
+Tolima@73@Lérida@73408.0@271.95447635@18598@41@Centro Sur@Otro@Otro@Rural@68.38644559049193
+Tolima@73@Líbano@73411.0@282.37261191@36432@35@Centro Sur@Otro@Otro@Urbano@129.02101146980888
+Tolima@73@Mariquita@73443.0@293.34315416@38084@38@Centro Sur@Otro@Otro@Urbano@129.82747154626833
+Tolima@73@Melgar@73449.0@202.16042796@37191@34@Centro Sur@Otro@Otro@Urbano@183.9677545961602
+Tolima@73@Murillo@73461.0@423.93217667@4129@54@Centro Sur@Otro@Otro@Rural@9.7397655267251
+Tolima@73@Natagaima@73483.0@859.83002478@14722@50@Centro Sur@Otro@Otro@Rural@17.121988736979542
+Tolima@73@Ortega@73504.0@953.80432456@34453@47@Centro Sur@Otro@Otro@Rural@36.12166469877722
+Tolima@73@Palocabildo@73520.0@65.01112946@9773@36@Centro Sur@Otro@Otro@Urbano@150.32810660539474
+Tolima@73@Piedras@73547.0@354.42532016@6737@53@Centro Sur@Otro@Otro@Rural@19.0082356332744
+Tolima@73@Planadas@73555.0@1754.10183146@25785@53@Centro Sur@Otro@Otro@Rural@14.699830726781835
+Tolima@73@Prado@73563.0@423.01300283@8443@51@Centro Sur@Otro@Otro@Rural@19.959197337943447
+Tolima@73@Purificación@73585.0@402.20480783@23527@42@Centro Sur@Otro@Otro@Rural@58.495074007032166
+Tolima@73@Rio Blanco@73616.0@2046.23379236@22660@54@Centro Sur@Otro@Otro@Rural@11.074003412809125
+Tolima@73@Roncesvalles@73622.0@775.84952855@5467@58@Centro Sur@Otro@Otro@Rural@7.046469449066214
+Tolima@73@Rovira@73624.0@739.47619525@21556@48@Centro Sur@Otro@Otro@Rural@29.150363647219784
+Tolima@73@Saldaña@73671.0@193.22678055@14450@41@Centro Sur@Otro@Otro@Rural@74.78259462207865
+Tolima@73@San Antonio@73675.0@383.40696991@12691@46@Centro Sur@Otro@Otro@Rural@33.100598048541094
+Tolima@73@San Luis@73678.0@412.22622694@13481@44@Centro Sur@Otro@Otro@Rural@32.70291679418587
+Tolima@73@Santa Isabel@73686.0@270.18664067@5710@49@Centro Sur@Otro@Otro@Rural@21.13353934095531
+Tolima@73@Suárez@73770.0@190.07818668@3788@49@Centro Sur@Otro@Otro@Rural@19.92864129315988
+Tolima@73@Valle De San Juan@73854.0@197.84640769@5353@47@Centro Sur@Otro@Otro@Rural@27.056341646533536
+Tolima@73@Venadillo@73861.0@334.63275703@12751@43@Centro Sur@Otro@Otro@Rural@38.10445849106418
+Tolima@73@Villahermosa@73870.0@278.8499413@9216@45@Centro Sur@Otro@Otro@Rural@33.0500338534588
+Tolima@73@Villarrica@73873.0@430.46301234@5021@54@Centro Sur@Otro@Otro@Rural@11.664184508457089
+Valle Del Cauca@76@Cali@76001.0@563.04091967@2241491@10@Pacífico@Otro@Capital@Urbano@3981.0445772107378
+Valle Del Cauca@76@Alcalá@76020.0@62.35754539@14189@29@Pacífico@Otro@Otro@Urbano@227.54263195028562
+Valle Del Cauca@76@Andalucía@76036.0@110.46041792@22515@34@Pacífico@Otro@Otro@Urbano@203.82866934566817
+Valle Del Cauca@76@Ansermanuevo@76041.0@305.45113843@17348@41@Pacífico@Otro@Otro@Rural@56.79468110404711
+Valle Del Cauca@76@Argelia@76054.0@90.79604368@5258@41@Pacífico@Otro@Otro@Rural@57.91001223061221
+Valle Del Cauca@76@Bolívar@76100.0@743.57207248@15828@50@Pacífico@Otro@Otro@Rural@21.286436898052987
+Valle Del Cauca@76@Buenaventura@76109.0@6292.41025627@310194@44@Pacífico@Otro@Otro@Rural@49.296531434979265
+Valle Del Cauca@76@Guadalajara De Buga@76111.0@825.8772487@128316@34@Pacífico@Otro@Otro@Urbano@155.36933630509878
+Valle Del Cauca@76@Bugalagrande@76113.0@396.78132336@24400@43@Pacífico@Otro@Otro@Rural@61.494829931452855
+Valle Del Cauca@76@Caicedonia@76122.0@166.98368656@28609@33@Pacífico@Otro@Otro@Urbano@171.3281134784404
+Valle Del Cauca@76@Calima@76126.0@793.49798184@18171@51@Pacífico@Otro@Otro@Rural@22.89986920680534
+Valle Del Cauca@76@Candelaria@76130.0@296.47303499@93183@31@Pacífico@Otro@Otro@Urbano@314.30514415296847
+Valle Del Cauca@76@Cartago@76147.0@248.2239721@136596@25@Pacífico@Otro@Otro@Urbano@550.2933453380186
+Valle Del Cauca@76@Dagua@76233.0@916.32479573@48758@46@Pacífico@Otro@Otro@Rural@53.210390275597
+Valle Del Cauca@76@El Águila@76243.0@187.81313564@8696@42@Pacífico@Otro@Otro@Rural@46.30134080008377
+Valle Del Cauca@76@El Cairo@76246.0@214.20335522@6637@45@Pacífico@Otro@Otro@Rural@30.984575349827708
+Valle Del Cauca@76@El Cerrito@76248.0@441.88858289@56835@36@Pacífico@Otro@Otro@Urbano@128.61839432078747
+Valle Del Cauca@76@El Dovio@76250.0@235.41011735@8711@44@Pacífico@Otro@Otro@Rural@37.00350731760935
+Valle Del Cauca@76@Florida@76275.0@401.55021138@57696@36@Pacífico@Otro@Otro@Urbano@143.68315185719177
+Valle Del Cauca@76@Ginebra@76306.0@268.73272309@22908@40@Pacífico@Otro@Otro@Urbano@85.24454981363766
+Valle Del Cauca@76@Guacarí@76318.0@162.4990753@33405@32@Pacífico@Otro@Otro@Urbano@205.5704005596886
+Valle Del Cauca@76@Jamundí@76364.0@628.9643411@164159@36@Pacífico@Otro@Otro@Urbano@260.99889814564244
+Valle Del Cauca@76@La Cumbre@76377.0@255.41489424@16422@45@Pacífico@Otro@Otro@Rural@64.29538907221718
+Valle Del Cauca@76@La Unión@76400.0@120.87494897@34244@30@Pacífico@Otro@Otro@Urbano@283.3010503152231
+Valle Del Cauca@76@La Victoria@76403.0@264.69779853@11981@42@Pacífico@Otro@Otro@Rural@45.262937835284305
+Valle Del Cauca@76@Obando@76497.0@214.67702708@12140@40@Pacífico@Otro@Otro@Urbano@56.550065766822804
+Valle Del Cauca@76@Palmira@76520.0@1005.15343961@352016@29@Pacífico@Otro@Otro@Urbano@350.21120769042227
+Valle Del Cauca@76@Pradera@76563.0@356.73106135@47918@35@Pacífico@Otro@Otro@Urbano@134.32528083946733
+Valle Del Cauca@76@Restrepo@76606.0@136.23201775@15295@37@Pacífico@Otro@Otro@Urbano@112.27169833209051
+Valle Del Cauca@76@Riofrío@76616.0@308.0877961@15483@42@Pacífico@Otro@Otro@Rural@50.25515517328211
+Valle Del Cauca@76@Roldanillo@76622.0@235.72665152@36767@35@Pacífico@Otro@Otro@Urbano@155.97302962105047
+Valle Del Cauca@76@San Pedro@76670.0@202.12860464@17082@39@Pacífico@Otro@Otro@Urbano@84.51055223195054
+Valle Del Cauca@76@Sevilla@76736.0@537.18399278@41503@39@Pacífico@Otro@Otro@Urbano@77.26030663202815
+Valle Del Cauca@76@Toro@76823.0@175.7636534@14467@39@Pacífico@Otro@Otro@Urbano@82.30939514597048
+Valle Del Cauca@76@Trujillo@76828.0@307.64209369@19073@43@Pacífico@Otro@Otro@Rural@61.997367691884136
+Valle Del Cauca@76@Tuluá@76834.0@909.35897223@215978@32@Pacífico@Otro@Otro@Urbano@237.50576680445803
+Valle Del Cauca@76@Ulloa@76845.0@41.86087745@5412@35@Pacífico@Otro@Otro@Urbano@129.28539318040504
+Valle Del Cauca@76@Versalles@76863.0@200.59725955@7070@46@Pacífico@Otro@Otro@Rural@35.24474868629879
+Valle Del Cauca@76@Vijes@76869.0@113.7739448@12817@39@Pacífico@Otro@Otro@Urbano@112.65320915549376
+Valle Del Cauca@76@Yotoco@76890.0@327.80054567@16117@43@Pacífico@Otro@Otro@Rural@49.167093261111106
+Valle Del Cauca@76@Yumbo@76892.0@230.58969895@108889@27@Pacífico@Otro@Otro@Urbano@472.2197066730677
+Valle Del Cauca@76@Zarzal@76895.0@367.93726727@42191@36@Pacífico@Otro@Otro@Urbano@114.6690040751957
+Arauca@81@Arauca@81001.0@5787.99875183@91875@60@Llano@Otro@Capital@Rural@15.87336209617387
+Arauca@81@Arauquita@81065.0@3046.7880105@53407@59@Llano@Otro@Otro@Rural@17.52895174063506
+Arauca@81@Cravo Norte@81220.0@5212.56909554@4042@83@Llano@Otro@Otro@Rural@0.7754333661415507
+Arauca@81@Fortul@81300.0@1158.59610289@19659@55@Llano@Otro@Otro@Rural@16.96794935781557
+Arauca@81@Puerto Rondón@81591.0@2281.46025241@4688@75@Llano@Otro@Otro@Rural@2.0548243148430365
+Arauca@81@Saravena@81736.0@945.13607096@59697@48@Llano@Otro@Otro@Rural@63.162333799581006
+Arauca@81@Tame@81794.0@5418.70888961@46741@61@Llano@Otro@Otro@Rural@8.6258555224516
+Casanare@85@Yopal@85001.0@2482.9386346@173610@48@Llano@Otro@Capital@Rural@69.92118032267376
+Casanare@85@Aguazul@85010.0@1442.50730707@37513@53@Llano@Otro@Otro@Rural@26.005414195229182
+Casanare@85@Chámeza@85015.0@313.53253909@2571@63@Llano@Otro@Otro@Rural@8.200105824620616
+Casanare@85@Hato Corozal@85125.0@5509.71245948@12203@74@Llano@Otro@Otro@Rural@2.2148161251143956
+Casanare@85@La Salina@85136.0@199.89427732@1385@62@Llano@Otro@Otro@Rural@6.928662583885921
+Casanare@85@Maní@85139.0@3754.54852424@17359@69@Llano@Otro@Otro@Rural@4.6234586896206995
+Casanare@85@Monterrey@85162.0@779.17247398@17797@54@Llano@Otro@Otro@Rural@22.840899280095485
+Casanare@85@Nunchía@85225.0@1101.81320304@8738@62@Llano@Otro@Otro@Rural@7.93056388858936
+Casanare@85@Orocué@85230.0@4753.48411814@12514@74@Llano@Otro@Otro@Rural@2.632595310930928
+Casanare@85@Paz De Ariporo@85250.0@12115.0422166@36861@73@Llano@Otro@Otro@Rural@3.0425812259649536
+Casanare@85@Pore@85263.0@780.47120354@12001@60@Llano@Otro@Otro@Rural@15.376608317599427
+Casanare@85@Recetor@85279.0@181.22675503@1718@56@Llano@Otro@Otro@Rural@9.479836460767645
+Casanare@85@Sabanalarga@85300.0@400.94205826@3583@59@Llano@Otro@Otro@Rural@8.936453350764518
+Casanare@85@Sácama@85315.0@312.23692703@2073@64@Llano@Otro@Otro@Rural@6.639189091816883
+Casanare@85@San Luis De Gaceno@85325.0@2989.69529677@8378@71@Llano@Otro@Otro@Rural@2.802292263379283
+Casanare@85@Támara@85400.0@1091.2312612@6671@62@Llano@Otro@Otro@Rural@6.113277943177751
+Casanare@85@Tauramena@85410.0@2381.67339242@24445@61@Llano@Otro@Otro@Rural@10.26379186911167
+Casanare@85@Trinidad@85430.0@2970.22769452@13350@68@Llano@Otro@Otro@Rural@4.494604916865611
+Casanare@85@Villanueva@85440.0@833.88943151@35793@50@Llano@Otro@Otro@Rural@42.92295674641941
+Putumayo@86@Mocoa@86001.0@1304.63788025@57716@52@Centro Sur@Otro@Capital@Rural@44.23909567070076
+Putumayo@86@Colón@86219.0@64.27461837@5469@52@Centro Sur@Otro@Otro@Rural@85.08801979215859
+Putumayo@86@Orito@86320.0@1939.39045513@38244@54@Centro Sur@Otro@Otro@Rural@19.719597927708918
+Putumayo@86@Puerto Asís@86568.0@2819.15480478@66084@56@Centro Sur@Otro@Otro@Rural@23.441068183964816
+Putumayo@86@Puerto Caicedo@86569.0@926.46599268@16033@57@Centro Sur@Otro@Otro@Rural@17.305546157847775
+Putumayo@86@Puerto Guzmán@86571.0@4576.59155914@36052@66@Centro Sur@Otro@Otro@Rural@7.87747814812092
+Putumayo@86@Leguízamo@86573.0@10906.8768145@29001@77@Centro Sur@Otro@Otro@Rural@2.658964659933173
+Putumayo@86@Sibundoy@86749.0@97.7346246@15217@39@Centro Sur@Otro@Otro@Urbano@155.69712435361419
+Putumayo@86@San Francisco@86755.0@407.35674102@5585@56@Centro Sur@Otro@Otro@Rural@13.710341422153594
+Putumayo@86@San Miguel@86757.0@379.74213265@19119@47@Centro Sur@Otro@Otro@Rural@50.34732350234511
+Putumayo@86@Santiago@86760.0@341.92381961@7284@52@Centro Sur@Otro@Otro@Rural@21.302990848394728
+Putumayo@86@Valle De Guamez@86865.0@815.16156252@34082@47@Centro Sur@Otro@Otro@Rural@41.810116628461365
+Putumayo@86@Villagarzón@86885.0@1396.97212975@23873@57@Centro Sur@Otro@Otro@Rural@17.08910256088808
+San Andrés@88@San Andrés@88001.0@27.13979276@56358@23@Caribe@Otro@Capital@Urbano@2076.581811010115
+San Andrés@88@Providencia@88564.0@22.28445843@6124@41@Caribe@Otro@Otro@Rural@274.81035804557354
+Amazonas@91@Leticia@91001.0@6182.41656034@48918@70@Centro Sur@Otro@Capital@Rural@7.912439985653405
+Amazonas@91@El Encanto@91263.0@10897.5467052@2077@89@Centro Sur@Otro@Otro@Rural@0.19059335611830086
+Amazonas@91@La Chorrera@91405.0@12726.8679079@2947@92@Centro Sur@Otro@Otro@Rural@0.2315573651998617
+Amazonas@91@La Pedrera@91407.0@13668.2148943@3882@93@Centro Sur@Otro@Otro@Rural@0.2840166056811775
+Amazonas@91@La Victoria@91430.0@1432.79497756@652@85@Centro Sur@Otro@Otro@Rural@0.4550546381104248
+Amazonas@91@Miriti Paraná@91460.0@16867.5325378@1860@100@Centro Sur@Otro@Otro@Rural@0.11027101894315339
+Amazonas@91@Puerto Alegría@91530.0@8494.18249382@759@96@Centro Sur@Otro@Otro@Rural@0.0893552735124558
+Amazonas@91@Puerto Arica@91536.0@13791.3269857@1027@100@Centro Sur@Otro@Otro@Rural@0.07446709088000592
+Amazonas@91@Puerto Nariño@91540.0@1509.20430199@9997@72@Centro Sur@Otro@Otro@Rural@6.624020344242459
+Amazonas@91@Puerto Santander@91669.0@14731.0884954@1765@96@Centro Sur@Otro@Otro@Rural@0.11981463559540406
+Amazonas@91@Tarapacá@91798.0@9195.87793453@3869@90@Centro Sur@Otro@Otro@Rural@0.42073198747801166
+Guainía@94@Inírida@94001.0@15970.1985917@32673@81@Llano@Otro@Capital@Rural@2.045873118758883
+Guainía@94@Barranco Minas@94343.0@14395.6775467@8042@87@Llano@Otro@Otro@Rural@0.5586399093694281
+Guainía@94@San Felipe@94883.0@2926.36512082@1706@89@Llano@Otro@Otro@Rural@0.5829757838017013
+Guainía@94@Puerto Colombia@94884.0@15700.7128072@1934@93@Llano@Otro@Otro@Rural@0.12317912083030462
+Guainía@94@La Guadalupe@94885.0@1178.87068633@288@96@Llano@Otro@Otro@Rural@0.24430160435712156
+Guainía@94@Cacahual@94886.0@2335.32470461@886@85@Llano@Otro@Otro@Rural@0.3793904968551096
+Guainía@94@Pana Pana@94887.0@10227.1467844@1959@93@Llano@Otro@Otro@Rural@0.1915490254807103
+Guainía@94@Morichal@94888.0@8555.05823926@937@100@Llano@Otro@Otro@Rural@0.10952584702463102
+Guaviare@95@San José Del Guaviare@95001.0@16768.5151201@54333@70@Llano@Otro@Capital@Rural@3.240179563357544
+Guaviare@95@Calamar@95015.0@13556.4152169@9801@81@Llano@Otro@Otro@Rural@0.7229787405583195
+Guaviare@95@El Retorno@95025.0@12442.2257713@13684@77@Llano@Otro@Otro@Rural@1.0998032226327505
+Guaviare@95@Miraflores@95200.0@12808.0770572@6898@81@Llano@Otro@Otro@Rural@0.5385664037773977
+Vaupés@97@Mitú@97001.0@16215.7372637@31302@77@Llano@Otro@Capital@Rural@1.9303470135811582
+Vaupés@97@Caruru@97161.0@6368.48641769@3056@85@Llano@Otro@Otro@Rural@0.4798628433141078
+Vaupés@97@Pacoa@97511.0@13993.2505744@4229@91@Llano@Otro@Otro@Rural@0.3022171280014637
+Vaupés@97@Taraira@97666.0@6510.24656078@2318@97@Llano@Otro@Otro@Rural@0.35605410307567176
+Vaupés@97@Papunaua@97777.0@5551.15354848@749@95@Llano@Otro@Otro@Rural@0.1349269108589311
+Vaupés@97@Yavaraté@97889.0@4660.40564977@1067@92@Llano@Otro@Otro@Rural@0.22895002714037532
+Vichada@99@Puerto Carreño@99001.0@12204.9514008@20474@81@Llano@Otro@Capital@Rural@1.6775158972495365
+Vichada@99@La Primavera@99524.0@18569.3376561@9799@85@Llano@Otro@Otro@Rural@0.5276978738539467
+Vichada@99@Santa Rosalía@99624.0@3691.86919125@4130@81@Llano@Otro@Otro@Rural@1.1186745212393772
+Vichada@99@Cumaribo@99773.0@65597.2123539@76196@87@Llano@Otro@Otro@Rural@1.1615737508618362

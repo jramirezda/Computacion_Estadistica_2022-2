@@ -1,0 +1,221 @@
+iso_code	continent	location	population
+AGO	Africa	Angola	32866268
+BDI	Africa	Burundi	11890781
+BEN	Africa	Benin	12123198
+BFA	Africa	Burkina Faso	20903278
+BWA	Africa	Botswana	2351625
+CAF	Africa	Central African Rep	4829764
+CIV	Africa	Cote d'Ivoire	26378275
+CMR	Africa	Cameroon	26545864
+COD	Africa	Democratic Republic	89561404
+COG	Africa	Congo	5518092
+COM	Africa	Comoros	869595
+CPV	Africa	Cape Verde	555988
+DJI	Africa	Djibouti	988002
+DZA	Africa	Algeria	43851043
+EGY	Africa	Egypt	102334403
+ERI	Africa	Eritrea	3546427
+ETH	Africa	Ethiopia	114963583
+GAB	Africa	Gabon	2225728
+GHA	Africa	Ghana	31072945
+GIN	Africa	Guinea	13132792
+GMB	Africa	Gambia	2416664
+GNB	Africa	Guinea-Bissau	1967998
+GNQ	Africa	Equatorial Guinea	1402985
+KEN	Africa	Kenya	53771300
+LBR	Africa	Liberia	5057677
+LBY	Africa	Libya	6871287
+LSO	Africa	Lesotho	2142252
+MAR	Africa	Morocco	36910558
+MDG	Africa	Madagascar	27691019
+MLI	Africa	Mali	20250834
+MOZ	Africa	Mozambique	31255435
+MRT	Africa	Mauritania	4649660
+MUS	Africa	Mauritius	1271767
+MWI	Africa	Malawi	19129955
+NAM	Africa	Namibia	2540916
+NER	Africa	Niger	24206636
+NGA	Africa	Nigeria	206139587
+RWA	Africa	Rwanda	12952209
+SDN	Africa	Sudan	43849269
+SEN	Africa	Senegal	16743930
+SHN	Africa	Saint Helena	6071
+SLE	Africa	Sierra Leone	7976985
+SOM	Africa	Somalia	15893219
+SSD	Africa	South Sudan	11193729
+STP	Africa	Sao Tome and Princi	219161
+SWZ	Africa	Eswatini	1160164
+SYC	Africa	Seychelles	98340
+TCD	Africa	Chad	16425859
+TGO	Africa	Togo	8278737
+TUN	Africa	Tunisia	11818618
+TZA	Africa	Tanzania	59734213
+UGA	Africa	Uganda	45741000
+ZAF	Africa	South Africa	59308690
+ZMB	Africa	Zambia	18383956
+ZWE	Africa	Zimbabwe	14862927
+AFG	Asia	Afghanistan	38928341
+ARE	Asia	United Arab Emirate	9890400
+ARM	Asia	Armenia	2963234
+AZE	Asia	Azerbaijan	10139175
+BGD	Asia	Bangladesh	164689383
+BHR	Asia	Bahrain	1701583
+BRN	Asia	Brunei	437483
+BTN	Asia	Bhutan	771612
+CHN	Asia	China	1439323774
+GEO	Asia	Georgia	3989175
+HKG	Asia	Hong Kong	7496988
+IDN	Asia	Indonesia	273523621
+IND	Asia	India	1380004385
+IRN	Asia	Iran	83992953
+IRQ	Asia	Iraq	40222503
+ISR	Asia	Israel	8655541
+JOR	Asia	Jordan	10203140
+JPN	Asia	Japan	126476458
+KAZ	Asia	Kazakhstan	18776707
+KGZ	Asia	Kyrgyzstan	6524191
+KHM	Asia	Cambodia	16718971
+KOR	Asia	South Korea	51269183
+KWT	Asia	Kuwait	4270563
+LAO	Asia	Laos	7275556
+LBN	Asia	Lebanon	6825442
+LKA	Asia	Sri Lanka	21413250
+MAC	Asia	Macao	649342
+MDV	Asia	Maldives	540542
+MMR	Asia	Myanmar	54409794
+MNG	Asia	Mongolia	3278292
+MYS	Asia	Malaysia	32365998
+NPL	Asia	Nepal	29136808
+OMN	Asia	Oman	5106622
+PAK	Asia	Pakistan	220892331
+PHL	Asia	Philippines	109581085
+PSE	Asia	Palestine	5101416
+QAT	Asia	Qatar	2881060
+SAU	Asia	Saudi Arabia	34813867
+SGP	Asia	Singapore	5850343
+SYR	Asia	Syria	17500657
+THA	Asia	Thailand	69799978
+TJK	Asia	Tajikistan	9537642
+TKM	Asia	Turkmenistan	6031187
+TLS	Asia	Timor	1318442
+TUR	Asia	Turkey	84339067
+TWN	Asia	Taiwan	23816775
+UZB	Asia	Uzbekistan	33469199
+VNM	Asia	Vietnam	97338583
+YEM	Asia	Yemen	29825968
+ALB	Europe	Albania	2877800
+AND	Europe	Andorra	77265
+AUT	Europe	Austria	9006400
+BEL	Europe	Belgium	11589616
+BGR	Europe	Bulgaria	6948445
+BIH	Europe	Bosnia and Herzegov	3280815
+BLR	Europe	Belarus	9449321
+CHE	Europe	Switzerland	8654618
+CYP	Europe	Cyprus	888005
+CZE	Europe	Czechia	10708982
+DEU	Europe	Germany	83783945
+DNK	Europe	Denmark	5792203
+ESP	Europe	Spain	46754783
+EST	Europe	Estonia	1326539
+FIN	Europe	Finland	5540718
+FRA	Europe	France	67564251
+FRO	Europe	Faeroe Islands	48865
+GBR	Europe	United Kingdom	67886004
+GGY	Europe	Guernsey	67052
+GIB	Europe	Gibraltar	33691
+GRC	Europe	Greece	10423056
+HRV	Europe	Croatia	4105268
+HUN	Europe	Hungary	9660350
+IMN	Europe	Isle of Man	85032
+IRL	Europe	Ireland	4937796
+ISL	Europe	Iceland	341250
+ITA	Europe	Italy	60461828
+JEY	Europe	Jersey	101073
+LIE	Europe	Liechtenstein	38137
+LTU	Europe	Lithuania	2722291
+LUX	Europe	Luxembourg	625976
+LVA	Europe	Latvia	1886202
+MCO	Europe	Monaco	39244
+MDA	Europe	Moldova	4033963
+MKD	Europe	North Macedonia	2083380
+MLT	Europe	Malta	441539
+MNE	Europe	Montenegro	628062
+NLD	Europe	Netherlands	17134873
+NOR	Europe	Norway	5421242
+POL	Europe	Poland	37846605
+PRT	Europe	Portugal	10196707
+ROU	Europe	Romania	19237682
+RUS	Europe	Russia	145934460
+SMR	Europe	San Marino	33938
+SRB	Europe	Serbia	6804596
+SVK	Europe	Slovakia	5459643
+SVN	Europe	Slovenia	2078932
+SWE	Europe	Sweden	10099270
+UKR	Europe	Ukraine	43733759
+VAT	Europe	Vatican	809
+ABW	North America	Aruba	106766
+AIA	North America	Anguilla	15002
+ATG	North America	Antigua and Barbuda	97928
+BES	North America	Bonaire Sint Eustat	26221
+BHS	North America	Bahamas	393248
+BLZ	North America	Belize	397621
+BMU	North America	Bermuda	62273
+BRB	North America	Barbados	287371
+CAN	North America	Canada	37742157
+CRI	North America	Costa Rica	5094114
+CUB	North America	Cuba	11326616
+CUW	North America	Curacao	164100
+CYM	North America	Cayman Islands	65720
+DMA	North America	Dominica	71991
+DOM	North America	Dominican Republic	10847904
+GRD	North America	Grenada	112519
+GRL	North America	Greenland	56772
+GTM	North America	Guatemala	17915567
+HND	North America	Honduras	9904608
+HTI	North America	Haiti	11402533
+JAM	North America	Jamaica	2961161
+KNA	North America	Saint Kitts and Nev	53192
+LCA	North America	Saint Lucia	183629
+MEX	North America	Mexico	128932753
+MSR	North America	Montserrat	4999
+NIC	North America	Nicaragua	6624554
+PAN	North America	Panama	4314768
+SLV	North America	El Salvador	6486201
+SXM	North America	Sint Maarten (Dutch	42882
+TCA	North America	Turks and Caicos Is	38718
+TTO	North America	Trinidad and Tobago	1399491
+USA	North America	United States	331002647
+VCT	North America	Saint Vincent and t	110947
+VGB	North America	British Virgin Isla	30237
+AUS	Oceania	Australia	25499881
+COK	Oceania	Cook Islands	17564
+FJI	Oceania	Fiji	896444
+FSM	Oceania	Micronesia (country	115021
+KIR	Oceania	Kiribati	119446
+MHL	Oceania	Marshall Islands	59194
+NCL	Oceania	New Caledonia	285491
+NIU	Oceania	Niue	1618
+NRU	Oceania	Nauru	10834
+NZL	Oceania	New Zealand	4822233
+PCN	Oceania	Pitcairn	47
+PNG	Oceania	Papua New Guinea	8947027
+PYF	Oceania	French Polynesia	280904
+SLB	Oceania	Solomon Islands	686878
+TON	Oceania	Tonga	105697
+TUV	Oceania	Tuvalu	11792
+VUT	Oceania	Vanuatu	307150
+WLF	Oceania	Wallis and Futuna	11246
+WSM	Oceania	Samoa	198410
+ARG	South America	Argentina	45195777
+BOL	South America	Bolivia	11673029
+BRA	South America	Brazil	212559409
+CHL	South America	Chile	19116209
+COL	South America	Colombia	50882884
+ECU	South America	Ecuador	17643060
+FLK	South America	Falkland Islands	3483
+GUY	South America	Guyana	786559
+PER	South America	Peru	32971846
+PRY	South America	Paraguay	7132530
+SUR	South America	Suriname	586634
+URY	South America	Uruguay	3473727
+VEN	South America	Venezuela	28435943

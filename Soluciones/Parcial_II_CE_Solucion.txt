@@ -1,0 +1,313 @@
+﻿proc import out=covid1 dbms=tab datafile="/home/hvanegasp0/Curso/covid2020.tsv" replace;
+  getnames=yes;
+  delimiter="09"x;
+run;
+proc import out=covid2 dbms=tab datafile="/home/hvanegasp0/Curso/covid2021.tsv" replace;
+  getnames=yes;
+  delimiter="09"x;
+run;
+data pop;
+  infile   "/home/hvanegasp0/Curso/pop.tsv" dsd delimiter="09"x firstobs=2;
+  informat iso_code $5. continent location $20.;
+  input    iso_code continent location populaton;
+run;
+
+data covid;
+  set covid1 covid2;
+run;
+
+proc sql;
+create table covid3 as 
+select covid.*, continent, location, populaton
+from   covid left join pop on (covid.iso_code=pop.iso_code);
+quit;
+
+
+/******************************************************/
+/******************************************************/
+/**********************Pregunta 1**********************/
+/******************************************************/
+/******************************************************/
+
+/******************************************************/
+/*************************(A)**************************/
+/******************************************************/
+
+/************/
+/* opción 1 */
+/************/
+proc sql outobs=3;
+select   iso_code, location, count(*) as sincasos
+from     covid3
+where    continent="South America" and new_cases=0 and 
+         date >= '01JUN2020'd and date <='31MAY2021'd
+group by iso_code, location
+order by sincasos desc;
+quit;
+
+/************/
+/* opción 2 */
+/************/
+proc freq data=covid3 order=freq;
+table iso_code location / nopercent nocum maxlevels=3;
+where continent="South America" and new_cases=0 and 
+      date >= '01JUN2020'd and date <='31MAY2021'd;
+run;
+
+/************/
+/* opción 3 */
+/************/
+proc means data=covid3 n nonobs;
+class iso_code location / order=freq;
+var   new_cases;
+where continent="South America" and new_cases=0 and 
+      date >= '01JUN2020'd and date <='31MAY2021'd;
+run;
+
+/************/
+/* opción 4 */
+/************/
+proc sgplot data=covid3;
+vbar  iso_code / datalabel=location;
+where continent="South America" and new_cases=0 and 
+      date >= '01JUN2020'd and date <='31MAY2021'd;
+run;
+
+/**** PER Peru
+
+/******************************************************/
+/*************************(B)**************************/
+/******************************************************/
+
+/************/
+/* opción 1 */
+/************/
+proc sql outobs=3;
+select   date, count(*) as sincasos
+from     covid3
+where    continent="South America" and new_cases=0 and 
+         date >= '01JAN2021'd
+group by date
+order by sincasos desc;
+quit;
+
+/************/
+/* opción 2 */
+/************/
+proc freq data=covid3 order=freq ;
+table date / nopercent nocum maxlevels=3;
+where continent="South America" and new_cases=0 and 
+      date >= '01JAN2021'd;
+run;
+
+/************/
+/* opción 3 */
+/************/
+proc means data=covid3 n nonobs;
+class date / order=freq;
+var   new_cases;
+where continent="South America" and new_cases=0 and 
+      date >= '01JAN2021'd;
+run;
+
+/**** 23/07/2021
+
+/******************************************************/
+/*************************(C)**************************/
+/******************************************************/
+
+/************/
+/* opción 1 */
+/************/
+proc sql outobs=3;
+select   iso_code, location, count(*) as sinmuertes
+from     covid3
+where    continent="Africa" and new_deaths=0 and 
+         date >= '01MAY2020'd and date <='30APR2021'd
+group by iso_code, location
+order by sinmuertes desc;
+quit;
+
+/************/
+/* opción 2 */
+/************/
+proc freq data=covid3 order=freq ;
+table iso_code location / nopercent nocum maxlevels=3;
+where continent="Africa" and new_deaths=0 and 
+      date >= '01MAY2020'd and date <='30APR2021'd;
+run;
+
+/************/
+/* opción 3 */
+/************/
+proc means data=covid3 n nonobs;
+class iso_code location / order=freq;
+var   new_deaths;
+where continent="Africa" and new_deaths=0 and 
+      date >= '01MAY2020'd and date <='30APR2021'd;
+run;
+
+/*** TZA Tanzania
+
+/******************************************************/
+/*************************(D)**************************/
+/******************************************************/
+
+/************/
+/* opción 1 */
+/************/
+proc sql outobs=3;
+select   date, count(*) as sinmuertes
+from     covid3
+where    continent="Africa" and new_deaths=0 and 
+         date < '01JAN2021'd
+group by date
+order by sinmuertes desc;
+quit;
+
+/************/
+/* opción 2 */
+/************/
+proc freq data=covid3 order=freq ;
+table date / nopercent nocum maxlevels=3;
+where continent="Africa" and new_deaths=0 and 
+      date < '01JAN2021'd;
+run;
+
+/************/
+/* opción 3 */
+/************/
+proc means data=covid3 n nonobs;
+class date / order=freq;
+var   new_deaths;
+where continent="Africa" and new_deaths=0 and 
+      date < '01JAN2021'd;
+run;
+
+/*** 21/04/2020
+
+/******************************************************/
+/******************************************************/
+/**********************Pregunta 2**********************/
+/******************************************************/
+/******************************************************/
+
+/******************************************************/
+/*************************(A)**************************/
+/******************************************************/
+proc sql outobs=3;
+select   iso_code, location, 100000*sum(new_cases)/avg(populaton) as inci
+from     covid3
+where    continent="Europe" and date >= '01JAN2021'd
+group by iso_code, location
+order by inci desc; 
+quit;
+
+\*** CZE Czechia
+
+/******************************************************/
+/*************************(B)**************************/
+/******************************************************/
+proc sql outobs=3;
+select   iso_code, location, 100000*sum(new_cases)/avg(populaton) as inci
+from     covid3
+where    continent="Oceania" and date < '01JAN2021'd
+group by iso_code, location
+order by inci desc; 
+quit;
+
+\*** AUS Australia
+
+/******************************************************/
+/*************************(C)**************************/
+/******************************************************/
+proc sql;
+create table temporal1 as
+select   continent, iso_code, location, 100000*sum(new_cases)/avg(populaton) as inci
+from     covid3
+where    date < '01JAN2021'd
+group by continent, iso_code, location; 
+
+select   continent, cv(inci) as cvinci
+from     temporal1
+group by continent
+order by cvinci desc;
+quit;
+
+\*** Oceania
+
+/******************************************************/
+/*************************(E)**************************/
+/******************************************************/
+proc sql;
+create table temporal2 as
+select   continent, iso_code, location, 100000*sum(new_cases)/avg(populaton) as inci
+from     covid3
+where    date >= '01JAN2021'd
+group by continent, iso_code, location; 
+
+select   continent, cv(inci) as cvinci
+from     temporal2
+group by continent
+order by cvinci;
+quit;
+
+\*** Europe
+
+/******************************************************/
+/******************************************************/
+/**********************Pregunta 3**********************/
+/******************************************************/
+/******************************************************/
+
+/******************************************************/
+/*************************(A)**************************/
+/******************************************************/
+proc sql outobs=3;
+select   iso_code, location, total_cases, count(*) as consecutivos
+from     covid3
+where    continent="South America" and date < '01JAN2021'd
+group by iso_code, location, total_cases
+order by consecutivos desc;
+quit;
+
+\*** PER Peru
+
+/******************************************************/
+/*************************(B)**************************/
+/******************************************************/
+proc sql outobs=3;
+select   iso_code, location, total_cases, count(*) as consecutivos
+from     covid3
+where    continent="Asia" and date < '01JAN2021'd
+group by iso_code, location, total_cases
+order by consecutivos desc;
+quit;
+
+\*** LAO Laos
+
+/******************************************************/
+/*************************(C)**************************/
+/******************************************************/
+proc sql outobs=3;
+select   iso_code, location, total_deaths, count(*) as consecutivos
+from     covid3
+where    continent="North America" and date >= '01JAN2021'd
+group by iso_code, location, total_deaths
+order by consecutivos desc;
+quit;
+
+\*** DMA Dominica
+
+/******************************************************/
+/*************************(D)**************************/
+/******************************************************/
+proc sql outobs=3;
+select   iso_code, location, total_deaths, count(*) as consecutivos
+from     covid3
+where    continent="Asia" and date >= '01JAN2021'd
+group by iso_code, location, total_deaths
+order by consecutivos desc;
+quit;
+
+\*** BRN Brunei

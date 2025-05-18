@@ -1,0 +1,91 @@
+CodigoCurso;NombreCurso
+1000012;Bioestadística Fundamental
+1000013;Probabilidad y Estadística Fundamental
+1000014;Estadística Social Fundamental
+2015178;Probabilidad
+2016313;Análisis de Datos Categóricos
+2016314;Cálculo Actuarial
+2016317;Control estadístico de calidad
+2016318;Demografía
+2016320;Epidemiología
+2016321;Finanzas y Modelos de Inversión
+2016328;Modelos de Sobrevivencia Univariados
+2016332;Teoría Estadística del Riesgo
+2016334;Análisis de Datos Longitudinales
+2016335;Computación Estadística
+2016338;Muestreo Asistido por Modelos
+2016339;Procesos Estocásticos
+2016340;Series de Tiempo Multivariadas
+2016344;Consultoría estadística
+2016345;Seminario de Estadística
+2016355;Estadística y sociedad
+2016360;Análisis de Regresión
+2016361;Análisis Multivariado
+2016362;Diseño de Experimentos
+2016363;Diseño y Desarrollo de Encuestas
+2016364;Estadística Bayesiana
+2016365;Estadística descriptiva multivariada
+2016366;Estadística Descriptiva y Exploratoria
+2016367;Estadística Espacial
+2016368;Métodos no Paramétricos
+2016369;Muestreo estadístico
+2016370;Series de Tiempo Univariadas
+2016378;Álgebra matricial
+2016379;Inferencia estadística
+2018602;Modelos lineales generalizados y multinivel
+2018603;Procesos de Wiener y Analisis Estocastico Avanzados
+2018605;Seminario de investigación I
+2018606;Seminario de investigación II
+2018609;Teoria Asintotica
+2018610;Teoria de la Medida y Probabilidad
+2018611;Teoria de Muestreo Avanzada
+2018612;Teoria Estadistica Avanzada
+2018613;Algebra de Matrices
+2018614;Análisis de Datos Categóricos
+2018615;Análisis de Datos Longitudinales
+2018617;Estadistica matematica
+2018619;Métodos estadísticos
+2018621;Modelos de sobrevivencia
+2018622;Modelos lineales
+2018623;Modelos lineales generalizados
+2018625;Seminario de investigación I
+2018626;Teoría de series de tiempo univariadas
+2018627;Teoria de diseño de experimentos
+2018628;Teoria de Estadistica Bayesiana
+2018629;Teoria de Estadistica Espacial
+2018630;Teoria de Estadistica no Parametrica
+2018631;Teoria de muestreo
+2018632;Teoria de probabilidad
+2018633;Teoria de procesos estocasticos
+2018634;Teoria Estadistica Multivariada
+2018636;Topicos Avanzados de Control de Calidad
+2019055;Enseñanza de la estadística
+2020437;Bioestadística I
+2020438;Bioestadística II
+2020910;Análisis de datos categoricos aplicados.
+2020911;Análisis multivariado aplicado
+2020915;Diseño de experimentos aplicado
+2020917;Econometría aplicada
+2020919;Estadistica espacial aplicada
+2020920;Matemáticas básicas
+2020922;Métodos de regresión
+2020928;Muestreo estadistico aplicado
+2020929;Procesos estocásticos aplicados
+2020931;Series de tiempo univariadas aplicadas
+2020932;Teoría básica de probabilidad.
+2020933;Métodos estadísticos aplicados
+2023213;Seminario de investigación II
+2023822;Análisis demográfico
+2023823;Teoría de series de tiempo multivariadas
+2023825;Análisis multivariado de datos
+2023826;Métodos de clasificación
+2024609;Métodos Estadísticos
+2024642;MÉTODOS ESTADÍSTICOS EXPERIMENTALES
+2024643;Estadística Genómica
+2025596;Seminario de Profundización I
+2025597;Seminario de Profundización II
+2025599;Modelación y regresión aplicada
+2025602;Epidemiología espacial
+2025827;Teoría de respuesta al ítem avanzada
+2026732;Análisis de datos funcionales
+2027132;Teoría de muestreo en poblaciones biológicas
